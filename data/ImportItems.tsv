@@ -1,0 +1,29 @@
+QID	title-en	title-de	title-fr	description-en	description-de	description-fr
+create	items					
+						
+Q1	Bibliographie du genre romanesque français	Bibliographie du genre romanesque français	Bibliographie du genre romanesque français			
+Q2	literary work	literarisches Werk	œuvre littéraire	creative work by a writer created with aesthetic or recreative purposes	schöpferisches Werk eines Autors welches ästhetische unterhaltende Zwecke erfüllt	produit artistique d'un écrivain
+Q3	scholarly work	akademische Arbeit	œuvre académique	work that reports the result of study and analysis of a topic using scholarly methods		document qui rapporte les résultats d'une étude et analyse d'un sujet en utilisant des méthodes scientifiques
+Q4	Mylne	Mylne	Mylne			
+Q5	Martin	Martin	Martin			
+Q6	Frautschi	Frautschi	Frautschi			
+Q7	MiMoText	MiMoText	MiMoText	program of research related to literary history and LOD		
+Q8	translator	Übersetzer	traducteur	person who translates written text from one language to another	Sprachmittler, der fixierten Text von einer Ausgangssprache in eine Zielsprache übersetzt	personne dont la fonction consiste à traduire d'une langue dans une autre
+Q9	entity	Entität	entité	thing with independent and distinct existence	etwas, das existiert	chose (ou être) qui existe par elle-même
+Q10	human	Mensch	être humain	common name of Homo sapiens, unique extant species of the genus Homo	höheres Säugetier aus der Ordnung der Primaten, Trivialname von Homo sapiens und Homo sapiens sapiens	individu appartenant à l’espèce Homo sapiens, la seule espèce restante du genre Homo – distinct de « humain fictif » et de « humain possiblement fictif »
+Q11	novel	Roman	roman	narrative text, normally of a substantial length and in the form of prose describing a fictional and sequential story	Langform der schriftlich fixierten Erzählung	genre littéraire
+Q12	fictional prose	fictional prose	fictional prose			
+Q13	scholarly literature	scholarly literature	scholarly literature			
+Q14	creator	Urheber	créateur	person who does creative work	Verursacher, bzw. menschlicher Schöpfer eines Werks	personne qui fait des œuvres créatives
+Q15	author	Autor	auteur	author or intellectual author of a linguistic work	Verfasser oder geistige Urheber eines sprachlichen Werkes	personne qui a fait une création originale manifestant sa personnalité
+Q16	novelist	Romancier	romancier	writer of novels	Autor von Romanen	auteur de romans
+Q17	bibliography	Bibliographie	bibliographie	list of books or documents relevant to a particular subject or author	Verzeichnis von Büchern oder Dokumenten zu einem bestimmten Thema oder Autor	liste structurée de références de documents ayant des caractéristiques communes
+Q18	editor	Herausgeber	éditeur	person who edits texts or publications	Person oder Personengruppe, die Texte oder Werke von Autoren zur Publikation vorbereitet	personne responsable de l’édition de livres ou d'établir des textes en vue de leur publication
+Q19	thematic vocabulary	Themenvokabular	vocabulaire thématique			
+Q20	thematic concept	Themenkonzept	concept thématique			
+Q21	Topic Model MMT 11-2020	Topic Model MMT 11-2020	Topic Model MMT 11-2020			
+Q22	topic	Topic	topic			
+Q23	Topic Labels and Concepts	Topic Label und Konzepte	Topic Label und Konzepte			
+Q24	BGRF_Matching-Table	BGRF_Matching-Tabelle	BGRF_Matching-Tabelle			
+Q25	spatial vocabulary	Raumvokabular	vocabulaire spatial			
+Q26	spatial concept	Raumkonzept	concept spatial			

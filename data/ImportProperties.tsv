@@ -1,0 +1,62 @@
+title	P	datatype
+create	properties	
+		
+subclass of	p1	wikibase-item
+instance of	p2	wikibase-item
+subproperty of	p3	wikibase-property
+title	p4	monolingualtext
+author	p5	wikibase-item
+publisher	p6	wikibase-item
+publication date	p7	time
+place of publication	p8	wikibase-item
+name	p9	monolingualtext
+date of birth	p10	time
+date of death	p11	time
+VIAF ID	p12	external-id
+BGRF ID	p13	string
+stated in	p14	wikibase-item
+author name string	p15	string
+equivalentProperty	p16	url
+equivalentClass	p17	url
+reference URL	p18	url
+see also	p19	wikibase-property
+part of	p20	wikibase-property
+has part	p21	wikibase-property
+topicInterest	p22	wikibase-property
+MiMoText ID	p23	string
+described at URL	p24	url
+part of Item	p25	wikibase-item
+about	p26	wikibase-item
+image	p27	commonsMedia
+described by source	p28	wikibase-item
+sex or gender	p29	wikibase-item
+occupation	p30	wikibase-item
+exact match	p31	url
+family name	p32	wikibase-item
+given name	p33	wikibase-item
+subtitle	p34	monolingualtext
+number of pages	p35	quantity
+manifestation of	p36	wikibase-item
+expression of	p37	wikibase-item
+distribution format	p38	wikibase-item
+genre	p39	wikibase-item
+language of work or name	p40	wikibase-item
+pseudonym	p41	string
+editor	p42	wikibase-item
+publication date_string	p43	monolingualtext
+place of publication_string	p44	monolingualtext
+number of pages_string	p45	monolingualtext
+distribution format_string	p46	monolingualtext
+narrative perspective_string	p47	monolingualtext
+narrative location_string	p48	monolingualtext
+characters_string	p49	monolingualtext
+BGRF_plot_theme	p50	monolingualtext
+BGRF_style_attitude_tonality	p51	monolingualtext
+BGRF_textstructure	p52	monolingualtext
+narrative location 	p53	wikibase-item
+characters	p54	wikibase-item
+narrative perspective	p55	wikibase-item
+short name	p56	monolingualtext
+related to	p57	wikibase-item
+represented by	p58	wikibase-item
+close match	p59	url
