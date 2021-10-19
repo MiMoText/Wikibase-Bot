@@ -11,8 +11,11 @@ from enum import Enum
 from pywikibot.page import ItemPage
 
 
-if len(sys.argv) == 2:
-  file = sys.argv[1]
+#Server argument 1 and file argument 2
+#Server family: most100, wikitesetmost, preLive, Live
+if len(sys.argv) == 3:
+  server = sys.argv[1]
+  file = sys.argv[2]
 else:
   print('Datei angeben!')
   exit()
@@ -20,10 +23,7 @@ else:
 dirname = os.path.dirname(__file__)
 filename = os.path.join(dirname, file)
 
-#tsv = open(filename)
-#read_tsv = csv.reader(tsv, delimiter="\t")
-
-site = pywikibot.Site('en', 'most100')
+site = pywikibot.Site('en', server)
 repo = site.data_repository()
 
 def CheckForEntry(item):
@@ -314,6 +314,7 @@ def CreateReferenz(claim, ref_prop, ref_target):
 
 def CreateClaim(item, prop, target, references = None):
   #TODO change description after
+  #TODO check if claim is already set
 
   '''
   Add a new Claim to given Item
@@ -337,29 +338,18 @@ def CreateClaim(item, prop, target, references = None):
         claimTargetId = claim.getTarget().id
         if claimTargetId == target:
           targetFound = True
-          for ref in references:
-            CreateReferenz(claim, ref[0], ref[1])
+          if references:
+            for ref in references:
+              CreateReferenz(claim, ref[0], ref[1])
       
   if not targetFound:
     claim = pywikibot.Claim(repo, prop)
     claim.setTarget(setTarget(prop, target))
-    for ref in references:
-      if target and ref[0] and ref[1]:
-        CreateReferenz(claim, ref[0], ref[1])
-    item.addClaim(claim, summary='Adding claim ' + prop)
-
-
-
-  '''if claim.getTarget() != None and references != None:
-    for ref in references:
-      CreateReferenz(claim, ref[0], ref[1])
-  else:
-    claim.setTarget(setTarget(prop, target))
-    if references != None:
+    if references:
       for ref in references:
         if target and ref[0] and ref[1]:
           CreateReferenz(claim, ref[0], ref[1])
-    item.addClaim(claim, summary='Adding claim ' + prop)'''
+    item.addClaim(claim, summary='Adding claim ' + prop)
 
 def setTarget(prop, target):
   '''
@@ -469,63 +459,40 @@ with open(filename, 'r', newline='') as tsv_data:
     elif infos[0] == 'add' and infos[1] == 'statements' and rowcount > 1:
 
       QID_BGRF_ID = GetEntryOverSPARQL(row['pointer'],'en', Verbs.BGRF_ID)
-      QID_themeConcept = GetEntryOverSPARQL(row['value'], 'fr')
+      QID_concept = GetEntryOverSPARQL(row['value'], 'fr')
       PID_about = GetEntryOverSPARQL('about')
       PID_stated_in = GetEntryOverSPARQL('stated in')
       QID_matching_table = GetEntryOverSPARQL('BGRF_Matching-Table')
 
       print(QID_BGRF_ID)
-      print(QID_themeConcept)
+      print(QID_concept)
       print(QID_matching_table)
-      
-      #TODO: use new createClaim function
 
-      try:
-        #BGRF_ID about ThemKonzept stated in Q1 and stated in Matching Table
-        item = pywikibot.ItemPage(repo, QID_BGRF_ID)
+      #BGRF_ID about concept stated in Q1 and stated in Matching Table
+      item = pywikibot.ItemPage(repo, QID_BGRF_ID)
 
-        claim = pywikibot.Claim(repo, PID_about)
-        claim.setTarget(setTarget(PID_about, QID_themeConcept))
+      references = []
+      references.append((PID_stated_in, QID_matching_table))
+      references.append((PID_stated_in, 'Q1'))
+      if QID_concept != None and QID_BGRF_ID != None:
+        CreateClaim(item, PID_about, QID_concept, references)
 
-
-        if QID_themeConcept and PID_stated_in and QID_matching_table:
-          CreateReferenz(claim, PID_stated_in, QID_matching_table)
-        if QID_themeConcept and PID_stated_in:
-          CreateReferenz(claim, PID_stated_in, 'Q1')
-        item.addClaim(claim, summary='Adding claim ' + PID_about)
-      except:
-        print('POINTER: ' + row['pointer']) 
-      
-      # TODO change for multiple referenzes
-      #CreateClaim(item, PID_about, QID_themeConcept, PID_stated_in, QID_matching_table)
     elif infos[0] == 'add' and infos[1] == 'statementsModel' and rowcount > 1:
       QID_BGRF_ID = GetEntryOverSPARQL(row['pointer'],'en', Verbs.BGRF_ID)
-      QID_themeConcept = GetEntryOverSPARQL(row['value'], 'fr')
+      QID_concept = GetEntryOverSPARQL(row['value'], 'fr')
       PID_about = GetEntryOverSPARQL('about')
       PID_stated_in = GetEntryOverSPARQL('stated in')
       QID_Topic_Modell = GetEntryOverSPARQL('Topic Model MMT 11-2020')
       QID_topic_labels = GetEntryOverSPARQL('Topic Labels and Concepts')
 
-      #print(QID_BGRF_ID)
-      #print(QID_themeConcept)
-            
-      #BGRF_ID about ThemKonzept stated in Q1 and stated in Matching Table
+      #BGRF_ID about themeConcept stated in topic models and stated in labels and concepts
       item = pywikibot.ItemPage(repo, QID_BGRF_ID)
 
       references = []
       references.append((PID_stated_in, QID_Topic_Modell))
       references.append((PID_stated_in, QID_topic_labels))
-      if(QID_themeConcept != None and QID_BGRF_ID != None):
-        CreateClaim(item, PID_about, QID_themeConcept, references)
-      
-      #claim = pywikibot.Claim(repo, PID_about)
-      #claim.setTarget(SetTarget(PID_about, QID_themeConcept))
-
-      #if QID_themeConcept and PID_stated_in and QID_Topic_Modell:
-      #  CreateReferenz(claim, PID_stated_in, QID_Topic_Modell)
-      #if QID_themeConcept and PID_stated_in and QID_topic_labels:
-      #  CreateReferenz(claim, PID_stated_in, QID_topic_labels)
-      #item.addClaim(claim, summary='Adding claim ' + PID_about)
+      if(QID_concept != None and QID_BGRF_ID != None):
+        CreateClaim(item, PID_about, QID_concept, references)
 
     elif infos[0] == 'create' and infos[1] == 'topics' and rowcount > 1:
       if not GetEntryOverSPARQL(row['title-fr'],'fr') or not GetEntryOverSPARQL(row['title-de'],'de') or not GetEntryOverSPARQL(row['title-en'],'en'):
