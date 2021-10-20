@@ -1,96 +1,96 @@
-P13	Column	p48 1	coordinate location	p48 string	p48 2	coordinate location2	p48 2 string	p48 3	coordinate location3	p48 3 string	p48 4	coordinate location4	p48 4 string
-new	items												
-id	s	r_pl											
-00.37		Paris	48.856944444444,2.3513888888889	Paris									
-51.42													
-52.43		Sirius		Sirius	Saturn		 Saturne	Earth		 Terre			
-53.26		fictional location		cadre fantaisiste									
-54.13		fictional location		cadre oriental fantaisiste	Orient		oriental						
-54.33	n	Venus		Vénus	Moon		 la lune						
-55.16		rural area		province									
-57.12		England	53,-1	Angleterre									
-58.13		Paris	48.856944444444,2.3513888888889	Paris									
-58.17		France	47,2	France									
-58.5													
-58.8													
-59.22		England	53,-1	Angleterre	rural area		 province						
-59.25													
-60.21		Orient		cadre oriental									
-61.17		Greece	38.5,23	Grèce									
-61.6													
-62.11													
-62.33	m												
-63.19		France	47,2	France	Holy Land	31.778333333333332,35.22972222222222	 Terre Sainte			 époque des Croisades			
-64.39		England	53,-1	Angleterre									
-65.5													
-66.11													
-67.36		England	53,-1	cadre anglais									
-67.39		Thrace	42,26	Thrace (époque de Justinien)									
-67.44		France	47,2	France									
-68.55		rural area		province	Paris	48.856944444444,2.3513888888889	 Paris						
-69.57		Mytilene	39.103611111111,26.533055555556	Mytilène									
-71.23		Athens	37.98416666666667,23.728055555555557	Athènes									
-71.25		Paris	48.856944444444,2.3513888888889	Paris									
-71.36													
-72.17		Naples	40.833333333333,14.25	Naples									
-72.19		France	47,2	France									
-72.23													
-74.15		France	47,2	France									
-74.20		France	47,2	France									
-75.28													
-75.37		Paris	48.856944444444,2.3513888888889	Paris									
-76.36		Alsace	48.5,7.5	Alsace	Paris	48.856944444444,2.3513888888889	 Paris						
-77.50		Peru	-9.4,-76	Pérou									
-77.57		Paris	48.856944444444,2.3513888888889	Paris	England	53,-1	 Angleterre						
-78.1	*												
-79.22		Provence	44,6	Provence									
-82.14													
-82.17		Paris	48.856944444444,2.3513888888889	Paris	rural area		 province						
-82.20		Languedoc	43.666666666667,3.1666666666667	Languedoc									
-82.27		Paris	48.856944444444,2.3513888888889	Paris	Italy	42.5,12.5	 Italie	Brazil	-14,-53	 Brésil	French Southern and Antarctic Lands	-43,67	 Terres australes
-83.15		rural area		province									
-83.26		Tagus river	40.3197,-1.6975	cadre pastoral (rives du Tage)									
-			38.8525,-9.0137										
-83.31		Lyon	45.758888888889,4.8413888888889	Lyon									
-83.40		France	47,2	France									
-83.42		Asia	43.681111111111115,87.33111111111111	Asie									
-83.9		Paris	48.856944444444,2.3513888888889	Paris									
-84.27		rural area		province									
-84.43													
-84.50		France	47,2	France									
-84.58		Auxerre	47.7975,3.5669444444444	province (Auxerre)	Paris	48.856944444444,2.3513888888889	 Paris	rural area		province			
-85.24		Lausanne	46.533333333333,6.6333333333333	Lausanne									
-86.27		Switzerland	46.798562,8.231973	Suisse									
-86.32		Switzerland	46.798562,8.231973	Suisse	Savoy	45.57,5.9118	 Savoie	Paris	48.856944444444,2.3513888888889	 Paris			
-86.51		Paris	48.856944444444,2.3513888888889	Paris									
-87.25		Samarah	16.938611111111,43.762777777778	Samarah									
-87.54bis		Paris	48.856944444444,2.3513888888889	Paris	rural area		 province						
-87.56		Paris	48.856944444444,2.3513888888889	Paris									
-88.53		Cévennes	44.42623611,3.73926389	cadre pastoral (Cévennes)									
-88.75													
-89.104		Paris	48.856944444444,2.3513888888889	Paris	rural area		 province (XVIle siècle)						
-89.81		Lyon	45.758888888889,4.8413888888889	province (Lyon)	Paris	48.856944444444,2.3513888888889	 Paris	rural area		province			
-90.47		Paris	48.856944444444,2.3513888888889	Paris									
-91.42		Paris	48.856944444444,2.3513888888889	Paris	rural area		 province						
-91.43		England	53,-1	Angleterre	India	22.8,83	 Indes						
-91.44		au royaume des Pacans		au royaume des Pacans									
-93.16		Paris	48.856944444444,2.3513888888889	Paris									
-94.13		Paris	48.856944444444,2.3513888888889	Paris	Neuilly	47.239722222222,3.5027777777778	 Neuilly						
-94.8													
-95.20		France	47,2	France	Constantinople	41.01224,28.976018	 Constantinople (époque de Charlemagne)						
-95.36		Paris	48.856944444444,2.3513888888889	Paris	rural area		 province	Kingdom of Butua		 royaume de Butua			
-95.37		boudoir		dans le boudoir d’une libertine									
-96.18		Germany	51,10	Allemagne									
-97.21													
-97.22		Paris	48.856944444444,2.3513888888889	Paris	rural area		 province						
-97.74		Germany	51,10	Allemagne									
-98.38													
-98.41		rural area		province	Paris	48.856944444444,2.3513888888889	 Paris						
-98.84		rural area		province									
-98.85		Poland	52,19	Pologne	Piemonte	42.77405,12.54897	 Piémont	Suisse	48.965833333333,6.5794444444444	 Suisse			
-98.88		France	47,2	France	Netherlands	52.316666666667,5.55	 Pays-Bas						
-99.104		Paris	48.856944444444,2.3513888888889	Paris	rural area		 province						
-99.105		rural area		province	England	53,-1	 Angleterre						
-99.43													
-99.62		Tours	47.392777777778,0.68833333333333	province (Tours)	rural area		province						
-99.76		Paris	48.856944444444,2.3513888888889	Paris	rural area		 province						
+P13	Column	p48 1	p 48 1 wikidata id	coordinate location	p48 string	p48 2	p48 2 wikidata id	coordinate location2	p48 2 string	p48 3	p48 3 wikidata id	coordinate location3	p48 3 string	p48 4	p48 4 wikidata id	coordinate location4	p48 4 string
+new	items																
+id	s	r_pl															
+00.37		Paris	Q90	48.856944444444,2.3513888888889	Paris												
+51.42																	
+52.43		Sirius	Q3409		Sirius	Saturn	Q193		 Saturne	Earth	Q2		 Terre				
+53.26		fictional location	Q3895768		cadre fantaisiste												
+54.13		fictional location	Q3895768		cadre oriental fantaisiste	Orient	Q205653		oriental								
+54.33	n	Venus	Q313		Vénus	Moon	Q405		 la lune								
+55.16		rural area	Q175185		province												
+57.12		England	Q21	53,-1	Angleterre												
+58.13		Paris	Q90	48.856944444444,2.3513888888889	Paris												
+58.17		France	Q142	47,2	France												
+58.5																	
+58.8																	
+59.22		England	Q21	53,-1	Angleterre	rural area	Q175185		 province								
+59.25																	
+60.21		Orient	Q205653		cadre oriental												
+61.17		Greece	Q41	38.5,23	Grèce												
+61.6																	
+62.11																	
+62.33	m																
+63.19		France	Q142	47,2	France	Holy Land	Q48175	31.778333333333332,35.22972222222222	 Terre Sainte				 époque des Croisades				
+64.39		England	Q21	53,-1	Angleterre												
+65.5																	
+66.11																	
+67.36		England	Q21	53,-1	cadre anglais												
+67.39		Thrace	Q41741	42,26	Thrace (époque de Justinien)												
+67.44		France	Q142	47,2	France												
+68.55		rural area	Q175185		province	Paris	Q90	48.856944444444,2.3513888888889	 Paris								
+69.57		Mytilene	Q189059	39.103611111111,26.533055555556	Mytilène												
+71.23		Athens	Q1524	37.98416666666667,23.728055555555557	Athènes												
+71.25		Paris	Q90	48.856944444444,2.3513888888889	Paris												
+71.36																	
+72.17		Naples	Q2634	40.833333333333,14.25	Naples												
+72.19		France	Q142	47,2	France												
+72.23																	
+74.15		France	Q142	47,2	France												
+74.20		France	Q142	47,2	France												
+75.28																	
+75.37		Paris	Q90	48.856944444444,2.3513888888889	Paris												
+76.36		Alsace	Q1142	48.5,7.5	Alsace	Paris	Q90	48.856944444444,2.3513888888889	 Paris								
+77.50		Peru	Q419	-9.4,-76	Pérou												
+77.57		Paris	Q90	48.856944444444,2.3513888888889	Paris	England	Q21	53,-1	 Angleterre								
+78.1	*																
+79.22		Provence	Q101081	44,6	Provence												
+82.14																	
+82.17		Paris	Q90	48.856944444444,2.3513888888889	Paris	rural area	Q175185		 province								
+82.20		Languedoc	Q206221	43.666666666667,3.1666666666667	Languedoc												
+82.27		Paris	Q90	48.856944444444,2.3513888888889	Paris	Italy	Q38	42.5,12.5	 Italie	Brazil	Q155	-14,-53	 Brésil	French Southern and Antarctic Lands	Q129003	-43,67	 Terres australes
+83.15		rural area	Q175185		province												
+83.26		Tagus river	Q14294	40.3197,-1.6975	cadre pastoral (rives du Tage)												
+				38.8525,-9.0137													
+83.31		Lyon	Q456	45.758888888889,4.8413888888889	Lyon												
+83.40		France	Q142	47,2	France												
+83.42		Asia	Q48	43.681111111111115,87.33111111111111	Asie												
+83.9		Paris	Q90	48.856944444444,2.3513888888889	Paris												
+84.27		rural area	Q175185		province												
+84.43																	
+84.50		France	Q142	47,2	France												
+84.58		Auxerre	Q167600	47.7975,3.5669444444444	province (Auxerre)	Paris	Q90	48.856944444444,2.3513888888889	 Paris	rural area	Q175185		province				
+85.24		Lausanne	Q807	46.533333333333,6.6333333333333	Lausanne												
+86.27		Switzerland	Q39	46.798562,8.231973	Suisse												
+86.32		Switzerland	Q39	46.798562,8.231973	Suisse	Savoy	Q14118	45.57,5.9118	 Savoie	Paris	Q90	48.856944444444,2.3513888888889	 Paris				
+86.51		Paris	Q90	48.856944444444,2.3513888888889	Paris												
+87.25		Samarah	Q20306962	16.938611111111,43.762777777778	Samarah												
+87.54bis		Paris	Q90	48.856944444444,2.3513888888889	Paris	rural area	Q175185		 province								
+87.56		Paris	Q90	48.856944444444,2.3513888888889	Paris												
+88.53		Cévennes	Q626655	44.42623611,3.73926389	cadre pastoral (Cévennes)												
+88.75																	
+89.104		Paris	Q90	48.856944444444,2.3513888888889	Paris	rural area	Q175185		 province (XVIle siècle)								
+89.81		Lyon	Q456	45.758888888889,4.8413888888889	province (Lyon)	Paris	Q90	48.856944444444,2.3513888888889	 Paris	rural area	Q175185		province				
+90.47		Paris	Q90	48.856944444444,2.3513888888889	Paris												
+91.42		Paris	Q90	48.856944444444,2.3513888888889	Paris	rural area	Q175185		 province								
+91.43		England	Q21	53,-1	Angleterre	India	Q668	22.8,83	 Indes								
+91.44		au royaume des Pacans			au royaume des Pacans												
+93.16		Paris	Q90	48.856944444444,2.3513888888889	Paris												
+94.13		Paris	Q90	48.856944444444,2.3513888888889	Paris	Neuilly	Q41744	47.239722222222,3.5027777777778	 Neuilly								
+94.8																	
+95.20		France	Q142	47,2	France	Constantinople	Q16869	41.01224,28.976018	 Constantinople (époque de Charlemagne)								
+95.36		Paris	Q90	48.856944444444,2.3513888888889	Paris	rural area	Q175185		 province	Kingdom of Butua	Q986881		 royaume de Butua				
+95.37		boudoir	Q62238		dans le boudoir d’une libertine												
+96.18		Germany	Q183	51,10	Allemagne												
+97.21																	
+97.22		Paris	Q90	48.856944444444,2.3513888888889	Paris	rural area	Q175185		 province								
+97.74		Germany	Q183	51,10	Allemagne												
+98.38																	
+98.41		rural area	Q175185		province	Paris	Q90	48.856944444444,2.3513888888889	 Paris								
+98.84		rural area	Q175185		province												
+98.85		Poland	Q36	52,19	Pologne	Piemonte	Q18493435	42.77405,12.54897	 Piémont	Suisse	Q22036	48.965833333333,6.5794444444444	 Suisse				
+98.88		France	Q142	47,2	France	Netherlands	Q55	52.316666666667,5.55	 Pays-Bas								
+99.104		Paris	Q90	48.856944444444,2.3513888888889	Paris	rural area	Q175185		 province								
+99.105		rural area	Q175185		province	England	Q21	53,-1	 Angleterre								
+99.43																	
+99.62		Tours	Q288	47.392777777778,0.68833333333333	province (Tours)	rural area	Q175185		province								
+99.76		Paris	Q90	48.856944444444,2.3513888888889	Paris	rural area	Q175185		 province								
