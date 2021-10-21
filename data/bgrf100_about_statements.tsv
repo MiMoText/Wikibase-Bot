@@ -27,7 +27,7 @@ id	Spalte	text	Keyword	property	Themenwert
 60.21	r_s	sensibilité, mélancolie.	mélancolie	isabout	mélancolie
 61.17	r_c	éducation d’un jeune prince;	éducation	isabout	éducation
 61.6	r_s	conte galant.	galant	isabout	galanterie
-62.11	r_s	critique des mœurs, ton satirique.	mœurs	isabout	"mœurs "
+62.11	r_s	critique des mœurs, ton satirique.	mœurs	isabout	mœurs
 62.33	r_c	En marge: traité d’éducation sous une forme narrative.	éducation	isabout	éducation
 63.19	r_c	voyages, aventures, éléments féeriques;	voyages	isabout	voyage
 64.39	r_s	sensibilité.	sensibilité	isabout	sentimentalisme
@@ -56,7 +56,7 @@ id	Spalte	text	Keyword	property	Themenwert
 71.25	r_c	intrigue sentimentale, amours contrariées;	sentimentale	isabout	sentiment
 71.25	r_s	sensibilité effrénée.	sensibilité	isabout	sentimentalisme
 71.25	r_c	intrigue sentimentale, amours contrariées;	amour	isabout	amour
-71.36	r_c	rêve de l’avenir, critique des mœurs et des institutions;	mœurs	isabout	"mœurs "
+71.36	r_c	rêve de l’avenir, critique des mœurs et des institutions;	mœurs	isabout	mœurs
 72.17	r_c	aventures merveilleuses et fantastiques	merveille	isabout	miracle
 72.19	r_c	intrigue sentimentale (un cœur sensible peut pécher mais reste pur), malheurs;	sentimentale	isabout	sentiment
 72.19	r_s	sensibilité effrénée, analyse d’un problème moral.	sensibilité	isabout	sentimentalisme
@@ -74,7 +74,7 @@ id	Spalte	text	Keyword	property	Themenwert
 76.36	r_c	intrigue sentimentale, aventures, entremêlées de thèmes religieux et philosophiques;	philosophiques	isabout	philosophie
 76.36	r_s	sensibilité, vertu.	vertu	isabout	vertu
 77.50	r_c	aventures guerrières, incidents romanesques;	guerrière	isabout	guerre
-77.57	r_s	observations sur les mœurs.	mœurs	isabout	"mœurs "
+77.57	r_s	observations sur les mœurs.	mœurs	isabout	mœurs
 79.22	r_s	sensibilité, vertu.	sensibilité	isabout	sentimentalisme
 79.22	r_c	amours contrariées, malheurs;	malheurs	isabout	malheur
 79.22	r_c	amours contrariées, malheurs;	amour	isabout	amour
@@ -118,9 +118,9 @@ id	Spalte	text	Keyword	property	Themenwert
 87.54bis	r_s	sensibilité passionnée, retour à la nature.	nature	isabout	nature
 87.56	r_c	aventures galantes;	galant	isabout	galanterie
 88.53	r_c	intrigue sentimentale;	sentimentale	isabout	sentiment
-89104	r_c	correspondance amoureuse au cours de laquelle le marquis délaisse Ninon pour madame Scarron	amour	isabout	amour
-89104	r_c	correspondance amoureuse au cours de laquelle le marquis délaisse Ninon pour madame Scarron	correspondance	isabout	correspondance littéraire
-89104	r_c	correspondance amoureuse au cours de laquelle le marquis délaisse Ninon pour madame Scarron	cour	isabout	cour
+89.104	r_c	correspondance amoureuse au cours de laquelle le marquis délaisse Ninon pour madame Scarron	amour	isabout	amour
+89.104	r_c	correspondance amoureuse au cours de laquelle le marquis délaisse Ninon pour madame Scarron	correspondance	isabout	correspondance littéraire
+89.104	r_c	correspondance amoureuse au cours de laquelle le marquis délaisse Ninon pour madame Scarron	cour	isabout	cour
 90.47	r_c	aventures galantes;	galant	isabout	galanterie
 91.42	r_c	les malheurs et aventures de deux soeurs orphelines de caractères opposés;	malheurs	isabout	malheur
 91.42	r_s	détails pornographiques.	pornographiques	isabout	érotisme
@@ -152,9 +152,9 @@ id	Spalte	text	Keyword	property	Themenwert
 98.85	r_c	les malheurs d’une réfugiée, éléments d’actualité	malheurs	isabout	malheur
 98.88	r_c	aventures révolutionnaires, voyages	révolutionnaires	isabout	révolution
 98.88	r_c	aventures révolutionnaires, voyages	voyages	isabout	voyage
-99104	r_c	intrigue mondaine, histoire sentimentale	sentimentale	isabout	sentiment
-99105	r_c	querelles de famille, intrigue sentimentale	sentimentale	isabout	sentiment
-99105	r_c	querelles de famille, intrigue sentimentale	famille	isabout	famille
+99.104	r_c	intrigue mondaine, histoire sentimentale	sentimentale	isabout	sentiment
+99.105	r_c	querelles de famille, intrigue sentimentale	sentimentale	isabout	sentiment
+99.105	r_c	querelles de famille, intrigue sentimentale	famille	isabout	famille
 99.62	r_c	intrigue sentimentale (une femme vertueuse éprouvée par l’amour);	sentimentale	isabout	sentiment
 99.62	r_s	analyse des sentiments, sensibilité, vertu.	sensibilité	isabout	sentimentalisme
 99.62	r_c	intrigue sentimentale (une femme vertueuse éprouvée par l’amour);	amour	isabout	amour

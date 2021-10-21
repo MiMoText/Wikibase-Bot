@@ -22,7 +22,7 @@ reference URL	p18	url
 see also	p19	wikibase-property
 part of	p20	wikibase-property
 has part	p21	wikibase-property
-topicInterest	p22	wikibase-property
+topic interest	p22	wikibase-item
 MiMoText ID	p23	string
 described at URL	p24	url
 part of Item	p25	wikibase-item
@@ -53,7 +53,7 @@ characters_string	p49	monolingualtext
 BGRF_plot_theme	p50	monolingualtext
 BGRF_style_attitude_tonality	p51	monolingualtext
 BGRF_textstructure	p52	monolingualtext
-narrative location 	p53	wikibase-item
+narrative location	p53	wikibase-item
 characters	p54	wikibase-item
 narrative perspective	p55	wikibase-item
 short name	p56	monolingualtext

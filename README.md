@@ -25,6 +25,9 @@ python3 pwb.py scripts/userscripts/importTSV.py data/ImportItems.tsv
 Werke und Autoren
 python3 pwb.py scripts/userscripts/importTSV.py data/BGRF_100.tsv
 
+Topic Label 
+python3 pwb.py scripts/userscripts/importTSV.py data/topic_label.tsv
+
 Themenkonzepte und Raumkonzepte
 python3 pwb.py scripts/userscripts/importTSV.py data/Themenvokabular.tsv
 python3 pwb.py scripts/userscripts/importTSV.py data/Raumvokabular.tsv
