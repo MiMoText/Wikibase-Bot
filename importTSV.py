@@ -12,7 +12,7 @@ from pywikibot.page import ItemPage
 
 
 #Server argument 1 and file argument 2
-#Server family: most100, wikitesetmost, preLive, Live
+#Server family: most100, wikitestmost, preLive, Live
 if len(sys.argv) == 3:
   server = sys.argv[1]
   file = sys.argv[2]
@@ -408,11 +408,11 @@ with open(filename, 'r', newline='') as tsv_data:
   rowcount = 0
   #List of Authors who are already imported in this Import
   authors_Already_Imported = {}
-  QID_thematicVocab = GetEntry('thematic vocabulary', 'en')
-  QID_thematicConcept = GetEntry('thematic concept', 'en')
-  QID_spatialVocab = GetEntry('spatial vocabulary', 'en')
-  QID_spatialConcept = GetEntry('spatial concept', 'en')
-  PID_closeMatch = GetProperty('close match')
+  QID_thematicVocab = GetEntryOverSPARQL('thematic vocabulary')
+  QID_thematicConcept = GetEntryOverSPARQL('thematic concept', 'en')
+  QID_spatialVocab = GetEntryOverSPARQL('spatial vocabulary', 'en')
+  QID_spatialConcept = GetEntryOverSPARQL('spatial concept', 'en')
+  PID_closeMatch = GetEntryOverSPARQL('close match')
   for row in reader:
     if rowcount == 1:
       print(row)    
