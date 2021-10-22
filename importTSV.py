@@ -91,15 +91,15 @@ def GetEntryOverSPARQL(item, lang='en',prop=Verbs.label):
   
   #Dynamic Query
   if prop == Verbs.label:
-    query = """
+    query = '''
     SELECT
       ?item ?itemLabel ?value
     WHERE 
     {
-      ?item ?label '"""+item+"""'@"""+lang+"""       
+      ?item ?label "'''+item+'''"@'''+lang+'''       
       SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE]". }
     }
-    """
+    '''
   else:
     query = """
     SELECT
@@ -428,7 +428,7 @@ with open(filename, 'r', newline='') as tsv_data:
       CreateClaim()
     elif infos[0] == 'create' and infos[1] == 'vocab' and rowcount > 1:
 
-      if CheckForEntry(row['title-fr']) and CheckForEntry(row['title-de']) and CheckForEntry(row['title-en']):
+      if not GetEntryOverSPARQL(row['title-fr'],'fr') and not GetEntryOverSPARQL(row['title-de'],'de') and not GetEntryOverSPARQL(row['title-en']):
         new_item = pywikibot.ItemPage(repo)
         label_dict = {'fr': row['title-fr'], 'de': row['title-de'], 'en': row['title-en']}
         new_item.editLabels(labels=label_dict, summary="Setting labels")
@@ -476,7 +476,7 @@ with open(filename, 'r', newline='') as tsv_data:
       references.append((PID_stated_in, 'Q1'))
       if QID_concept != None and QID_BGRF_ID != None:
         CreateClaim(item, PID_about, QID_concept, references)
-
+        
     elif infos[0] == 'add' and infos[1] == 'statementsModel' and rowcount > 1:
       QID_BGRF_ID = GetEntryOverSPARQL(row['pointer'],'en', Verbs.BGRF_ID)
       QID_concept = GetEntryOverSPARQL(row['value'], 'fr')

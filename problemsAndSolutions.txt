@@ -13,3 +13,6 @@ Disable User Registration and Edit
     => https://stuff.coffeecode.net/2018/wikibase-workshop-swib18.html#_adding_users
     $wgGroupPermissions['*']['edit'] = false;
     $wgGroupPermissions['*']['createaccount'] = false;
+
+Hochkomma im Suchparameter führt zu Fehler im SPARQL
+    => Sparql Query mit " statt '
