@@ -12,10 +12,12 @@ from pywikibot.page import ItemPage
 
 
 #Server argument 1 and file argument 2
-#Server family: most100, wikitesetmost, preLive, Live
-if len(sys.argv) == 3:
+#Server family: most100, wikitestmost, preLive, Live
+#SPARQL Endpoint
+if len(sys.argv) == 4:
   server = sys.argv[1]
   file = sys.argv[2]
+  ENDPOINT = sys.argv[3]
 else:
   print('Datei angeben!')
   exit()
@@ -87,19 +89,19 @@ def GetEntryOverSPARQL(item, lang='en',prop=Verbs.label):
   Get Entry with Label Name and Language
   '''
   #SPARQL endpoint
-  endpoint_url = "http://zora.uni-trier.de:44100/proxy/wdqs/bigdata/namespace/wdq/sparql"
+  endpoint_url = "http://zora.uni-trier.de:" + ENDPOINT + "/proxy/wdqs/bigdata/namespace/wdq/sparql"
   
   #Dynamic Query
   if prop == Verbs.label:
-    query = """
+    query = '''
     SELECT
       ?item ?itemLabel ?value
     WHERE 
     {
-      ?item ?label '"""+item+"""'@"""+lang+"""       
+      ?item ?label "'''+item+'''"@'''+lang+'''       
       SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE]". }
     }
-    """
+    '''
   else:
     query = """
     SELECT
@@ -408,11 +410,11 @@ with open(filename, 'r', newline='') as tsv_data:
   rowcount = 0
   #List of Authors who are already imported in this Import
   authors_Already_Imported = {}
-  QID_thematicVocab = GetEntry('thematic vocabulary', 'en')
-  QID_thematicConcept = GetEntry('thematic concept', 'en')
-  QID_spatialVocab = GetEntry('spatial vocabulary', 'en')
-  QID_spatialConcept = GetEntry('spatial concept', 'en')
-  PID_closeMatch = GetProperty('close match')
+  QID_thematicVocab = GetEntryOverSPARQL('thematic vocabulary')
+  QID_thematicConcept = GetEntryOverSPARQL('thematic concept', 'en')
+  QID_spatialVocab = GetEntryOverSPARQL('spatial vocabulary', 'en')
+  QID_spatialConcept = GetEntryOverSPARQL('spatial concept', 'en')
+  PID_closeMatch = GetEntryOverSPARQL('close match')
   for row in reader:
     if rowcount == 1:
       print(row)    
@@ -428,7 +430,7 @@ with open(filename, 'r', newline='') as tsv_data:
       CreateClaim()
     elif infos[0] == 'create' and infos[1] == 'vocab' and rowcount > 1:
 
-      if CheckForEntry(row['title-fr']) and CheckForEntry(row['title-de']) and CheckForEntry(row['title-en']):
+      if not GetEntryOverSPARQL(row['title-fr'],'fr') and not GetEntryOverSPARQL(row['title-de'],'de') and not GetEntryOverSPARQL(row['title-en']):
         new_item = pywikibot.ItemPage(repo)
         label_dict = {'fr': row['title-fr'], 'de': row['title-de'], 'en': row['title-en']}
         new_item.editLabels(labels=label_dict, summary="Setting labels")

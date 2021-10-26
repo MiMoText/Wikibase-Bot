@@ -1,0 +1,18 @@
+Lange Titel können nicht importiert werden:
+    => länge der Felder Monuligual Text und title verlängert auf 1000
+
+TSV Daten inkonsistent, QID kann nicht gefunden werden:
+    => daten prüfen
+
+Lange Throttle Zeit
+    => put_throttle = 0
+    https://stackoverflow.com/questions/60884726/how-to-disable-sleeping-for-n-seconds-on-pywikibot
+    https://doc.wikimedia.org/pywikibot/stable/api_ref/pywikibot.html#settings-to-avoid-server-overload
+
+Disable User Registration and Edit
+    => https://stuff.coffeecode.net/2018/wikibase-workshop-swib18.html#_adding_users
+    $wgGroupPermissions['*']['edit'] = false;
+    $wgGroupPermissions['*']['createaccount'] = false;
+
+Hochkomma im Suchparameter führt zu Fehler im SPARQL
+    => Sparql Query mit " statt '

@@ -20,43 +20,42 @@ equivalentProperty	p16	url
 equivalentClass	p17	url
 reference URL	p18	url
 see also	p19	wikibase-property
-part of	p20	wikibase-property
+part of	p20	wikibase-item
 has part	p21	wikibase-property
-topicInterest	p22	wikibase-property
+topic interest	p22	wikibase-item
 MiMoText ID	p23	string
 described at URL	p24	url
-part of Item	p25	wikibase-item
-about	p26	wikibase-item
-image	p27	commonsMedia
-described by source	p28	wikibase-item
-sex or gender	p29	wikibase-item
-occupation	p30	wikibase-item
-exact match	p31	url
-family name	p32	wikibase-item
-given name	p33	wikibase-item
-subtitle	p34	monolingualtext
-number of pages	p35	quantity
-manifestation of	p36	wikibase-item
-expression of	p37	wikibase-item
-distribution format	p38	wikibase-item
-genre	p39	wikibase-item
-language of work or name	p40	wikibase-item
-pseudonym	p41	string
-editor	p42	wikibase-item
-publication date_string	p43	monolingualtext
-place of publication_string	p44	monolingualtext
-number of pages_string	p45	monolingualtext
-distribution format_string	p46	monolingualtext
-narrative perspective_string	p47	monolingualtext
-narrative location_string	p48	monolingualtext
-characters_string	p49	monolingualtext
-BGRF_plot_theme	p50	monolingualtext
-BGRF_style_attitude_tonality	p51	monolingualtext
-BGRF_textstructure	p52	monolingualtext
-narrative location 	p53	wikibase-item
-characters	p54	wikibase-item
-narrative perspective	p55	wikibase-item
-short name	p56	monolingualtext
-related to	p57	wikibase-item
-represented by	p58	wikibase-item
-close match	p59	url
+about	p25	wikibase-item
+image	p26	commonsMedia
+described by source	p27	wikibase-item
+sex or gender	p28	wikibase-item
+occupation	p29	wikibase-item
+exact match	p30	url
+family name	p31	wikibase-item
+given name	p32	wikibase-item
+subtitle	p33	monolingualtext
+number of pages	p34	quantity
+manifestation of	p35	wikibase-item
+expression of	p36	wikibase-item
+distribution format	p37	wikibase-item
+genre	p38	wikibase-item
+language of work or name	p39	wikibase-item
+pseudonym	p40	string
+editor	p41	wikibase-item
+publication date_string	p42	monolingualtext
+place of publication_string	p43	monolingualtext
+number of pages_string	p44	monolingualtext
+distribution format_string	p45	monolingualtext
+narrative perspective_string	p46	monolingualtext
+narrative location_string	p47	monolingualtext
+characters_string	p48	monolingualtext
+BGRF_plot_theme	p49	monolingualtext
+BGRF_style_attitude_tonality	p50	monolingualtext
+BGRF_textstructure	p51	monolingualtext
+narrative location	p52	wikibase-item
+characters	p53	wikibase-item
+narrative perspective	p54	wikibase-item
+short name	p55	monolingualtext
+related to	p56	wikibase-item
+represented by	p57	wikibase-item
+close match	p58	url
