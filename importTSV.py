@@ -13,9 +13,11 @@ from pywikibot.page import ItemPage
 
 #Server argument 1 and file argument 2
 #Server family: most100, wikitestmost, preLive, Live
-if len(sys.argv) == 3:
+#SPARQL Endpoint
+if len(sys.argv) == 4:
   server = sys.argv[1]
   file = sys.argv[2]
+  ENDPOINT = sys.argv[3]
 else:
   print('Datei angeben!')
   exit()
@@ -87,7 +89,7 @@ def GetEntryOverSPARQL(item, lang='en',prop=Verbs.label):
   Get Entry with Label Name and Language
   '''
   #SPARQL endpoint
-  endpoint_url = "http://zora.uni-trier.de:44100/proxy/wdqs/bigdata/namespace/wdq/sparql"
+  endpoint_url = "http://zora.uni-trier.de:" + ENDPOINT + "/proxy/wdqs/bigdata/namespace/wdq/sparql"
   
   #Dynamic Query
   if prop == Verbs.label:
@@ -476,7 +478,7 @@ with open(filename, 'r', newline='') as tsv_data:
       references.append((PID_stated_in, 'Q1'))
       if QID_concept != None and QID_BGRF_ID != None:
         CreateClaim(item, PID_about, QID_concept, references)
-        
+
     elif infos[0] == 'add' and infos[1] == 'statementsModel' and rowcount > 1:
       QID_BGRF_ID = GetEntryOverSPARQL(row['pointer'],'en', Verbs.BGRF_ID)
       QID_concept = GetEntryOverSPARQL(row['value'], 'fr')
