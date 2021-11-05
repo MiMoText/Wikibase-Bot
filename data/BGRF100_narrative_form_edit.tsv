@@ -1,95 +1,95 @@
-"P13"		"P47"	"P55"	"P55RP14"
-"update"				"Q1"
-	"check item"	"minimale String-Korrekturen (monolingual text)"	"neu: Mapping der Strings auf 7 Werte"	"stated in Q1"
-"61.6"		"1re personne"	"autodiegetic"	
-"83.15"		"1re personne"	"autodiegetic"	
-"84.27"		"1re personne"	"autodiegetic"	
-"86.51"		"1re personne"	"autodiegetic"	
-"90.47"		"1re personne"	"autodiegetic"	
-"98.41"		"1re personne"	"autodiegetic"	
-"98.84"		"1re personne"	"autodiegetic"	
-"64.39"		"1re personne (mémoires)"	"autodiegetic"	
-"86.32"		"1re personne (mémoires)"	"autodiegetic"	
-"97.22"		"1re personne (mémoires)"	"autodiegetic"	
-"98.85"		"1re personne (mémoires), avec récit intercalé 1re personne"	"autodiegetic"	
-"75.37"		"1re personne, avec récits intercalés 1re personne"	"autodiegetic"	
-"87.56"		"1re personne, avec récits intercalés 1re personne"	"autodiegetic"	
-"98.88"		"1re personne, avec récits intercalés 1re personne"	"autodiegetic"	
-"58.5"		"1re personne, songe"	"autodiegetic"	
-"54.33"	"n"	"3e partie: Relation du voyage d’un sublunaire; 1re personne avec des récits d’autres voyageurs"	"mixed"	
-"00.37"		"3e personne"	"heterodiegetic"	
-"53.26"		"3e personne"	"heterodiegetic"	
-"58.17"		"3e personne"	"heterodiegetic"	
-"62.11"		"3e personne"	"heterodiegetic"	
-"67.39"		"3e personne"	"heterodiegetic"	
-"69.57"		"3e personne"	"heterodiegetic"	
-"79.22"		"3e personne"	"heterodiegetic"	
-"83.42"		"3e personne"	"heterodiegetic"	
-"87.25"		"3e personne"	"heterodiegetic"	
-"88.53"		"3e personne"	"heterodiegetic"	
-"91.43"		"3e personne"	"heterodiegetic"	
-"91.44"		"3e personne"	"heterodiegetic"	
-"95.20"		"3e personne"	"heterodiegetic"	
-"99.105"		"3e personne"	"heterodiegetic"	
-"99.76"		"3e personne"	"heterodiegetic"	
-"52.43"		"3e personne avec des observations 1re personne"	"heterodiegetic"	
-"63.19"		"3e personne, avec contes intercalés 3e personne (I, 43, Le plaisir, conte moral; II, 10, Aventure du pèlerin)"	"heterodiegetic"	
-"97.21"		"3e personne, avec dialogues, récits intercalés 1re personne, intervention du narrateur"	"heterodiegetic"	
-"76.36"		"3e personne, avec récit de Jezennemours à la 1re personne"	"heterodiegetic"	
-"77.50"		"3e personne, avec récit intercalé 1re personne"	"heterodiegetic"	
-"91.42"		"3e personne, avec récit intercalé 1re personne"	"heterodiegetic"	
-"61.17"		"3e personne, avec récits intercalés 1re personne"	"heterodiegetic"	
-"96.18"		"3e personne, avec récits intercalés 1re personne et lettres"	"heterodiegetic"	
-"54.13"		"3e personne, interrompu par des conversations"	"mixed"	
-"60.21"		"Cadre 1re personne avec récit 1re personne"	"autodiegetic"	
-"51.42"		"Deux récits 1re personne"	"autodiegetic"	
-"55.16"		"Dialogue, avec récits racontés par les personnages"	"dialogue"	
-"93.16"		"Dialogues"	"dialogue"	
-"95.37"		"Dialogues"	"dialogue"	
-"71.36"		"1re personne"	"autodiegetic"	
-"72.17"		"1re personne"	"autodiegetic"	
-"82.27"		"1re personne"	"autodiegetic"	
-"83.40"		"1re personne"	"autodiegetic"	
-"84.50"		"1re personne (mémoires découpés en lettres)"	"mixed"	
-"68.55"		"1re personne virant à la 3e, avec dialogues"	"mixed"	
-"57.12"		"Lettres"	"epistolary"	
-"58.13"		"Lettres"	"epistolary"	
-"66.11"		"Lettres"	"epistolary"	
-"67.36"		"Lettres"	"epistolary"	
-"71.23"		"Lettres"	"epistolary"	
-"71.25"		"Lettres"	"epistolary"	
-"72.19"		"Lettres"	"epistolary"	
-"74.15"		"Lettres"	"epistolary"	
-"74.20"		"Lettres"	"epistolary"	
-"77.57"		"Lettres"	"epistolary"	
-"82.17"		"Lettres"	"epistolary"	
-"82.20"		"Lettres"	"epistolary"	
-"83.31"		"Lettres"	"epistolary"	
-"84.58"		"Lettres"	"epistolary"	
-"85.24"		"Lettres"	"epistolary"	
-"86.27"		"Lettres"	"epistolary"	
-"87.54bis"		"Lettres"	"epistolary"	
-"89.104"		"Lettres"	"epistolary"	
-"97.74"		"Lettres"	"epistolary"	
-"99.104"		"Lettres"	"epistolary"	
-"99.62"		"Lettres"	"epistolary"	
-"59.22"		"Lettres, avec deux histoires intercalées"	"epistolary"	
-"89.81"		"Lettres, avec récits intercalés 1re personne"	"epistolary"	
-"95.36"		"Lettres, avec récits intercalés 1re personne"	"epistolary"	
-"67.44"		"Lettres, interrompues par un récit (I, 83 - 160)"	"mixed"	
-"83.26"		"3e personne"	"heterodiegetic"	
-"94.13"		"Lettres"	"epistolary"	
-"58.8"			"unknown"	
-"59.25"			"unknown"	
-"62.33"	"m"		"unknown"	
-"65.5"			"unknown"	
-"72.23"			"unknown"	
-"75.28"			"unknown"	
-"78.1"	"*"		"unknown"	
-"82.14"			"unknown"	
-"83.9"			"unknown"	
-"84.43"			"unknown"	
-"88.75"			"unknown"	
-"94.8"			"unknown"	
-"98.38"			"unknown"	
-"99.43"			"unknown"	
+P13		P47	P55	P55RP14
+update				Q1
+	check item	minimale String-Korrekturen (monolingual text)	neu: Mapping der Strings auf 7 Werte	stated in Q1
+61.6		1re personne	autodiegetic	
+83.15		1re personne	autodiegetic	
+84.27		1re personne	autodiegetic	
+86.51		1re personne	autodiegetic	
+90.47		1re personne	autodiegetic	
+98.41		1re personne	autodiegetic	
+98.84		1re personne	autodiegetic	
+64.39		1re personne (mÃ©moires)	autodiegetic	
+86.32		1re personne (mÃ©moires)	autodiegetic	
+97.22		1re personne (mÃ©moires)	autodiegetic	
+98.85		1re personne (mÃ©moires), avec rÃ©cit intercalÃ© 1re personne	autodiegetic	
+75.37		1re personne, avec rÃ©cits intercalÃ©s 1re personne	autodiegetic	
+87.56		1re personne, avec rÃ©cits intercalÃ©s 1re personne	autodiegetic	
+98.88		1re personne, avec rÃ©cits intercalÃ©s 1re personne	autodiegetic	
+58.5		1re personne, songe	autodiegetic	
+54.33	n	3e partie: Relation du voyage dâ€™un sublunaire; 1re personne avec des rÃ©cits dâ€™autres voyageurs	mixed	
+00.37		3e personne	heterodiegetic	
+53.26		3e personne	heterodiegetic	
+58.17		3e personne	heterodiegetic	
+62.11		3e personne	heterodiegetic	
+67.39		3e personne	heterodiegetic	
+69.57		3e personne	heterodiegetic	
+79.22		3e personne	heterodiegetic	
+83.42		3e personne	heterodiegetic	
+87.25		3e personne	heterodiegetic	
+88.53		3e personne	heterodiegetic	
+91.43		3e personne	heterodiegetic	
+91.44		3e personne	heterodiegetic	
+95.20		3e personne	heterodiegetic	
+99.105		3e personne	heterodiegetic	
+99.76		3e personne	heterodiegetic	
+52.43		3e personne avec des observations 1re personne	heterodiegetic	
+63.19		3e personne, avec contes intercalÃ©s 3e personne (I, 43, Le plaisir, conte moral; II, 10, Aventure du pÃ¨lerin)	heterodiegetic	
+97.21		3e personne, avec dialogues, rÃ©cits intercalÃ©s 1re personne, intervention du narrateur	heterodiegetic	
+76.36		3e personne, avec rÃ©cit de Jezennemours Ã  la 1re personne	heterodiegetic	
+77.50		3e personne, avec rÃ©cit intercalÃ© 1re personne	heterodiegetic	
+91.42		3e personne, avec rÃ©cit intercalÃ© 1re personne	heterodiegetic	
+61.17		3e personne, avec rÃ©cits intercalÃ©s 1re personne	heterodiegetic	
+96.18		3e personne, avec rÃ©cits intercalÃ©s 1re personne et lettres	heterodiegetic	
+54.13		3e personne, interrompu par des conversations	mixed	
+60.21		Cadre 1re personne avec rÃ©cit 1re personne	autodiegetic	
+51.42		Deux rÃ©cits 1re personne	autodiegetic	
+55.16		Dialogue, avec rÃ©cits racontÃ©s par les personnages	dialogue	
+93.16		Dialogues	dialogue	
+95.37		Dialogues	dialogue	
+71.36		1re personne	autodiegetic	
+72.17		1re personne	autodiegetic	
+82.27		1re personne	autodiegetic	
+83.40		1re personne	autodiegetic	
+84.50		1re personne (mÃ©moires dÃ©coupÃ©s en lettres)	mixed	
+68.55		1re personne virant Ã  la 3e, avec dialogues	mixed	
+57.12		Lettres	epistolary	
+58.13		Lettres	epistolary	
+66.11		Lettres	epistolary	
+67.36		Lettres	epistolary	
+71.23		Lettres	epistolary	
+71.25		Lettres	epistolary	
+72.19		Lettres	epistolary	
+74.15		Lettres	epistolary	
+74.20		Lettres	epistolary	
+77.57		Lettres	epistolary	
+82.17		Lettres	epistolary	
+82.20		Lettres	epistolary	
+83.31		Lettres	epistolary	
+84.58		Lettres	epistolary	
+85.24		Lettres	epistolary	
+86.27		Lettres	epistolary	
+87.54bis		Lettres	epistolary	
+89.104		Lettres	epistolary	
+97.74		Lettres	epistolary	
+99.104		Lettres	epistolary	
+99.62		Lettres	epistolary	
+59.22		Lettres, avec deux histoires intercalÃ©es	epistolary	
+89.81		Lettres, avec rÃ©cits intercalÃ©s 1re personne	epistolary	
+95.36		Lettres, avec rÃ©cits intercalÃ©s 1re personne	epistolary	
+67.44		Lettres, interrompues par un rÃ©cit (I, 83 - 160)	mixed	
+83.26		3e personne	heterodiegetic	
+94.13		Lettres	epistolary	
+58.8			unknown	
+59.25			unknown	
+62.33	m		unknown	
+65.5			unknown	
+72.23			unknown	
+75.28			unknown	
+78.1	*		unknown	
+82.14			unknown	
+83.9			unknown	
+84.43			unknown	
+88.75			unknown	
+94.8			unknown	
+98.38			unknown	
+99.43			unknown	
