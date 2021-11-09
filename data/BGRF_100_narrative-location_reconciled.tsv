@@ -1,6 +1,6 @@
-P13		P48				1P48				2P48				3P48			
+P13		P53				1P53				2P53				3P53			
 update																	
-id	s	r_pl	(item vorher anlegen)p 48 1 wikidata id	coordinate location (P66)	p48 string (extra property?)		(item vorher anlegen)p48 2 wikidata id	coordinate location2 (P66)	p48 2 string		p48 3 wikidata id	p48 3 wikidata id	p48 3 string		p48 4 wikidata id	coordinate location4	p48 4 string
+id	s	r_pl	P31	coordinate location (P66)	p48 string (extra property?)		(item vorher anlegen)p48 2 wikidata id	coordinate location2 (P66)	p48 2 string (extra property)		p48 3 wikidata id	p48 3 wikidata id	p48 3 string		p48 4 wikidata id	coordinate location4	p48 4 string
 00.37		Paris	Q90	48.856944444444,2.3513888888889	Paris												
 51.42																	
 52.43		Sirius	Q3409		Sirius	Saturn	Q193		Saturne	Earth	Q2		Terre				
