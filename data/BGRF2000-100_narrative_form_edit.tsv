@@ -6,7 +6,7 @@ update				Q1
 63.23		1 re personne, mémoires en une série de lettres, avec récits intercalés 1re personne	mixed	
 62.21		1re et 3e personne	mixed	
 93.5		1re et 3e personnes	mixed	
-66.27		1re partie: lettres avec récit intercalé, IIe partie: 1re personne (mais le narrateur n est pas le personnage principal)	mixed	
+66.27		1re partie: lettres avec récit intercalé, IIe partie: 1re personne (mais le narrateur n ’est pas le personnage principal)	mixed	
 00.100		1re personne	autodiegetic	
 00.115		1re personne	autodiegetic	
 00.127		1re personne	autodiegetic	
@@ -256,21 +256,21 @@ update				Q1
 59.13		1re personne (1er chapitre, réflexions du narrateur), puis 3e personne	mixed	
 70.1		1re personne (autobiographie romancée)	autodiegetic	
 77.1		1re personne (avec dialogues)	autodiegetic	
-67.10		1re personne (confession dun novice au père provincial dun ordre religieux)	autodiegetic	
-92.34		1re personne (Félicia raconte lhistoire de son neveu, Monrose), avec récits intercalés 1re personne	autodiegetic	
+67.10		1re personne (confession d’un novice au père provincial d’un ordre religieux)	autodiegetic	
+92.34		1re personne (Félicia raconte l’histoire de son neveu, Monrose), avec récits intercalés 1re personne	autodiegetic	
 81.11		1re personne (journal)	autodiegetic	
 53.6	nt	1re personne (le héros raconte sa vie aux Inquisiteurs)	autodiegetic	
 88.94		1re personne (lettres)	mixed	
-75.44		1re personne (mais ce nest pas le personnage principal qui raconte lhistoire), avec dialogues	homodiegetic	
-76.34		1re personne (mais ce nest pas le personnage principal qui raconte), avec des lettres	homodiegetic	
-51.26	t	1re personne (mais lauteur ne joue pas un rôle dans lhistoire)	homodiegetic	
-51.9		1re personne (mais le narrateur nest pas le personnage principal)	homodiegetic	
-63.4		1re personne (mais le narrateur nest pas le personnage principal)	homodiegetic	
-66.21		1re personne (mais le narrateur nest pas le personnage principal), avec récits intercalés 1re personne	homodiegetic	
-73.11		1re personne (mais le narrateur nest pas le personnage principal), avec récits intercalés 1re personne	homodiegetic	
-91.23	c_MH?	1re personne (mais le narrateur raconte aussi des aventures arrivées à dautres personnages)	homodiegetic	
+75.44		1re personne (mais ce n’est pas le personnage principal qui raconte l’histoire), avec dialogues	homodiegetic	
+76.34		1re personne (mais ce n’est pas le personnage principal qui raconte), avec des lettres	homodiegetic	
+51.26	t	1re personne (mais l’auteur ne joue pas un rôle dans l’histoire)	homodiegetic	
+51.9		1re personne (mais le narrateur n’est pas le personnage principal)	homodiegetic	
+63.4		1re personne (mais le narrateur n’est pas le personnage principal)	homodiegetic	
+66.21		1re personne (mais le narrateur n’est pas le personnage principal), avec récits intercalés 1re personne	homodiegetic	
+73.11		1re personne (mais le narrateur n’est pas le personnage principal), avec récits intercalés 1re personne	homodiegetic	
+91.23	c_MH?	1re personne (mais le narrateur raconte aussi des aventures arrivées à d’autres personnages)	homodiegetic	
 58.9		1re personne (mais le narrateur raconte souvent à la 3e personne)	homodiegetic	
-89.9	t?	1re personne (mémoires dune femme de chambre) avec récit intercalé 1re personne et des lettres	autodiegetic	
+89.9	t?	1re personne (mémoires d’une femme de chambre) avec récit intercalé 1re personne et des lettres	autodiegetic	
 51.7		1re personne (mémoires dans une série de lettres)	mixed	
 68.33		1re personne (mémoires découpés en lettres assez courtes), avec récit intercalé 1re personne	mixed	
 89.5		1re personne (mémoires découpés en lettres)	mixed	
@@ -350,7 +350,7 @@ update				Q1
 89.78		1re personne (rêve)	autodiegetic	
 70.43		1re personne (Sylvie)	autodiegetic	
 70.26		1re personne (un journal écrit au jour le jour pour une amie)	mixed	
-68.44		1re personne (une amie de lhéroïne), avec récit intercalé 1re personne (par lhéroïne) et une deuxième partie sous forme de lettres	homodiegetic	
+68.44		1re personne (une amie de l’héroïne), avec récit intercalé 1re personne (par l’héroïne) et une deuxième partie sous forme de lettres	homodiegetic	
 55.10		1re personne avec des anecdotes 3e personne	autodiegetic	
 53.17		1re personne avec des histoires intercalées	autodiegetic	
 98.76		1re personne avec des récits intercalés 1re personne	autodiegetic	
@@ -386,7 +386,7 @@ update				Q1
 84.17		1re personne, avec des lettres	autodiegetic	
 84.28		1re personne, avec des lettres	autodiegetic	
 99.136		1re personne, avec des lettres	autodiegetic	
-66.6bis		1re personne, avec des récits 1re personne par dautres personnages	autodiegetic	
+66.6bis		1re personne, avec des récits 1re personne par d’autres personnages	autodiegetic	
 61.9		1re personne, avec des récits intercalés 3e personne	autodiegetic	
 79.11		1re personne, avec dialogues	autodiegetic	
 89.103	t	1re personne, avec dialogues	autodiegetic	
@@ -399,7 +399,7 @@ update				Q1
 90.13		1re personne, avec quelques lettres	autodiegetic	
 00.82	t	1re personne, avec récit 1re personne et quelques lettres	autodiegetic	
 66.35		1re personne, avec récit intercalé	autodiegetic	
-65.19		1re personne, avec récit intercalé (Le malheureux inné ou histoire dOrchnai, histoire anglaise)	autodiegetic	
+65.19		1re personne, avec récit intercalé (Le malheureux inné ou histoire d’Orchnai, histoire anglaise)	autodiegetic	
 00.151	t	1re personne, avec récit intercalé 1re personne	autodiegetic	
 51.27		1re personne, avec récit intercalé 1re personne	autodiegetic	
 79.13		1re personne, avec récit intercalé 1re personne	autodiegetic	
@@ -460,9 +460,9 @@ update				Q1
 77.3		1re personne, dialogue et lettres	mixed	
 00.19		1re personne, dialogues et lettres	mixed	
 56.7		1re personne, lettres et dialogues	mixed	
-66.12		1re personne, mais ce nest pas le personnage principal qui raconte	homodiegetic	
-67.42	t	1re personne, mais le narrateur nest pas le personnage principal	homodiegetic	
-96.23		1re personne, mais le narrateur nest pas le personnage principal	homodiegetic	
+66.12		1re personne, mais ce n’est pas le personnage principal qui raconte	homodiegetic	
+67.42	t	1re personne, mais le narrateur n’est pas le personnage principal	homodiegetic	
+96.23		1re personne, mais le narrateur n’est pas le personnage principal	homodiegetic	
 55.14		1re personne, mémoires	autodiegetic	
 55.24		1re personne, mémoires	autodiegetic	
 56.1		1re personne, mémoires	autodiegetic	
@@ -475,7 +475,7 @@ update				Q1
 56.25		1re personne, mémoires, avec récits intercalés 1re personne	autodiegetic	
 55.27		1re personne, prose entremêlée de vers	mixed	
 57.13	mt	1re personne, rêve	mixed	
-56.8		1re personne: le narrateur répète un récit 1re personne, avec un autre récit intercalé 1re personne, quil avait entendu dans le parloir dun couvent	homodiegetic	
+56.8		1re personne: le narrateur répète un récit 1re personne, avec un autre récit intercalé 1re personne, qu’il avait entendu dans le parloir d’un couvent	homodiegetic	
 00.102		3e personne	heterodiegetic	
 00.104		3e personne	heterodiegetic	
 00.105		3e personne	heterodiegetic	
@@ -1087,22 +1087,22 @@ update				Q1
 99.96		3e personne	heterodiegetic	
 54.18	t	3e personne (1re part.), récit 1re personne (2e part.), et lettres (3e et 4e part.)	mixed	
 61.16	t	3e personne (biographie scandaleuse)	heterodiegetic	
-75.9	t	3e personne (dans une série de lettres une femme raconte la vie dune amie)	mixed	
+75.9	t	3e personne (dans une série de lettres une femme raconte la vie d’une amie)	mixed	
 99.160		3e personne (en prose avec quelques vers)	heterodiegetic	
 96.40		3e personne (entremêlé de vers)	heterodiegetic	
 97.71		3e personne (Justine), 1re personne (Juliette), avec récits intercalés 1re personne	mixed	
-73.37	t	3e personne (la sultane Nurmahel raconte lhistoire au sultan Chah-Gebal, qui ajoute son commentaire)	heterodiegetic	
+73.37	t	3e personne (la sultane Nurmahel raconte l’histoire au sultan Chah-Gebal, qui ajoute son commentaire)	heterodiegetic	
 67.15		3e personne (lettre), avec le récit de Clary 1re personne	mixed	
 79.1		3e personne (narration entrecoupée par des commentaires facétieux)	heterodiegetic	
-67.1		3e personne (pseudo-traduction dun manuscrit grec)	heterodiegetic	
-96.9		3e personne (récit découpé en journées)	heterodiegetic	
+67.1		3e personne (pseudo-traduction d’un manuscrit grec)	heterodiegetic	
+96.9		3e personne (récit découpé en ’journées’)	heterodiegetic	
 85.40		3e personne (récit raconté au cours de huit veillées chez le bon Gaudet)	heterodiegetic	
-68.53		3e personne (un fils écrit lhistoire de son père)	heterodiegetic	
-80.7		3e personne (un fils écrit lhistoire de son père)	heterodiegetic	
-70.8	t	3e personne (une amie de lhéroïne raconte lhistoire de celle-ci)	heterodiegetic	
-63.10		3e personne (une série de 47 aventures forme une biographie)	heterodiegetic	
+68.53		3e personne (un fils écrit l’histoire de son père)	heterodiegetic	
+80.7		3e personne (un fils écrit l’histoire de son père)	heterodiegetic	
+70.8	t	3e personne (une amie de l’héroïne raconte l’histoire de celle-ci)	heterodiegetic	
+63.10		3e personne (une série de 47 ‘aventures’ forme une biographie)	heterodiegetic	
 84.3		3e personne avec de longs dialogues	heterodiegetic	
-54.10		3e personne avec des commentaires de la part de ceux qui écoutent lhistoire (Financier, Abbé, Actrice)	heterodiegetic	
+54.10		3e personne avec des commentaires de la part de ceux qui écoutent l’histoire (Financier, Abbé, Actrice)	heterodiegetic	
 82.40	t	3e personne avec des lettres	heterodiegetic	
 96.52		3e personne avec des lettres et un récit 1re personne	heterodiegetic	
 99.72		3e personne avec des récits intercalés 1re personne et des lettres	heterodiegetic	
@@ -1116,7 +1116,7 @@ update				Q1
 53.20	n	3e personne avec récits 1re personne	heterodiegetic	
 60.22	t	3e personne avec récits 1re personne	heterodiegetic	
 51.8		3e personne avec récits intercalés	heterodiegetic	
-57.14		3e personne avec récits intercalés (Histoire dAgathocle, Histoire de Séleucus)	heterodiegetic	
+57.14		3e personne avec récits intercalés (Histoire d’Agathocle, Histoire de Séleucus)	heterodiegetic	
 55.15		3e personne avec récits intercalés 1re et 3e personne	heterodiegetic	
 51.25		3e personne avec récits intercalés 1re personne	heterodiegetic	
 52.1	t	3e personne avec récits intercalés 1re personne	heterodiegetic	
@@ -1141,11 +1141,11 @@ update				Q1
 69.30		3e personne avec récits intercalés 1re personne	heterodiegetic	
 55.30		3e personne avec récits intercalés 3e personne	heterodiegetic	
 53.14		3e personne avec récits intercalés à tiroir	heterodiegetic	
-52.31		3e personne avec retour en arrière 1re personne lorsquUlysse raconte ses aventures	heterodiegetic	
+52.31		3e personne avec retour en arrière 1re personne lorsqu’Ulysse raconte ses aventures	heterodiegetic	
 55.31		3e personne avec un long récit intercalé 1re personne	heterodiegetic	
-53.32	t	3e personne avec un long récit intercalé 1re personne: Aventures dune dame de qualité	heterodiegetic	
+53.32	t	3e personne avec un long récit intercalé 1re personne: Aventures d’une dame de qualité	heterodiegetic	
 71.12		3e personne et dialogues	mixed	
-52.19		3e personne, avec commentaire facétieux de Maclés et dAbouc	heterodiegetic	
+52.19		3e personne, avec commentaire facétieux de Maclés et d’Abouc	heterodiegetic	
 91.16		3e personne, avec contes intercalés 3e personne	heterodiegetic	
 83.29		3e personne, avec de longs récits 1re personne	heterodiegetic	
 98.46	t	3e personne, avec de longs récits 1re personne	heterodiegetic	
@@ -1188,7 +1188,7 @@ update				Q1
 99.57		3e personne, avec récit 1re personne	heterodiegetic	
 70.52	t	3e personne, avec récit intercalé	heterodiegetic	
 97.65		3e personne, avec récit intercalé	heterodiegetic	
-65.50		3e personne, avec récit intercalé (Histoire dAlmont)	heterodiegetic	
+65.50		3e personne, avec récit intercalé (Histoire d’Almont)	heterodiegetic	
 00.149	t	3e personne, avec récit intercalé 1re personne	heterodiegetic	
 00.73		3e personne, avec récit intercalé 1re personne	heterodiegetic	
 62.30		3e personne, avec récit intercalé 1re personne	heterodiegetic	
@@ -1227,7 +1227,7 @@ update				Q1
 60.15		3e personne, avec récits des personnages, retours en arrière	heterodiegetic	
 68.19		3e personne, avec récits intercalés	heterodiegetic	
 72.14		3e personne, avec récits intercalés	heterodiegetic	
-71.37		3e personne, avec récits intercalés 1re et 3e personne (découpés en petites divisions appelées folies)	heterodiegetic	
+71.37		3e personne, avec récits intercalés 1re et 3e personne (découpés en petites divisions appelées ’folies’)	heterodiegetic	
 70.67	t	3e personne, avec récits intercalés 1re et 3e personnes	heterodiegetic	
 98.27		3e personne, avec récits intercalés 1re et 3e personnes	heterodiegetic	
 73.4		3e personne, avec récits intercales 1re personne	heterodiegetic	
@@ -1297,7 +1297,7 @@ update				Q1
 86.30	t	3e personne, avec récits intercalés 3e personne	heterodiegetic	
 97.52	c_MH	3e personne, avec récits intercalés 3e personne	heterodiegetic	
 97.58	t	3e personne, avec récits intercalés 3e personne	heterodiegetic	
-71.14		3e personne, avec récits intercalés 3e personne (nouvelles espagnoles)	heterodiegetic	
+71.14		3e personne, avec récits intercalés 3e personne (nouvelles ’espagnoles’)	heterodiegetic	
 67.50	t	3e personne, avec récits intercalés des personnages	heterodiegetic	
 84.52		3e personne, avec retour en arrière 1re personne	heterodiegetic	
 87.4		3e personne, avec retour en arrière 1re personne	heterodiegetic	
@@ -1333,7 +1333,7 @@ update				Q1
 97.1		Cadre 1re personne, avec récit principal 1re personne	autodiegetic	
 99.48		Cadre 1re personne, avec récit principal 1re personne	autodiegetic	
 98.94		Cadre 1re personne, avec récit principal 1re personne (mais fait par un personnage autre que les héros)	homodiegetic	
-94.5		Cadre 1re personne, avec récit principal 1re personne (mais le narrateur nest pas le héros)	homodiegetic	
+94.5		Cadre 1re personne, avec récit principal 1re personne (mais le narrateur n’est pas le héros)	homodiegetic	
 71.15		Cadre 1re personne, avec récit principal 3e personne	mixed	
 75.35	nt	Cadre 1re personne, avec récit principal 3e personne	mixed	
 81.29		Cadre 1re personne, avec récit principal 3e personne	mixed	
@@ -1343,7 +1343,7 @@ update				Q1
 68.48		Cadre 1re personne, récit principal 1re personne	autodiegetic	
 98.11		Cadre 1re personne, récit principal 1re personne	autodiegetic	
 99.60		Cadre 1re personne, récit principal 1re personne	autodiegetic	
-75.1		Cadre 1re personne, suivi dune série de lettres	mixed	
+75.1		Cadre 1re personne, suivi d’une série de lettres	mixed	
 99.142	t	Cadre 3e personne	heterodiegetic	
 88.39		Cadre 3e personne avec beaucoup de dialogues et récit principal 1re personne	mixed	
 89.111		Cadre 3e personne avec dialogues	mixed	
@@ -1357,7 +1357,7 @@ update				Q1
 76.13		Cadre 3e personne, avec récit principal 1re personne	mixed	
 69.9		Cadre 3e personne, avec récit principal 1re personne et lettres	mixed	
 83.55		Cadre 3e personne, avec récits 1re et 3e personnes	mixed	
-00.54		Cadre 3e personne, suivi dun récit principal 3e personne	mixed	
+00.54		Cadre 3e personne, suivi d’un récit principal 3e personne	mixed	
 89.94	t	Cadre en forme de lettres, avec récit principal 1re personne et dialogues	mixed	
 72.5		Cadre, avec une série de récits 3e personne (dans le style des contes moraux)	heterodiegetic	
 63.14		Deux entretiens (contes dialogués)	dialogue	
@@ -1385,7 +1385,7 @@ update				Q1
 89.15	m	En marge: 3e personne	heterodiegetic	
 62.26	m	En marge: 3e personne avec beaucoup de dialogue	mixed	
 76.1	m	En marge: 3e personne avec un retour en arrière 1re personne	heterodiegetic	
-74.1	m	En marge: 3e personne avec une confession 1re personne	heterodiegetic	
+74.1	m	En marge: 3e personne avec une ‘confession’ 1re personne	heterodiegetic	
 75.39bis	m	En marge: 3e personne, avec dialogues (15 Entretiens)	heterodiegetic	
 74.22	mt	En marge: 3e personne, avec récits intercalés 1re et 3e personnes	heterodiegetic	
 63.29	mt	En marge: lettres	epistolary	
@@ -1619,14 +1619,14 @@ update				Q1
 99.45	t	Lettres	epistolary	
 99.52		Lettres	epistolary	
 82.38		Lettres (correspondance au cours de laquelle la marquise raconte sa vie)	epistolary	
-98.39		Lettres (dont la plupart, écrites par Adèle, racontent lhistoire de Marie)	epistolary	
+98.39		Lettres (dont la plupart, écrites par Adèle, racontent l’histoire de Marie)	epistolary	
 67.19		Lettres (laissées dans une guinguette par un facteur ivre)	epistolary	
 52.12		Lettres (les deux premières parties offrent chacune quatre séries de lettres, tandis que la 3e partie constitue une seule histoire écrite par un homme et la 4e une histoire écrite par une femme)	epistolary	
 71.42		Lettres contenant une narration 1re personne	mixed	
-69.69		Lettres dAmabed: lettres	epistolary	
+69.69		Lettres d’Amabed: lettres	epistolary	
 89.18		Lettres et 3e personne, avec un récit intercalé 1re personne	mixed	
 71.17		Lettres vénitiennes: lettres	epistolary	
-72.31		Lettres, avec beaucoup de récits intercalés 3e personne (dont certains sont renvoyés à une sorte dappendice)	mixed	
+72.31		Lettres, avec beaucoup de récits intercalés 3e personne (dont certains sont renvoyés à une sorte d’appendice)	mixed	
 57.9		Lettres, avec commentaire	epistolary	
 88.86		Lettres, avec commentaire 3e personne	epistolary	
 67.43		Lettres, avec longs récits intercalés 1re personne	mixed	
@@ -1657,7 +1657,7 @@ update				Q1
 75.31		Lettres, avec récits intercalés 1re personne	epistolary	
 80.20		Lettres, avec récits intercalés 1re personne	epistolary	
 87.42		Lettres, avec récits intercalés 1re personne	epistolary	
-70.61	nt	Lettres, avec un conte intercalé (Amours de Ludovico & dHonoria) et la suite de lHistoire des Troglodites	epistolary	
+70.61	nt	Lettres, avec un conte intercalé (Amours de Ludovico & d’Honoria) et la suite de l’Histoire des Troglodites	epistolary	
 87.30		Lettres, avec un long récit 1re personne	mixed	
 56.5		Lettres, avec un long récit intercalé 3e personne (Histoire de Verville et de Montrose)	mixed	
 66.38		Lettres, avec un peu de narration 1re personne	epistolary	
