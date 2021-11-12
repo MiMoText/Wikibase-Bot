@@ -1,66 +1,354 @@
-FR	EN	DE	P25	P2	P2RP14		P31	P59						
-new	item		Q25	Q26	Q25									
-MiMoText Label (fr)	MiMoText Label (en)	MiMoText Label (de)				Wikidata IDs	Wikidata URLs		Wikidata Label (fr)	Wikidata Label (en)	Wikidata Label (de)	Quelle (intern)	Match quality	
-Afrique	Africa	Afrika				Q2826196	https://www.wikidata.org/wiki/Q15		Afrique	Africa	Afrika	DEL	exact match	
-Allemagne	Germany	Deutschland				Q183	https://www.wikidata.org/wiki/Q183		Allemagne	Germany	Deutschland	DEL	exact match	
-Amérique	Americas	Amerika					https://www.wikidata.org/wiki/Q828		Amérique	Americas	Amerika	BGRF	exact match	
-Amérique du Nord	North America	Nordamerika				Q49	https://www.wikidata.org/wiki/Q49		Amérique du Nord	North America	Nordamerika	DEL	exact match	
-Amérique du Sud	South America	Südamerika					https://www.wikidata.org/wiki/Q18		Amérique du Sud	South America	Südamerika	Seklit.	exact match	
-Amérique latine	Latin America	Lateinamerika				Q12585	https://www.wikidata.org/wiki/Q12585		Amérique latine	Latin America	Lateinamerika	DEL	exact match	
-Ancien régime	Ancien régime	Ancien régime				Q234081	https://www.wikidata.org/wiki/Q234081		Ancien régime	Ancien régime	Ancien régime	Seklit	exact match	
-Angleterre	England	England				Q21	https://www.wikidata.org/wiki/Q21		Angleterre	England	England	BGRF/DEL	exact match	
-atelier	atelier	Atelier				Q2072285	https://www.wikidata.org/wiki/Q2072285		atelier	atelier	Atelier	DEL	exact match	
-Balkans	Balkans	Balkan				Q23522		https://www.wikidata.org/wiki/Q23522	Balkans	Balkans	Balkanhalbinsel	DEL	close match	
-boudoir	boudoir	Boudoir				Q62238	https://www.wikidata.org/wiki/Q62238		boudoir	boudoir	Boudoir	DEL	exact match	
-cabinet de curiosité	cabinet of curiosities	Kuriositätenkabinett				Q1146002		https://www.wikidata.org/wiki/Q1146002	cabinet de curiosités	cabinet of curiosities	Wunderkammer	DEL	close match	
-Café	coffeehouse	Café				Q30022	https://www.wikidata.org/wiki/Q30022		Café	coffeehouse	Café	DEL	exact match	
-Canal	canal	Kanal				Q12284	https://www.wikidata.org/wiki/Q12284		canal	canal	Kanal	DEL	exact match	
-Chine	China	China				Q29520	https://www.wikidata.org/wiki/Q29520		chine	china	China	DEL	exact match	
-coche	coach	Kutsche					https://www.wikidata.org/wiki/Q4655519		coche	coach	Kutsche	BGRF	exact match	
-cour	court	Hof				Q1134237		https://www.wikidata.org/wiki/Q1134237	cour	court	Hofstaat	DEL	close match	
-Danemark	Denmark	Dänemark				Q35	https://www.wikidata.org/wiki/Q35		Danemark	denmark	Dänemark	DEL	exact match	
-désert	desert	Wüste					https://www.wikidata.org/wiki/Q8514		désert	desert	Wüste	BGRF	exact match	
-Écosse	Scotland	Schottland				Q22	https://www.wikidata.org/wiki/Q22		Écosse	Scotland	Schottland	DEL	exact match	
-Égypte	Egypte	Ägypten					https://www.wikidata.org/wiki/Q79		Égypte	Egypte	Ägypten	BGRF	exact match	
-enfer	hell	Hölle					https://www.wikidata.org/wiki/Q564		enfer	hell	Hölle	BGRF	exact match	
-Espagne	Spain	Spanien					https://www.wikidata.org/wiki/Q29		Espagne	Spain	Spanien	BGRF/DEL	exact match	
-Europe	europe	Europa				Q46	https://www.wikidata.org/wiki/Q46		europe	europe	Europa	BGRF/DEL	exact match	
-foire	fair	Jahrmarkt				Q288514	https://www.wikidata.org/wiki/Q288514		Foire	fair	Jahrmarkt	DEL	exact match	
-France	France	Frankreich				Q142	https://www.wikidata.org/wiki/Q142		France	France	Frankreich	BGRF/DEL	exact match	
-Grèce	Greece	Griechenland					https://www.wikidata.org/wiki/Q41		Grèce	Greece	Griechenland	BGRF	exact match	
-grotte	grotto	Grotte						https://www.wikidata.org/wiki/Q1131329	grotte	grotto	Grotte	BGRF	close match	
-grotte	cave	Höhle						https://www.wikidata.org/wiki/Q35509	grotte	cave	Höhle	BGRF	close match	
-Hollande	Netherlands	Niederlande				Q55		https://www.wikidata.org/wiki/Q55	Pays-Bas	Netherlands	Niederlande	DEL	close match	
-Hongrie	Hungary	Ungarn				Q28	https://www.wikidata.org/wiki/Q28		Hongrie	Hungary	Ungarn	DEL	exact match	
-hôpital	hospital	Krankenhaus				Q16917	https://www.wikidata.org/wiki/Q16917		hôpital	hospital	Krankenhaus	DEL	exact match	
-île	island	Insel				Q23442	https://www.wikidata.org/wiki/Q23442		île	island	Insel	DEL	exact match	
-Italie	Italy	Italien				Q38	https://www.wikidata.org/wiki/Q38		Italie	Italy	Italien	DEL	exact match	
-Japon	Japan	Japan				Q17	https://www.wikidata.org/wiki/Q17		Japon	Japan	Japan	DEL	exact match	
-jardin	garden	Garten				Q1107656	https://www.wikidata.org/wiki/Q1107656		jardin	garden	Garten	DEL	exact match	
-lieu imaginaire	imaginary place	imaginärer Ort						https://www.wikidata.org/wiki/Q3895768	lieu de fiction	fictional location	fiktiver Ort	BGRF	close match	
-Locus amoenus	Locus amoenus	Locus amoenus				Q739317	https://www.wikidata.org/wiki/Q739317		locus amoenus	locus amoenus	Locus amoenus	Topic Modeling	exact match	
-lune	moon	Mond					https://www.wikidata.org/wiki/Q405		lune	moon	Mond	BGRF	exact match	
-monastère	monastery	Kloster					https://www.wikidata.org/wiki/Q44613		monastère	monastery	Kloster	BGRF	exact match	
-montagne	mountain	Berg				Q8502	https://www.wikidata.org/wiki/Q8502		montagne	mountain	Berg	DEL	exact match	
-musée	museum	Museum				Q33506	https://www.wikidata.org/wiki/Q33506		musée	museum	Museum	DEL	exact match	
-observatoire	observatory	Observatorium				Q62832	https://www.wikidata.org/wiki/Q62832		observatoire	observatory	Observatorium	DEL	exact match	
-opéra	opera	Oper				Q1344	https://www.wikidata.org/wiki/Q1344		opéra	opera	Oper	DEL	exact match	
-Orient	Orient	Orient				Q205653	https://www.wikidata.org/wiki/Q205653		orient	orient	Orient	BGRF/DEL	exact match	
-paradis	paradise	Paradies				Q3363340	https://www.wikidata.org/wiki/Q3363340		paradis	paradise	Paradies	Seklit	exact match	
-paysage	landscape	Landschaft				Q107425	https://www.wikidata.org/wiki/Q107425		paysage	landscape	Landschaft	DEL	exact match	
-Pologne	Poland	Polen				Q36	https://www.wikidata.org/wiki/Q36		Pologne	Poland	Polen	DEL	exact match	
-port	port	Hafen				Q44782	https://www.wikidata.org/wiki/Q44782		Port	port	Hafen	DEL	exact match	
-Portugal	Portugal	Portugal				Q45	https://www.wikidata.org/wiki/Q45		Portugal	Portugal	Portugal	DEL	exact match	
-prison	prison	Gefängnis				Q40357	https://www.wikidata.org/wiki/Q40357		prison	prison	Gefängnis	BGRF/DEL	exact match	
-Proche-Orient	Near East	Naher Osten					https://www.wikidata.org/wiki/Q48214		Proche-Orient	Near East	Naher Osten	Seklit.		
-ruine	ruin	Ruine				Q109607		https://www.wikidata.org/wiki/Q109607	ruine	ruins	Ruine	BGRF/DEL	close match	
-Russie	Russia	Russland				Q159	https://www.wikidata.org/wiki/Q159		Russie	Russia	Russland	DEL	exact match	
-Saint-Empire romain germanique	Holy Roman Empire	Heiliges Römisches Reich				Q12548	https://www.wikidata.org/wiki/Q12548		Saint-Empire romain germanique	Holy Roman Empire	Heiliges Römisches Reich	DEL	exact match	
-salon	salon	Salon				Q576342	https://www.wikidata.org/wiki/Q576342		salon	salon	literarischer Salon	DEL	exact match	
-Suède	Sweden	Schweden				Q34	https://www.wikidata.org/wiki/Q34		Suède	Sweden	Schweden	DEL	exact match	
-Suisse	Switzerland	Schweiz				Q39	https://www.wikidata.org/wiki/Q39		Suisse	Switzerland	Schweiz	DEL	exact match	
-système solaire	solar system	Sonnensystem				Q544	https://www.wikidata.org/wiki/Q544		système solaire	Solar system	Sonnensystem	DEL	exact match	
-terre	earth	Erde				Q2	https://www.wikidata.org/wiki/Q2		Terre	Earth	Erde	DEL	exact match	
-théâtre	theater	Theater				Q11635	https://www.wikidata.org/wiki/Q11635		théâtre	theater	Theater	DEL	exact match	
-village	village	Dorf				Q532	https://www.wikidata.org/wiki/Q532		village	village	Dorf	DEL	exact match	
-ville	city	Stadt				Q515	https://www.wikidata.org/wiki/Q515		ville	city	Stadt	DEL	exact match	
+FR	EN	DE	P25	P2	P2RP14		P31	P59	P60							
+create	items		Q25	Q26	Q25											
+MiMoText Label (fr)	MiMoText Label (en)	MiMoText Label (de)				Wikidata IDs	Wikidata URLs		coordonnées géographiques	Wikidata Label (fr)	Wikidata Label (en)	Wikidata Label (de)	Quelle (intern)	Match quality		Quelle
+Afrique	Africa	Afrika				Q2826196	https://www.wikidata.org/wiki/Q15			Afrique	Africa	Afrika	DEL	exact match		
+Allemagne	Germany	Deutschland				Q183	https://www.wikidata.org/wiki/Q183			Allemagne	Germany	Deutschland	DEL	exact match		
+Amérique	Americas	Amerika					https://www.wikidata.org/wiki/Q828			Amérique	Americas	Amerika	BGRF	exact match		
+Amérique du Nord	North America	Nordamerika				Q49	https://www.wikidata.org/wiki/Q49			Amérique du Nord	North America	Nordamerika	DEL	exact match		
+Amérique du Sud	South America	Südamerika					https://www.wikidata.org/wiki/Q18			Amérique du Sud	South America	Südamerika	Seklit.	exact match		
+Amérique latine	Latin America	Lateinamerika				Q12585	https://www.wikidata.org/wiki/Q12585			Amérique latine	Latin America	Lateinamerika	DEL	exact match		
+Ancien régime	Ancien régime	Ancien régime				Q234081	https://www.wikidata.org/wiki/Q234081			Ancien régime	Ancien régime	Ancien régime	Seklit	exact match		
+Angleterre	England	England				Q21	https://www.wikidata.org/wiki/Q21			Angleterre	England	England	BGRF/DEL	exact match		
+atelier	atelier	Atelier				Q2072285	https://www.wikidata.org/wiki/Q2072285			atelier	atelier	Atelier	DEL	exact match		
+Balkans	Balkans	Balkan				Q23522		https://www.wikidata.org/wiki/Q23522		Balkans	Balkans	Balkanhalbinsel	DEL	close match		
+boudoir	boudoir	Boudoir				Q62238	https://www.wikidata.org/wiki/Q62238			boudoir	boudoir	Boudoir	DEL	exact match		
+cabinet de curiosité	cabinet of curiosities	Kuriositätenkabinett				Q1146002		https://www.wikidata.org/wiki/Q1146002		cabinet de curiosités	cabinet of curiosities	Wunderkammer	DEL	close match		
+Café	coffeehouse	Café				Q30022	https://www.wikidata.org/wiki/Q30022			Café	coffeehouse	Café	DEL	exact match		
+Canal	canal	Kanal				Q12284	https://www.wikidata.org/wiki/Q12284			canal	canal	Kanal	DEL	exact match		
+Chine	China	China				Q29520	https://www.wikidata.org/wiki/Q29520			chine	china	China	DEL	exact match		
+coche	coach	Kutsche					https://www.wikidata.org/wiki/Q4655519			coche	coach	Kutsche	BGRF	exact match		
+cour	court	Hof				Q1134237		https://www.wikidata.org/wiki/Q1134237		cour	court	Hofstaat	DEL	close match		
+Danemark	Denmark	Dänemark				Q35	https://www.wikidata.org/wiki/Q35			Danemark	denmark	Dänemark	DEL	exact match		
+désert	desert	Wüste					https://www.wikidata.org/wiki/Q8514			désert	desert	Wüste	BGRF	exact match		
+Écosse	Scotland	Schottland				Q22	https://www.wikidata.org/wiki/Q22			Écosse	Scotland	Schottland	DEL	exact match		
+Égypte	Egypte	Ägypten					https://www.wikidata.org/wiki/Q79			Égypte	Egypte	Ägypten	BGRF	exact match		
+enfer	hell	Hölle					https://www.wikidata.org/wiki/Q564			enfer	hell	Hölle	BGRF	exact match		
+Espagne	Spain	Spanien					https://www.wikidata.org/wiki/Q29			Espagne	Spain	Spanien	BGRF/DEL	exact match		
+Europe	europe	Europa				Q46	https://www.wikidata.org/wiki/Q46			europe	europe	Europa	BGRF/DEL	exact match		
+foire	fair	Jahrmarkt				Q288514	https://www.wikidata.org/wiki/Q288514			Foire	fair	Jahrmarkt	DEL	exact match		
+France	France	Frankreich				Q142	https://www.wikidata.org/wiki/Q142			France	France	Frankreich	BGRF/DEL	exact match		
+Grèce	Greece	Griechenland					https://www.wikidata.org/wiki/Q41			Grèce	Greece	Griechenland	BGRF	exact match		
+grotte	grotto	Grotte						https://www.wikidata.org/wiki/Q1131329		grotte	grotto	Grotte	BGRF	close match		
+grotte	cave	Höhle						https://www.wikidata.org/wiki/Q35509		grotte	cave	Höhle	BGRF	close match		
+Hollande	Netherlands	Niederlande				Q55		https://www.wikidata.org/wiki/Q55		Pays-Bas	Netherlands	Niederlande	DEL	close match		
+Hongrie	Hungary	Ungarn				Q28	https://www.wikidata.org/wiki/Q28			Hongrie	Hungary	Ungarn	DEL	exact match		
+hôpital	hospital	Krankenhaus				Q16917	https://www.wikidata.org/wiki/Q16917			hôpital	hospital	Krankenhaus	DEL	exact match		
+île	island	Insel				Q23442	https://www.wikidata.org/wiki/Q23442			île	island	Insel	DEL	exact match		
+Italie	Italy	Italien				Q38	https://www.wikidata.org/wiki/Q38			Italie	Italy	Italien	DEL	exact match		
+Japon	Japan	Japan				Q17	https://www.wikidata.org/wiki/Q17			Japon	Japan	Japan	DEL	exact match		
+jardin	garden	Garten				Q1107656	https://www.wikidata.org/wiki/Q1107656			jardin	garden	Garten	DEL	exact match		
+lieu imaginaire	imaginary place	imaginärer Ort						https://www.wikidata.org/wiki/Q3895768		lieu de fiction	fictional location	fiktiver Ort	BGRF	close match		
+Locus amoenus	Locus amoenus	Locus amoenus				Q739317	https://www.wikidata.org/wiki/Q739317			locus amoenus	locus amoenus	Locus amoenus	Topic Modeling	exact match		
+lune	moon	Mond					https://www.wikidata.org/wiki/Q405			lune	moon	Mond	BGRF	exact match		
+monastère	monastery	Kloster					https://www.wikidata.org/wiki/Q44613			monastère	monastery	Kloster	BGRF	exact match		
+montagne	mountain	Berg				Q8502	https://www.wikidata.org/wiki/Q8502			montagne	mountain	Berg	DEL	exact match		
+musée	museum	Museum				Q33506	https://www.wikidata.org/wiki/Q33506			musée	museum	Museum	DEL	exact match		
+observatoire	observatory	Observatorium				Q62832	https://www.wikidata.org/wiki/Q62832			observatoire	observatory	Observatorium	DEL	exact match		
+opéra	opera	Oper				Q1344	https://www.wikidata.org/wiki/Q1344			opéra	opera	Oper	DEL	exact match		
+Orient	Orient	Orient				Q205653	https://www.wikidata.org/wiki/Q205653			orient	orient	Orient	BGRF/DEL	exact match		
+paradis	paradise	Paradies				Q3363340	https://www.wikidata.org/wiki/Q3363340			paradis	paradise	Paradies	Seklit	exact match		
+paysage	landscape	Landschaft				Q107425	https://www.wikidata.org/wiki/Q107425			paysage	landscape	Landschaft	DEL	exact match		
+Pologne	Poland	Polen				Q36	https://www.wikidata.org/wiki/Q36			Pologne	Poland	Polen	DEL	exact match		
+port	port	Hafen				Q44782	https://www.wikidata.org/wiki/Q44782			Port	port	Hafen	DEL	exact match		
+Portugal	Portugal	Portugal				Q45	https://www.wikidata.org/wiki/Q45			Portugal	Portugal	Portugal	DEL	exact match		
+prison	prison	Gefängnis				Q40357	https://www.wikidata.org/wiki/Q40357			prison	prison	Gefängnis	BGRF/DEL	exact match		
+Proche-Orient	Near East	Naher Osten					https://www.wikidata.org/wiki/Q48214			Proche-Orient	Near East	Naher Osten	Seklit.			
+ruine	ruin	Ruine				Q109607		https://www.wikidata.org/wiki/Q109607		ruine	ruins	Ruine	BGRF/DEL	close match		
+Russie	Russia	Russland				Q159	https://www.wikidata.org/wiki/Q159			Russie	Russia	Russland	DEL	exact match		
+Saint-Empire romain germanique	Holy Roman Empire	Heiliges Römisches Reich				Q12548	https://www.wikidata.org/wiki/Q12548			Saint-Empire romain germanique	Holy Roman Empire	Heiliges Römisches Reich	DEL	exact match		
+salon	salon	Salon				Q576342	https://www.wikidata.org/wiki/Q576342			salon	salon	literarischer Salon	DEL	exact match		
+Suède	Sweden	Schweden				Q34	https://www.wikidata.org/wiki/Q34			Suède	Sweden	Schweden	DEL	exact match		
+Suisse	Switzerland	Schweiz				Q39	https://www.wikidata.org/wiki/Q39			Suisse	Switzerland	Schweiz	DEL	exact match		
+système solaire	solar system	Sonnensystem				Q544	https://www.wikidata.org/wiki/Q544			système solaire	Solar system	Sonnensystem	DEL	exact match		
+terre	earth	Erde				Q2	https://www.wikidata.org/wiki/Q2			Terre	Earth	Erde	DEL	exact match		
+théâtre	theater	Theater				Q11635	https://www.wikidata.org/wiki/Q11635			théâtre	theater	Theater	DEL	exact match		
+village	village	Dorf				Q532	https://www.wikidata.org/wiki/Q532			village	village	Dorf	DEL	exact match		
+ville	city	Stadt				Q515	https://www.wikidata.org/wiki/Q515			ville	city	Stadt	DEL	exact match		
+Europe							https://www.wikidata.org/wiki/Q46		48.690959,9.14062						Europe	NER
+Aiglemont							https://www.wikidata.org/wiki/Q541738		49.781388888889,4.7658333333333						Aiglemont	NER
+Albi															Albi	NER
+Alcine															Alcine	NER
+Alep							https://www.wikidata.org/wiki/Q41183		36.2,37.15						Alep	NER
+Alibre															Alibre	NER
+Alibre															Alibre	NER
+Allemagne							https://www.wikidata.org/wiki/Q183		51,10						Allemagne	NER
+Almont															Almont	NER
+Amand															Amand	NER
+Amazan															Amazan	NER
+Amiens							https://www.wikidata.org/wiki/Q41604		49.891944444444,2.2977777777778						Amiens	NER
+Angleterre							https://www.wikidata.org/wiki/Q21		53,-1						Angleterre	NER
+Annecy							https://www.wikidata.org/wiki/Q50189		45.899166666667,6.1294444444444						Annecy	NER
+Arcis															Arcis	NER
+Armincourt															Armincourt	NER
+Arras							https://www.wikidata.org/wiki/Q131329		50.289166666667,2.78						Arras	NER
+Athènes							https://www.wikidata.org/wiki/Q1524		37.98416666666667,23.728055555555557						Athenes	NER
+Auxerre							https://www.wikidata.org/wiki/Q167600		47.7975,3.5669444444444						Auxerre	NER
+Bactriane							https://www.wikidata.org/wiki/Q132646		36.758056,66.898889						Bactriane	NER
+Barin															Barin	NER
+Baronnet															Baronnet	NER
+Bath							https://www.wikidata.org/wiki/Q22889		51.381389,-2.358611						Bath	NER
+Beaumenard															Beaumenard	NER
+Belcour															Belcour	NER
+Belise															Belise	NER
+Bordeaux							https://www.wikidata.org/wiki/Q1479		44.837777777778,-0.57944444444444						Bordeaux	NER
+Bougainville															Bougainville	NER
+															Boulogne	NER
+Branlinos															Branlinos	NER
+Bretagne							https://www.wikidata.org/wiki/Q327		48,-3						Bretagne	NER
+Briceval															Briceval	NER
+Bruxelles															Bruxelles	NER
+Bude															Bude	NER
+Buenos Aires							https://www.wikidata.org/wiki/Q1486		-34.599722222222,-58.381944444444						Buenos-Ayres	NER
+Bulgarie							https://www.wikidata.org/wiki/Q219		42.75,25.5						Bulgares	NER
+Caen							https://www.wikidata.org/wiki/Q41185		49.182222222222,-0.37055555555556						Caen	NER
+Calais															Calais	NER
+Cardoville															Cardoville	NER
+Cérès							https://www.wikidata.org/wiki/Q596								Cérès	NER
+Chambéry							https://www.wikidata.org/wiki/Q165090		45.566388888889,5.9208333333333						Chambery	NER
+Chelles															Chelles	NER
+Cidalise															Cidalise	NER
+Cieux							https://www.wikidata.org/wiki/Q597576		45.991666666667,1.0452777777778						Cieux	NER
+Clarens															Clarens	NER
+Combe															Combe	NER
+Comminges															Comminges	NER
+Constantinople							https://www.wikidata.org/wiki/Q16869		41.01224,28.976018						Constantinople	NER
+Corée							https://www.wikidata.org/wiki/Q18097		38.316666666667,127.23333333333						Corée	NER
+couvent							https://www.wikidata.org/wiki/Q1128397								Couvent	NER
+Cressy															Cressy	NER
+Cuzco							https://www.wikidata.org/wiki/Q205057		-13.26,-72.11						Cusco	NER
+Dainville															Dainville	NER
+France							https://www.wikidata.org/wiki/Q142		47,2						de France	NER
+Déterville															Déterville	NER
+Diaulas															Diaulas	NER
+Dijon							https://www.wikidata.org/wiki/Q7003		47.323055555556,5.0419444444444						Dijon	NER
+Dinazarde															Dinazarde	NER
+Dolimon															Dolimon	NER
+Dorneuil															Dorneuil	NER
+Dorville															Dorville	NER
+Égypte							https://www.wikidata.org/wiki/Q79		27,29						Égypte	NER
+Elmasie															Elmasie	NER
+Eranville															Eranville	NER
+Espagne							https://www.wikidata.org/wiki/Q29		40.2,-3.5						espagnol	NER
+est							https://www.wikidata.org/wiki/Q684								Est	NER
+Estrémadure							https://www.wikidata.org/wiki/Q742117		38.708042,-9.139016						Estrémadure	NER
+État							https://www.wikidata.org/wiki/Q7275								Etat	NER
+Europe															Europe	NER
+Fakreddin															Fakreddin	NER
+Fanchette															Fanchette	NER
+Fanchette															Fanchette	NER
+Fermon															Fermon	NER
+Fessinot															Fessinot	NER
+Flamacour															Flamacour	NER
+Florimonde															Florimonde	NER
+Florise															Florise	NER
+France							https://www.wikidata.org/wiki/Q142		47,2						France	NER
+Francfort-sur-le-Main							https://www.wikidata.org/wiki/Q1794		50.113611111111,8.6797222222222						Francfort	NER
+Fromonville															Fromonville	NER
+Gaine															Gaine	NER
+Galligènes															Galligènes	NER
+Géminyile															Géminyile	NER
+Gercourt-et-Drillancourt							https://www.wikidata.org/wiki/Q217293		49.285,5.2380555555556						Gercourt	NER
+Gersay															Gersay	NER
+Royaume-Uni							https://www.wikidata.org/wiki/Q145		54.6,-2						Grande-Bretagne	NER
+Guaé															Guaé	NER
+Guaiziek															Guaiziek	NER
+Gulchenrouz															Gulchenrouz	NER
+Hariote															Hariote	NER
+Hiboumanes															Hiboumanes	NER
+Hongrie							https://www.wikidata.org/wiki/Q28		47,19						Hongrie	NER
+Hortence							https://www.wikidata.org/wiki/Q21144570								Hortence	NER
+Hyrcanie							https://www.wikidata.org/wiki/Q48726		36.967822,55.011854						Hyrcanie	NER
+Inare															Inare	NER
+civilisation inca							https://www.wikidata.org/wiki/Q3404008								incas	NER
+Inde							https://www.wikidata.org/wiki/Q668		22.8,83						Inde	NER
+Isle															Isle	NER
+Isles															Isles	NER
+Isménie															Isménie	NER
+Italie							https://www.wikidata.org/wiki/Q38		42.5,12.5						Italie	NER
+Jagrenat															Jagrenat	NER
+Jupiter							https://www.wikidata.org/wiki/Q319								Jupiter	NER
+Jura							https://www.wikidata.org/wiki/Q178611		47.2431,6.0219						jura	NER
+France							https://www.wikidata.org/wiki/Q142		47,2						la France	NER
+Terre							https://www.wikidata.org/wiki/Q2								la Terre	NER
+Lacédémone															Lacédémone	NER
+Lagaraye															Lagaraye	NER
+Lagouache															Lagouache	NER
+Languedoc							https://www.wikidata.org/wiki/Q206221		43.666666666667,3.1666666666667						Languedoc	NER
+Laurède							https://www.wikidata.org/wiki/Q1111777		43.755555555556,-0.78861111111111						Lauréda	NER
+Lausanne							https://www.wikidata.org/wiki/Q807		46.533333333333,6.6333333333333						Lausanne	NER
+Layrac															Layrac	NER
+le Taïtien															le Taïtien	NER
+Lesseville															Lesseville	NER
+Liège							https://www.wikidata.org/wiki/Q3992		50.639722222222225,5.570555555555556						Liège	NER
+Locriens															Locriens	NER
+Loire							https://www.wikidata.org/wiki/Q1469		44.841666666667,4.2186111111111						Loire	NER
+Londres							https://www.wikidata.org/wiki/Q84		51.507222222222,-0.1275						Londres	NER
+Longchamp															Longchamp	NER
+Lyon							https://www.wikidata.org/wiki/Q456		45.758888888889,4.8413888888889						Lyon	NER
+Manzaïde															Manzaïde	NER
+Massanne															Massanne	NER
+Médie															Médie	NER
+Memphis							https://www.wikidata.org/wiki/Q5715		29.85412,31.25934						Memphis	NER
+Ménécrate															Ménécrate	NER
+mer Baltique							https://www.wikidata.org/wiki/Q545		58,20						mer Baltique	NER
+Mérida							https://www.wikidata.org/wiki/Q14323		38.915833333333,-6.3333333333333						Mérida	NER
+Méris															Méris	NER
+Merval															Merval	NER
+Michette							https://www.wikidata.org/wiki/Q6747596								Michette	NER
+Milcourt															Milcourt	NER
+Minois															Minois	NER
+Mirval															Mirval	NER
+Mœris															Mœris	NER
+Molinos															Molinos	NER
+Montfort															Montfort	NER
+Montpellier							https://www.wikidata.org/wiki/Q6441		43.610919444444,3.8772305555556						Montpellier	NER
+Morakanabad															Morakanabad	NER
+Murcé															Murcé	NER
+Naples							https://www.wikidata.org/wiki/Q2634		40.833333333333,14.25						Naples	NER
+Nasuf															Nasuf	NER
+Neuilly															Neuilly	NER
+Nisida							https://www.wikidata.org/wiki/Q1192720		40.795277777778,14.163333333333						Nisida	NER
+Nismes															Nismes	NER
+Nitri															Nitri	NER
+Noyers							https://www.wikidata.org/wiki/Q732586		47.696944444444,3.9938888888889						Noyers	NER
+															Olympia	NER
+opéra	opera house						https://www.wikidata.org/wiki/Q153562								Opéra	NER
+Orbe															Orbe	NER
+Orl															Orl	NER
+Ormilly															Ormilly	NER
+Orseuil															Orseuil	NER
+Palais-Royal							https://www.wikidata.org/wiki/Q329948		48.863333333333,2.3369444444444						palais-royal	NER
+Paquantois															Paquantois	NER
+Parangon															Parangon	NER
+Paris							https://www.wikidata.org/wiki/Q90		48.856944444444,2.3513888888889						Paris	NER
+pays							https://www.wikidata.org/wiki/Q6256								Pays	NER
+Phocide							https://www.wikidata.org/wiki/Q26915		38.5,22.25						Phocide	NER
+Phocus															Phocus	NER
+Pologne							https://www.wikidata.org/wiki/Q36		52,19						Polonais	NER
+Primrose															Primrose	NER
+zone géographique							https://www.wikidata.org/wiki/Q82794								Région	NER
+république							https://www.wikidata.org/wiki/Q7270								République	NER
+Rome							https://www.wikidata.org/wiki/Q220		41.893055555556,12.482777777778						Rome	NER
+Rosemont															Rosemont	NER
+Saint - Flour															Saint - Flour	NER
+Saint-Ange															Saint-Ange	NER
+Saint-Domingue							https://www.wikidata.org/wiki/Q861551		19.1,-72.333333333333						Saint-Domingue	NER
+Saint-Firmin							https://www.wikidata.org/wiki/Q37180		47.043333333333,3.3916666666667						Saint-Firmin	NER
+Saint-Flour															Saint-Flour	NER
+Saintré															Saintré	NER
+Samarah							https://www.wikidata.org/wiki/Q20306954		16.139722222222,43.151944444444						Samarah	NER
+Sancerre															Sancerre	NER
+Sargines															Sargines	NER
+sauvai															sauvai	NER
+Savoie							https://www.wikidata.org/wiki/Q14118		45.57,5.9118						Savoye	NER
+Scythes							https://www.wikidata.org/wiki/Q131802								Scythes	NER
+Seine							https://www.wikidata.org/wiki/Q1471		49.434722222222,0.1175						Seine	NER
+Senneterre															Senneterre	NER
+Senneville															Senneville	NER
+sérail							https://www.wikidata.org/wiki/Q1170287								Sérail	NER
+Sicile							https://www.wikidata.org/wiki/Q4951156		37.566666666667,14.266666666667						Sicile	NER
+Sidley															Sidley	NER
+Silvérie							https://www.wikidata.org/wiki/Q19232000								Silvérie	NER
+Sinderson															Sinderson	NER
+Sirius							https://www.wikidata.org/wiki/Q3409								Sirius	NER
+Soleil							https://www.wikidata.org/wiki/Q525								soleil	NER
+Sparte							https://www.wikidata.org/wiki/Q5690		37.081944444444,22.423611111111						Sparte	NER
+Strasbourg							https://www.wikidata.org/wiki/Q6602		48.573333333333,7.7522222222222						Strasbourg	NER
+Sylvanire															Sylvanire	NER
+Syndham															Syndham	NER
+Tahiti							https://www.wikidata.org/wiki/Q42000		-17.666666666667,-149.46666666667						Taïti	NER
+Taninges							https://www.wikidata.org/wiki/Q369188		46.1075,6.5913888888889						Taninge	NER
+Téolinde															Téolinde	NER
+Tergowitz															Tergowitz	NER
+Thémines															Thémines	NER
+Thomill															Thomill	NER
+Thrazylle															Thrazylle	NER
+Tien															Tien	NER
+Tiennete															Tiennete	NER
+Timante															Timante	NER
+Timori															Timori	NER
+Tours							https://www.wikidata.org/wiki/Q288		47.392777777778,0.68833333333333						Tours	NER
+Tout-Ou-Rien															Tout-Ou-Rien	NER
+Turin							https://www.wikidata.org/wiki/Q495		45.066666666667,7.7						Turin	NER
+univers							https://www.wikidata.org/wiki/Q1								Univers	NER
+Ust															Ust	NER
+Valcreux															Valcreux	NER
+Vante															Vante	NER
+Varsovie							https://www.wikidata.org/wiki/Q270		52.216666666667,21.033333333333						Varsovie	NER
+Venise							https://www.wikidata.org/wiki/Q641		45.439722222222,12.331944444444						Venise	NER
+Vénus							https://www.wikidata.org/wiki/Q313								Vénus	NER
+Versenai															Versenai	NER
+vestibule							https://www.wikidata.org/wiki/Q301276								Vestibule	NER
+domaine de Villarceaux							https://www.wikidata.org/wiki/Q3034560		49.123055555556,1.7058333333333						Villarceaux	NER
+ville							https://www.wikidata.org/wiki/Q515								Ville	NER
+Vinchester															Vinchester	NER
+Vitikind															Vitikind	NER
+Volsange															Volsange	NER
+Wilton															Wilton	NER
+Zamé							https://www.wikidata.org/wiki/Q8065766		11.083333333333,-0.56666666666667						Zamé	NER
+Zeinzemin															Zeinzemin	NER
+Zéphyre							https://www.wikidata.org/wiki/Q3576516								Zéphyre	NER
+															Zerbin	NER
+Alménidore															Alménidore	NER
+Alpes							https://www.wikidata.org/wiki/Q1286		46,10						Alpes	NER
+Altendorf							https://www.wikidata.org/wiki/Q69625		47.192222222222,8.83						Altendorf	NER
+Anglesey							https://www.wikidata.org/wiki/Q168159		53.293975,-4.376728						Anglesey	NER
+Ardasire															Ardasire	NER
+Armoflède															Armoflède	NER
+Artidore															Artidore	NER
+Auterive															Auterive	NER
+Axiochus															Axiochus	NER
+Babylone							https://www.wikidata.org/wiki/Q5684		32.541780555556,44.431644444444						Babylone	NER
+Barville															Barville	NER
+Bazilette															Bazilette	NER
+Belosane															Belosane	NER
+															Célimene	NER
+couvent							https://www.wikidata.org/wiki/Q1128397								Couvent	NER
+Desglands															Desglands	NER
+Dubois															Dubois	NER
+Erford							https://www.wikidata.org/wiki/Q36858333								Erford	NER
+État							https://www.wikidata.org/wiki/Q7275								État	NER
+Euphrosie															Euphrosie	NER
+Europe							https://www.wikidata.org/wiki/Q46		48.690959,9.14062						Europe	NER
+Fleur-De-Myrte															Fleur-De-Myrte	NER
+Florizene															Florizene	NER
+Florizene															Florizene	NER
+Français															Français	NER
+Franval															Franval	NER
+Frivolipolis															Frivolipolis	NER
+Gange							https://www.wikidata.org/wiki/Q5089		22.0833,90.8333						Gange	NER
+Golconde															Golconde	NER
+Grèce							https://www.wikidata.org/wiki/Q41		38.5,23						Grèce	NER
+Kermouth															Kermouth	NER
+Lamontette															Lamontette	NER
+Londres							https://www.wikidata.org/wiki/Q84		51.507222222222,-0.1275						Londres	NER
+Luzan															Luzan	NER
+Marville							https://www.wikidata.org/wiki/Q59176		49.452222222222,5.4558333333333						Marville	NER
+Mondelis															Mondelis	NER
+Mortagne															Mortagne	NER
+Nancy							https://www.wikidata.org/wiki/Q40898		48.692777777778,6.1836111111111						Nancy	NER
+Nassès															Nassès	NER
+Némorin															Némorin	NER
+Nouronihar															Nouronihar	NER
+palais							https://www.wikidata.org/wiki/Q16560								Palais	NER
+Paquans															Paquans	NER
+Paris							https://www.wikidata.org/wiki/Q90		48.856944444444,2.3513888888889						Paris	NER
+Periphas															Periphas	NER
+Pizarre															Pizarre	NER
+Rome							https://www.wikidata.org/wiki/Q220		41.893055555556,12.482777777778						Rome	NER
+Russie							https://www.wikidata.org/wiki/Q159		66.41666666666667,94.25						Russes	NER
+Saint-Flour															Saint-Flour	NER
+Saint-Silvain															Saint-Silvain	NER
+Saturne							https://www.wikidata.org/wiki/Q193								Saturne	NER
+Schah-Baham															Schah-Baham	NER
+S-Firmin															S-Firmin	NER
+Stainville							https://www.wikidata.org/wiki/Q210672		48.653611111111,5.1855555555556						Stainville	NER
+Sydney															Sydney	NER
+Tahiti							https://www.wikidata.org/wiki/Q42000		-17.666666666667,-149.46666666667						Taïtiens	NER
+Tibéré							https://www.wikidata.org/wiki/Q23663811		6.0666666666667,14.316666666667						Tibére	NER
+Trénel															Trénel	NER
+Venise							https://www.wikidata.org/wiki/Q641		45.439722222222,12.331944444444						Venise	NER
+Verglan															Verglan	NER
+Vernol															Vernol	NER
+Verseuil							https://www.wikidata.org/wiki/Q55038540								Verseuil	NER
+Vienne							https://www.wikidata.org/wiki/Q1741		48.20833,16.373064						Vienne	NER
