@@ -1,6 +1,7 @@
 import pywikibot
 from pywikibot.data import api
 import wikiSQL as SQL
+import re
 
 
 '''
@@ -34,6 +35,7 @@ def CreateItem(repo, ENDPOINT, row):
   row (list) - list with title, description, 
 
   '''
+  #TODO: quatsch? anders
   if 'FR' in row and not SQL.GetEntryOverSPARQL(ENDPOINT, row['FR']) or 'DE' in row and not SQL.GetEntryOverSPARQL(ENDPOINT, row['DE']) or 'EN' in row and not SQL.GetEntryOverSPARQL(ENDPOINT, row['EN']):
     new_item = pywikibot.ItemPage(repo)
     if 'FR' in row:
@@ -142,14 +144,12 @@ def GetProperty(site, item):
   '''
   return PID of Property
   '''
-  print(item)
   wikiEntries = getProperties(site, item)
   if wikiEntries['search']:
     QID = 0
     for elem in wikiEntries['search']:
       if elem['label'] == item:
         QID = elem['id']
-        print('GetProperty ' + QID)
     return QID
   return
 
@@ -162,7 +162,7 @@ def CreateProperty(repo, title, datatypeProp):
   datatypeProp (string) - type of property, need to be wikibase compliant
   '''
   # TODO: Exchange CheckForProperty with SparQL search?
-  if CheckForProperty(title):
+  if CheckForProperty(repo, title):
     new_item = pywikibot.PropertyPage(repo,datatype=datatypeProp)
     label_dict = {'fr': title, 'de': title, 'en':title}
     new_item.editLabels(labels=label_dict, summary='Setting labels') 
@@ -181,7 +181,7 @@ def CreateReferenz(repo, ENDPOINT, claim, ref_prop, ref_target):
   '''
 
   if ref_target[:1] != 'Q':
-    ref_target = SQL.GetEntryOverSPARQL(ENDPOINT,ref_target, SQL.SparQL_Mode.ID)
+    ref_target = SQL.GetEntryOverSPARQL(ENDPOINT,ref_target, SQL.SparQL_Mode.QID)
   targetFound = False
   for claimSources in claim.getSources():
     for referenceProperty, referenceClaims in claimSources.items():
@@ -223,8 +223,10 @@ def CreateClaim(repo, ENDPOINT, item, prop, target, references = None):
   for claimProperty, claims in itemClaims.items():
     if claimProperty == prop:
       for claim in claims:
-        print(claim)
-        claimTargetId = claim.getTarget().id
+        if target == "99.11": #TODO: different werk
+          claimTargetId = None
+        else:
+          claimTargetId = claim.getTarget().id
         if claimTargetId == target:
           targetFound = True
           if references:
@@ -232,14 +234,23 @@ def CreateClaim(repo, ENDPOINT, item, prop, target, references = None):
               CreateReferenz(repo, ENDPOINT, claim, ref[0], ref[1])
       
   if not targetFound:
+    print(repo)
+    print(prop)
+    propPage= pywikibot.PropertyPage(repo, prop)
+    propPage.get()
+    print(propPage._type)
+    claim = ''
     claim = pywikibot.Claim(repo, prop)
-    claim.setTarget(setTarget(repo,ENDPOINT, prop, target))
-    if references:
-      for ref in references:
-        if target and ref[0] and ref[1]:
-          print("BEFORE REF: ", ref, references, target)
-          CreateReferenz(repo,ENDPOINT,claim, ref[0], ref[1])
-    item.addClaim(claim, summary='Adding claim ' + prop)
+    print(prop)
+    print(claim)
+    sTarget = SetTarget(repo,ENDPOINT, prop, target)
+    if sTarget:
+      claim.setTarget(sTarget)
+      if references:
+        for ref in references:
+          if target and ref[0] and ref[1]:
+            CreateReferenz(repo,ENDPOINT,claim, ref[0], ref[1])
+      item.addClaim(claim, summary='Adding claim ' + prop)
 
 def getClaim(item, prop):
   #print(item)
@@ -251,7 +262,7 @@ def getClaim(item, prop):
               return claim
             
 
-def setTarget(repo,ENDPOINT, prop, target):
+def SetTarget(repo,ENDPOINT, prop, target):
   '''
   Set Target based on property Type
   
@@ -260,14 +271,18 @@ def setTarget(repo,ENDPOINT, prop, target):
   target (string) -- target of the link
   '''
 
-  print("PROPERTY:", prop, target)
-
   propertyPage = pywikibot.PropertyPage(repo, prop)
   propertyPage.get()
-  print(propertyPage._type)
   if propertyPage._type == 'wikibase-item':
-    if target[:1] != 'Q':
-      target = SQL.GetEntryOverSPARQL(ENDPOINT,target, SQL.SparQL_Mode.ID)
+    print(target, "TARGET")
+    if not re.match(r"Q\d+$", target):
+      t1 = SQL.GetEntryOverSPARQL(ENDPOINT, target, lang='fr')
+      target = SQL.GetEntryOverSPARQL(ENDPOINT,target)
+      if not target:
+        target = t1
+      if not target:
+        return
+      print(target)
     return pywikibot.ItemPage(repo, target)
   elif propertyPage._type == 'wikibase-property':
     return pywikibot.PropertyPage(repo, target)
@@ -284,11 +299,15 @@ def setTarget(repo,ENDPOINT, prop, target):
   elif propertyPage._type == 'quantity':
     return pywikibot.WbQuantity(target)
   elif propertyPage._type == 'globe-coordinate':
+    print("Coordinates")
     coordinates = target.split(',')
     lat = coordinates[0]
     lon = coordinates[1]
-    precision = 0.000001
-    return pywikibot.Coordinate(lat, lon, None, precision)
+    precision = "0.000001"
+    print(lat, lon, precision)
+    coord = pywikibot.Coordinate(lat, lon, precision=precision)
+    print(str(coord))
+    return coord
   else:
     return target 
 
@@ -328,14 +347,12 @@ def GetEntry(site, item, lang):
 
   TODO: change to SparQL?
   '''
-  print(item)
   wikiEntries = getItems(site, item, lang)
   if wikiEntries['search']:
     QID = 0
     for elem in wikiEntries['search']:
       if elem['match']['text'] == item:
         QID = elem['id']
-        print('GetEntry ' + QID)
         return QID
   return
 

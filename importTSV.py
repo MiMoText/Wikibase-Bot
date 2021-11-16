@@ -1,9 +1,8 @@
-from pickle import TRUE
 import sys
 import os
 import csv
-import wikiFunctions as wf
-import wikiSQL as SQL
+from wikiFunctions import CreateClaim, getClaim, CreateProperty, CreateItem, CreateReferenz, SetTarget, CheckForEntry, CreateWerk, CreateAuthor, getItems
+from wikiSQL import GetEntryOverSPARQL, SparQL_Mode, SparQL_Properties, get_results
 import pywikibot
 import pprint
 import re
@@ -19,20 +18,22 @@ else:
   print('Datei angeben!')
   exit()
 
+
 dirname = os.path.dirname(__file__)
 filename = os.path.join(dirname, file)
 
-site = pywikibot.Site('en', server)
-repo = site.data_repository()
+SITE = pywikibot.Site('en', server)
+REPO = SITE.data_repository()
 
 def prettyPrint(variable):
   pp = pprint.PrettyPrinter(indent=4)
   pp.pprint(variable)
 
-def GetEntryWithID(id):
-  '''
+'''def GetEntryWithID(id):
+  
   return item to specific id
-  '''
+  
+  
   print(id)
   wikiEntries = wf.getItems(site, id, 'en')
   prettyPrint(wikiEntries)
@@ -43,7 +44,24 @@ def GetEntryWithID(id):
         QID = elem['id']
         print('GetEntry ' + QID)
     return QID
-  return
+  return'''
+
+def propDPD(item, pid, value):
+
+  pid = re.findall("P\d+", pid)[0]
+  qid = GetEntryOverSPARQL(ENDPOINT, value)
+  claim = getClaim(item, pid)
+  if claim:
+    currValue = GetEntryOverSPARQL(ENDPOINT, qid, SparQL_Mode.value, pid)
+    if currValue != value:
+      CreateClaim(REPO, ENDPOINT, item, pid, qid)
+  else:
+    CreateClaim(REPO, ENDPOINT, item, pid, qid)
+
+def test(item):
+  print("TEST")
+  GetEntryOverSPARQL(ENDPOINT, item, "CHARRIÈRE, Isabelle-Agnès-Elisabeth van Tuyll van Serooskerken van Zuylen, dame de")
+
 
 '''
 Import Logic here
@@ -61,11 +79,11 @@ with open(filename, 'r', newline='') as tsv_data:
   rowcount = 0
   #List of Authors who are already imported in this Import
   authors_Already_Imported = {}
-  QID_thematicVocab = SQL.GetEntryOverSPARQL(ENDPOINT,'thematic vocabulary')
-  QID_thematicConcept = SQL.GetEntryOverSPARQL(ENDPOINT,'thematic concept')
-  QID_spatialVocab = SQL.GetEntryOverSPARQL(ENDPOINT,'spatial vocabulary')
-  QID_spatialConcept = SQL.GetEntryOverSPARQL(ENDPOINT,'spatial concept')
-  PID_closeMatch = SQL.GetEntryOverSPARQL(ENDPOINT,'close match')
+  QID_thematicVocab = GetEntryOverSPARQL(ENDPOINT,'thematic vocabulary')
+  QID_thematicConcept = GetEntryOverSPARQL(ENDPOINT,'thematic concept')
+  QID_spatialVocab = GetEntryOverSPARQL(ENDPOINT,'spatial vocabulary')
+  QID_spatialConcept = GetEntryOverSPARQL(ENDPOINT,'spatial concept')
+  PID_closeMatch = GetEntryOverSPARQL(ENDPOINT,'close match')
   row0 = ''
   for row in reader:
     if rowcount == 1:
@@ -74,138 +92,182 @@ with open(filename, 'r', newline='') as tsv_data:
     elif rowcount == 0:
       row0 = row
     elif infos[0] == 'create' and infos[1] == 'properties' and rowcount > 1:
-      print(row)
-      print(wf.CreateProperty(row['title'], row['datatype']))
-    elif infos[0] == 'create' and infos[1] == 'items' and rowcount > 1:
+      print(CreateProperty(REPO, row['title'], row['datatype']))
+    elif infos[0] == 'test' and rowcount > 1:
       if 'EN' in row and row['EN'] != '':
-        id = SQL.GetEntryOverSPARQL(ENDPOINT, row['EN'])
+        id = GetEntryOverSPARQL(ENDPOINT, row['EN'])
       elif 'FR' in row and row['FR'] != '':
-        id = SQL.GetEntryOverSPARQL(ENDPOINT, row['FR'], SQL.SparQL_Mode.ID, '', 'fr')
+        id = GetEntryOverSPARQL(ENDPOINT, row['FR'], SparQL_Mode.QID, '', 'fr')
       elif 'DE' in row and row['DE'] != '':
-        id = SQL.GetEntryOverSPARQL(ENDPOINT, row['DE'], SQL.SparQL_Mode.ID, '', 'de')
-      print("ID----------------",id)
-      if id :
-        item = pywikibot.ItemPage(repo,id)
+        id = GetEntryOverSPARQL(ENDPOINT, row['DE'], SparQL_Mode.QID, '', 'de')
+      #Get item if exist
+      if id:
+        item = pywikibot.ItemPage(REPO,id)
       else:
-        item = wf.CreateItem(repo, ENDPOINT, row)
-      print(item)
-      for property in row:
-        if property != 'FR' and property != 'DE' and property != 'EN' and item:
-          if row0[property] != None and row0[property] != '' and re.match(r"P\d+$", property):
-            if row[property] != '' and row[property] != None:
-              if row[property].strip() != '#':
-                print("CREATE CLAIM 1")
-                wf.CreateClaim(repo,ENDPOINT, item, property, row[property])
-            else:
-              claim = wf.getClaim(item, property)
+        item = CreateItem(REPO, ENDPOINT, row)
+      test(item)
+    elif infos[0] == 'create' and infos[1] == 'items' and rowcount > 1:
+      #TODO: AUTHOR P5 Unknown
+
+      # Skip if entry in check column, e.g. sigle in BGRF_2000
+      if 'check' in row and row['check'] != '':
+        rowcount = rowcount + 1
+        continue
+
+      # Get qid for entry
+      if 'EN' in row and row['EN'] != '':
+        id = GetEntryOverSPARQL(ENDPOINT, row['EN'])
+      elif 'FR' in row and row['FR'] != '':
+        id = GetEntryOverSPARQL(ENDPOINT, row['FR'], SparQL_Mode.QID, '', 'fr')
+      elif 'DE' in row and row['DE'] != '':
+        id = GetEntryOverSPARQL(ENDPOINT, row['DE'], SparQL_Mode.QID, '', 'de')
+      #Get item if exist, else create new item 
+      print(id)
+      if id:
+        print("in id")
+        item = pywikibot.ItemPage(REPO,id)
+      else:
+        print("not in id")
+        item = CreateItem(REPO, ENDPOINT, row)
+
+      #for every PID in row
+      for pid in row:
+        if pid != 'FR' and pid != 'DE' and pid != 'EN' and item:
+          if re.match(r"\d+P\d+$", pid) and row[pid] != '' and row[pid] != None: # xPx and entry in row
+            propDPD(item, pid, row[pid])
+          if row0[pid] != None and row0[pid] != '' and re.match(r"P\d+$", pid): # Px and entry in head (row0)
+            if row[pid] != '' and row[pid] != None: # check entry in row
+              if row[pid].strip() != '#': # check if entry is #
+                CreateClaim(REPO,ENDPOINT, item, pid, row[pid])
+            else: # no entry in row
+              claim = getClaim(item, pid)
               if not claim:
-                print("CREATE CLAIM 2")
-                wf.CreateClaim(repo, ENDPOINT,item, property, row0[property])
-          elif re.match(r"P\d+$", property) and row[property] != '' and row[property] != None:
-            claim = wf.getClaim(item, property)
-            print("CLAIM",claim)
-            if not claim or claim.getTarget() != row[property]:
-              print("Create CLaim 3")
-              print(item, property, row[property])
-              wf.CreateClaim(repo,ENDPOINT,item, property, row[property])
-          elif row0[property] != None and row0[property] != '' and re.match(r"P\d+RP\d+$", property):
-            if row[property] != None and row[property] != '':
-              if row[property] != '#':
+                CreateClaim(REPO, ENDPOINT,item, pid, row0[pid])
+          elif re.match(r"P\d+$", pid) and row[pid] != '' and row[pid] != None: # Px and entry in row
+            claim = getClaim(item, pid)
+            propertyPage = pywikibot.PropertyPage(REPO, pid)
+            propertyPage.get()
+            qid = None
+            print("PX entry in row", item.getID(), pid, row[pid])
+            if propertyPage._type == "wikibase-item":
+              qid = GetEntryOverSPARQL(ENDPOINT,row[pid])
+              print("QID", qid)
+              if row[pid] == "[temps paraître encore]" or row[pid] == "[femme fille servir]" or row[pid] == "[chevalier voir mot]" or row[pid] == "[voir croire là]" or row[pid] == "[point voir jour]" or row[pid] == "[point voir moins]": #TODO: handle topics
+                continue
+            if not claim or (qid and not claim.target_equals(qid)) or (not qid and claim.getTarget() != row[pid]):
+              print("CreateClaim", pid, row[pid])
+              CreateClaim(REPO,ENDPOINT,item, pid, row[pid])
+          elif row0[pid] != None and row0[pid] != '' and re.match(r"P\d+RP\d+$", pid): # PxRPx and entry in head (row0)
+            if row[pid] != None and row[pid] != '': # check entry in row
+              if row[pid] != '#':
                 print("single Entry") #TODO Entry in Cell
             else:
-              pos = property.find("R")
-              prop = property[:pos]
-              propRef = property[pos+1:]
-              propRefTarget = row0[property]
-              
+              pos = pid.find("R")
+              prop = pid[:pos]
+              propRef = pid[pos+1:]
+              propRefTarget = row0[pid]
+              print("PXRPX entry in head", item.getID(), pid, row0[pid])
               print(pos, prop, propRef, propRefTarget)
-              print(row[prop])
 
               if 'EN' in row and row['EN'] != '':
-                id = SQL.GetEntryOverSPARQL(ENDPOINT, row['EN'])
+                id = GetEntryOverSPARQL(ENDPOINT, row['EN'])
               elif 'FR' in row and row['FR'] != '':
-                id = SQL.GetEntryOverSPARQL(ENDPOINT, row['FR'], SQL.SparQL_Mode.ID, '', 'fr')
+                id = GetEntryOverSPARQL(ENDPOINT, row['FR'], SparQL_Mode.QID, '', 'fr')
               elif 'DE' in row and row['DE'] != '':
-                id = SQL.GetEntryOverSPARQL(ENDPOINT, row['DE'], SQL.SparQL_Mode.ID, '', 'de')
+                id = GetEntryOverSPARQL(ENDPOINT, row['DE'], SparQL_Mode.QID, '', 'de')
               if id:
-                item = pywikibot.ItemPage(repo,id)
-              claim = wf.getClaim(item, prop)
-              print(claim)
+                item = pywikibot.ItemPage(REPO,id)
+              claim = getClaim(item, prop)
+              #print("Claim REF", claim)
               if claim:
-                print(True)
-                print("Create ref 4")
-                wf.CreateReferenz(repo,ENDPOINT, claim, propRef, propRefTarget)
+                CreateReferenz(REPO,ENDPOINT, claim, propRef, propRefTarget)
               else:
-                print(False)
                 references = [(propRef, propRefTarget)]
                 if row[prop] == '' and row0[prop]:
-                  print("Create CLaim with Ref 5")
-                  wf.CreateClaim(repo, ENDPOINT,item, prop, row0[prop], references)
+                  CreateClaim(REPO, ENDPOINT,item, prop, row0[prop], references)
     elif infos[0] == 'update' and rowcount > 1:
 
       if 'P13' in row:
         print(row['P13'])
-        QID_item = SQL.GetEntryOverSPARQL(ENDPOINT,row['P13'], SQL.SparQL_Mode.IDforStatement)
+        QID_item = GetEntryOverSPARQL(ENDPOINT,row['P13'], SparQL_Mode.IDforStatement)
       elif 'ID' in row:
-        QID_item = SQL.GetEntryOverSPARQL(ENDPOINT,row['ID'])
+        QID_item = GetEntryOverSPARQL(ENDPOINT,row['ID'])
       
-      item = pywikibot.ItemPage(repo, QID_item)
+      item = pywikibot.ItemPage(REPO, QID_item)
       
-      print("QID", QID_item)
       #check headers and choose operation based on it
       #TODO: how to signal if update or new and what to do with multiple items in statement
-      for property in head:       
-        #All Properties in format Px
-        if(re.match(r"P\d+$", property)):
-          if property != 'P13' and property != 'P26' and not row0[property] and QID_item:
-            value = SQL.GetEntryOverSPARQL(ENDPOINT,QID_item, SQL.SparQL_Mode.value, property)
-            if not value and row[property]:
-              print("CREATE CLAIM 1")
-              wf.CreateClaim(repo, ENDPOINT,item, property, row[property])
+      for pid in head:       
+        if(re.match(r"P\d+$", pid)): # Px
+          if pid != 'P13' and pid != 'P26' and not row0[pid] and QID_item:
+            value = GetEntryOverSPARQL(ENDPOINT,QID_item, SparQL_Mode.value, pid)
+            if not value and row[pid]:
+              print("CREATE CLAIM 1", pid, row[pid])
+              CreateClaim(REPO, ENDPOINT,item, pid, row[pid])
               print("NO VLAUE-----------------------")
-            elif row[property] and value != row[property]:
+            elif row[pid] and value != row[pid]:
               print("ITEM", item)
-              claim = wf.getClaim(item, property)
-              print("VALUE", value, row[property])
+              claim = getClaim(item, pid)
+              print("VALUE", value, row[pid])
               print("CLAIM", claim)
               print("SET TARGET 1")
-              target = wf.setTarget(repo, ENDPOINT, property, row[property])
+              target = SetTarget(REPO, ENDPOINT, pid, row[pid])
               print("CLAIMBEFORE", claim)
               claim.changeTarget(target)
               print("CLAIMAFTER", claim)
             print("Value", value)
             #TODO: hier bin ich dran
             #CreateClaim(item, elem, row['elem'])
-          elif property != 'P13' and property != 'P26' and row0[property]:
-            if row[property]:
-              print("CreateClaim", property, row[property])
+          elif pid != 'P13' and pid != 'P26' and row0[pid]:
+            if row[pid]:
+              print("CreateClaim", pid, row[pid])
             else:
-              print("createClaim", property, row0[property])
-        #All Properties with Reference in format PxR
-        if(re.match(r"P\d+RP\d+$", property)):
-          pos = property.find("R")
-          prop = property[:pos]
-          propRef = property[pos+1:]
-          propRefTarget = row0[property]
-          if propRef != 'P13' and propRef != 'P26' and row0[property] and QID_item:
+              print("createClaim", pid, row0[pid])
+        if(re.match(r"P\d+RP\d+$", pid)): # PxRPx
+          pos = pid.find("R")
+          prop = pid[:pos]
+          propRef = pid[pos+1:]
+          propRefTarget = row0[pid]
+          if propRef != 'P13' and propRef != 'P26' and row0[pid] and QID_item:
             if 'P13' in row:
               print(row['P13'])
-              QID_item = SQL.GetEntryOverSPARQL(ENDPOINT,row['P13'], SQL.SparQL_Mode.IDforStatement)
+              QID_item = GetEntryOverSPARQL(ENDPOINT,row['P13'], SparQL_Mode.IDforStatement)
             elif 'ID' in row:
-              QID_item = SQL.GetEntryOverSPARQL(ENDPOINT,row['ID'])
-            item = pywikibot.ItemPage(repo, QID_item)
-            claim = wf.getClaim(item, prop)
+              QID_item = GetEntryOverSPARQL(ENDPOINT,row['ID'])
+            item = pywikibot.ItemPage(REPO, QID_item)
+            claim = getClaim(item, prop)
             if claim:
               print("CreateRef 1")
-              wf.CreateReferenz(repo, ENDPOINT, claim, propRef, propRefTarget)
+              CreateReferenz(REPO, ENDPOINT, claim, propRef, propRefTarget)
             else: 
               print("Create Claim 2")
               references = [(propRef, propRefTarget)]
-              wf.CreateClaim(repo,ENDPOINT, item, prop, row[prop], references)      
+              CreateClaim(REPO,ENDPOINT, item, prop, row[prop], references)    
+        if re.match(r"P\d+R\d+P\d+", pid): # PxRxPx
+          pos = pid.find("R")
+          prop = pid[:pos]
+          propRef = pid[pos+2:]
+          propRefTarget = row0[pid]
+
+          if propRef != 'P13' and propRef != 'P26' and row0[pid] and QID_item:
+            if 'P13' in row:
+              print(row['P13'])
+              QID_item = GetEntryOverSPARQL(ENDPOINT,row['P13'], SparQL_Mode.IDforStatement)
+            elif 'ID' in row:
+              QID_item = GetEntryOverSPARQL(ENDPOINT,row['ID'])
+            item = pywikibot.ItemPage(REPO, QID_item)
+            claim = getClaim(item, prop)
+            if claim:
+              print("CreateRef 1")
+              CreateReferenz(REPO, ENDPOINT, claim, propRef, propRefTarget)
+            else: 
+              print("Create Claim 2")
+              references = [(propRef, propRefTarget)]
+              CreateClaim(REPO,ENDPOINT, item, prop, row[prop], references)  
     elif infos[0] == 'create' and infos[1] == 'vocab' and rowcount > 1:
 
-      if not SQL.GetEntryOverSPARQL(ENDPOINT,row['title-fr'],'fr') and not SQL.GetEntryOverSPARQL(ENDPOINT,row['title-de'],'de') and not SQL.GetEntryOverSPARQL(ENDPOINT,row['title-en']):
-        new_item = pywikibot.ItemPage(repo)
+      if not GetEntryOverSPARQL(ENDPOINT,row['title-fr'],'fr') and not GetEntryOverSPARQL(ENDPOINT,row['title-de'],'de') and not GetEntryOverSPARQL(ENDPOINT,row['title-en']):
+        new_item = pywikibot.ItemPage(REPO)
         label_dict = {'fr': row['title-fr'], 'de': row['title-de'], 'en': row['title-en']}
         new_item.editLabels(labels=label_dict, summary="Setting labels")
 
@@ -215,62 +277,62 @@ with open(filename, 'r', newline='') as tsv_data:
 
         if infos[2] == 'thematic':
           if(row['check'] == "exact match"):
-            wf.CreateClaim(repo, ENDPOINT,new_item,'P31', row['P31'], [('P14', QID_thematicVocab)])
+            CreateClaim(REPO, ENDPOINT,new_item,'P31', row['P31'], [('P14', QID_thematicVocab)])
           elif(row['check'] == "close match"):
-            wf.CreateClaim(repo,ENDPOINT,new_item, PID_closeMatch, row['P31'], [('P14', QID_thematicVocab)])
+            CreateClaim(REPO,ENDPOINT,new_item, PID_closeMatch, row['P31'], [('P14', QID_thematicVocab)])
       
-          wf.CreateClaim(repo,ENDPOINT,new_item,'P2', QID_thematicConcept, [('P14', QID_thematicVocab)])
-          wf.CreateClaim(repo,ENDPOINT,new_item,'P25', QID_thematicVocab)
+          CreateClaim(REPO,ENDPOINT,new_item,'P2', QID_thematicConcept, [('P14', QID_thematicVocab)])
+          CreateClaim(REPO,ENDPOINT,new_item,'P25', QID_thematicVocab)
         elif infos[2] == "spatial":
           if(row['check'] == "exact match"):
-            wf.CreateClaim(repo,ENDPOINT,new_item,'P31', row['P31'], [('P14', QID_spatialVocab)])
+            CreateClaim(REPO,ENDPOINT,new_item,'P31', row['P31'], [('P14', QID_spatialVocab)])
           elif(row['check'] == "close match"):
-            wf.CreateClaim(repo,ENDPOINT,new_item, PID_closeMatch, row['P31'], [('P14', QID_spatialVocab)])
+            CreateClaim(REPO,ENDPOINT,new_item, PID_closeMatch, row['P31'], [('P14', QID_spatialVocab)])
       
-          wf.CreateClaim(repo,ENDPOINT,new_item,'P2', QID_spatialConcept, [('P14', QID_spatialVocab)])
-          wf.CreateClaim(repo,ENDPOINT,new_item,'P25', QID_spatialVocab)          
+          CreateClaim(REPO,ENDPOINT,new_item,'P2', QID_spatialConcept, [('P14', QID_spatialVocab)])
+          CreateClaim(REPO,ENDPOINT,new_item,'P25', QID_spatialVocab)          
 
 
         print(new_item.getID())
     elif infos[0] == 'add' and infos[1] == 'statements' and rowcount > 1:
 
-      QID_BGRF_ID = SQL.GetEntryOverSPARQL(ENDPOINT,row['pointer'],'en', SQL.SparQL_Mode.BGRF_ID)
-      QID_concept = SQL.GetEntryOverSPARQL(ENDPOINT,row['value'], 'fr')
-      PID_about = SQL.GetEntryOverSPARQL(ENDPOINT,'about')
-      PID_stated_in = SQL.GetEntryOverSPARQL(ENDPOINT,'stated in')
-      QID_matching_table = SQL.GetEntryOverSPARQL(ENDPOINT,'BGRF_Matching-Table')
+      QID_BGRF_ID = GetEntryOverSPARQL(ENDPOINT,row['pointer'], SparQL_Mode.IDforStatement)
+      QID_concept = GetEntryOverSPARQL(ENDPOINT,row['value'], SparQL_Mode.QID, '', 'fr')
+      PID_about = GetEntryOverSPARQL(ENDPOINT,'about')
+      PID_stated_in = GetEntryOverSPARQL(ENDPOINT,'stated in')
+      QID_matching_table = GetEntryOverSPARQL(ENDPOINT,'BGRF_Matching-Table')
 
       print(QID_BGRF_ID)
       print(QID_concept)
       print(QID_matching_table)
 
       #BGRF_ID about concept stated in Q1 and stated in Matching Table
-      item = pywikibot.ItemPage(repo, QID_BGRF_ID)
+      item = pywikibot.ItemPage(REPO, QID_BGRF_ID)
 
       references = []
       references.append((PID_stated_in, QID_matching_table))
       references.append((PID_stated_in, 'Q1'))
       if QID_concept != None and QID_BGRF_ID != None:
-        wf.CreateClaim(repo,ENDPOINT,item, PID_about, QID_concept, references)
+        CreateClaim(REPO,ENDPOINT,item, PID_about, QID_concept, references)
     elif infos[0] == 'add' and infos[1] == 'statementsModel' and rowcount > 1:
-      QID_BGRF_ID = SQL.GetEntryOverSPARQL(ENDPOINT,row['pointer'],'en', SQL.SparQL_Mode.BGRF_ID)
-      QID_concept = SQL.GetEntryOverSPARQL(ENDPOINT,row['value'], 'fr')
-      PID_about = SQL.GetEntryOverSPARQL(ENDPOINT,'about')
-      PID_stated_in = SQL.GetEntryOverSPARQL(ENDPOINT,'stated in')
-      QID_Topic_Modell = SQL.GetEntryOverSPARQL(ENDPOINT,'Topic Model MMT 11-2020')
-      QID_topic_labels = SQL.GetEntryOverSPARQL(ENDPOINT,'Topic Labels and Concepts')
+      QID_BGRF_ID = GetEntryOverSPARQL(ENDPOINT,row['pointer'], SparQL_Mode.IDforStatement)
+      QID_concept = GetEntryOverSPARQL(ENDPOINT,row['value'], SparQL_Mode.QID, '', 'fr')
+      PID_about = GetEntryOverSPARQL(ENDPOINT,'about')
+      PID_stated_in = GetEntryOverSPARQL(ENDPOINT,'stated in')
+      QID_Topic_Modell = GetEntryOverSPARQL(ENDPOINT,'Topic Model MMT 11-2020')
+      QID_topic_labels = GetEntryOverSPARQL(ENDPOINT,'Topic Labels and Concepts')
 
       #BGRF_ID about themeConcept stated in topic models and stated in labels and concepts
-      item = pywikibot.ItemPage(repo, QID_BGRF_ID)
+      item = pywikibot.ItemPage(REPO, QID_BGRF_ID)
 
       references = []
       references.append((PID_stated_in, QID_Topic_Modell))
       references.append((PID_stated_in, QID_topic_labels))
       if(QID_concept != None and QID_BGRF_ID != None):
-        wf.CreateClaim(item, ENDPOINT,PID_about, QID_concept, references)
+        CreateClaim(REPO, ENDPOINT,item ,PID_about, QID_concept, references)
     elif infos[0] == 'create' and infos[1] == 'topics' and rowcount > 1:
-      if not SQL.GetEntryOverSPARQL(ENDPOINT,row['title-fr'],'fr') or not SQL.GetEntryOverSPARQL(ENDPOINT,row['title-de'],'de') or not SQL.GetEntryOverSPARQL(ENDPOINT,row['title-en'],'en'):
-        new_item = pywikibot.ItemPage(repo)
+      if not GetEntryOverSPARQL(ENDPOINT,row['title-fr'],SparQL_Mode.QID,'','fr') or not GetEntryOverSPARQL(ENDPOINT,row['title-de'],SparQL_Mode.QID,'','de') or not GetEntryOverSPARQL(ENDPOINT,row['title-en'],'en'):
+        new_item = pywikibot.ItemPage(REPO)
         label_dict = {'fr': row['title-fr'], 'de': row['title-de'], 'en': row['title-en']}
         new_item.editLabels(labels=label_dict, summary="Setting labels")
 
@@ -278,22 +340,22 @@ with open(filename, 'r', newline='') as tsv_data:
           desc_dict = {'fr': row['description-fr'], 'de': row['description-de'], 'en': row['description-en']}
           new_item.editDescriptions(descriptions=desc_dict, summary="Setting descriptions")
 
-        topic_QID = SQL.GetEntryOverSPARQL(ENDPOINT,'topic', 'en')
+        topic_QID = GetEntryOverSPARQL(ENDPOINT,'topic')
         #topic_QID = GetEntry('topic')
-        topic_model = SQL.GetEntryOverSPARQL(ENDPOINT,'Topic Model MMT 11-2020', 'en')
-        PID_representedBy = SQL.GetEntryOverSPARQL(ENDPOINT,'represented by', 'en')
-        wf.CreateClaim(repo,ENDPOINT,new_item, 'P2', topic_QID, [('P14', topic_model)])
-        wf.CreateClaim(repo,ENDPOINT,new_item, 'P25', topic_model)
+        topic_model = GetEntryOverSPARQL(ENDPOINT,'Topic Model MMT 11-2020')
+        PID_representedBy = GetEntryOverSPARQL(ENDPOINT,'represented by')
+        CreateClaim(REPO,ENDPOINT,new_item, 'P2', topic_QID, [('P14', topic_model)])
+        CreateClaim(REPO,ENDPOINT,new_item, 'P25', topic_model)
         #CreateClaim(new_item, 'P58', row['p58'])
         #CreateClaim(new_item, 'P58', row['1p58'])
-        if row['p58'] and SQL.GetEntryOverSPARQL(ENDPOINT,row['p58'], 'en'):
-          wf.CreateClaim(repo,ENDPOINT,new_item, PID_representedBy, SQL.GetEntryOverSPARQL(ENDPOINT,row['p58'], 'en'))
-        if row['1p58'] and SQL.GetEntryOverSPARQL(ENDPOINT,row['1p58'], 'en'):
-          wf.CreateClaim(repo,ENDPOINT,new_item, PID_representedBy, SQL.GetEntryOverSPARQL(ENDPOINT,row['1p58'],'en'))
+        if row['p58'] and GetEntryOverSPARQL(ENDPOINT,row['p58']):
+          CreateClaim(REPO,ENDPOINT,new_item, PID_representedBy, GetEntryOverSPARQL(ENDPOINT,row['p58']))
+        if row['1p58'] and GetEntryOverSPARQL(ENDPOINT,row['1p58']):
+          CreateClaim(REPO,ENDPOINT,new_item, PID_representedBy, GetEntryOverSPARQL(ENDPOINT,row['1p58']))
     elif infos[0] == 'new' and infos[1] == 'items' and rowcount > 1:
       #TODO 2000 Check sigle
-      if wf.CheckForEntry(row['P4']): #and not row['check']:
-        new_item = wf.CreateWerk(row['P4'])
+      if CheckForEntry(REPO, row['P4']): #and not row['check']:
+        new_item = CreateWerk(row['P4'], REPO)
         for key, value in row.items():
           if(key == 'check'):
             continue
@@ -302,42 +364,42 @@ with open(filename, 'r', newline='') as tsv_data:
             if key[:1].isdigit() and int(key[:1]) < 6:
               key = key[1:]
               addAnonym = False
-            prop = pywikibot.PropertyPage(repo, key)
+            prop = pywikibot.PropertyPage(REPO, key)
             prop.get()
             print('{0}, {1}, {2}'.format(prop._type, key, value))
             try:
-              new_claim = pywikibot.Claim(repo, key)
+              new_claim = pywikibot.Claim(REPO, key)
               if prop._type == 'string':
                 print("String")
                 target = value
               elif prop._type == 'wikibase-item':
                 print("Item")
                 if value:
-                  wikiEntries = wf.getItems(site, value, 'en')
+                  wikiEntries = getItems(SITE, value, 'en')
                   prettyPrint(wikiEntries)
                   # TODO Dupletten eventuell nicht durch list da sparql?
                   
                   if not wikiEntries['search'] and key == 'P5' and value not in authors_Already_Imported:
                     print('empty')
-                    authorQID = wf.CreateAuthor(value)
+                    authorQID = CreateAuthor(value)
                     authors_Already_Imported[value] = authorQID
                   elif value in authors_Already_Imported:
                     authorQID = authors_Already_Imported[value] 
                   else:
                     print('not Empty')
-                    for property in wikiEntries['search']:
-                      if property['label'] == value:
-                        authorQID = property['id']
+                    for pid in wikiEntries['search']:
+                      if pid['label'] == value:
+                        authorQID = pid['id']
                   print(authorQID)
-                  target = pywikibot.ItemPage(repo, authorQID) 
+                  target = pywikibot.ItemPage(REPO, authorQID) 
                 elif key == 'P5' and addAnonym:
-                  new_claim = pywikibot.Claim(repo, 'P15')
+                  new_claim = pywikibot.Claim(REPO, 'P15')
                   target = 'anonieme'
                 else:
                   continue                 
               elif prop._type == 'wikibase-property':
                 print("Prop")
-                target = pywikibot.PropertyPage(repo, value)
+                target = pywikibot.PropertyPage(REPO, value)
               elif prop._type == 'monolingualtext':
                 print("Mono")
                 target = pywikibot.WbMonolingualText(value, "fr")
@@ -356,8 +418,8 @@ with open(filename, 'r', newline='') as tsv_data:
               elif prop._type == 'quantity':
                 print("Quantity")
                 target = pywikibot.WbQuantity(value)
-              new_ref = pywikibot.Claim(repo, 'P14', True)
-              ref_target = pywikibot.ItemPage(repo, 'Q1')
+              new_ref = pywikibot.Claim(REPO, 'P14', True)
+              ref_target = pywikibot.ItemPage(REPO, 'Q1')
               new_ref.setTarget(ref_target)
               sources = []
               sources.append(new_ref)
@@ -372,3 +434,4 @@ with open(filename, 'r', newline='') as tsv_data:
             print('No Key {0}, {1}'.format(key, value))
   #      CreateAuthor(row)
     rowcount = rowcount + 1
+

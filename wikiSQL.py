@@ -4,8 +4,9 @@ from enum import Enum
 from SPARQLWrapper import SPARQLWrapper, JSON
 
 class SparQL_Mode(Enum):
-  ID = '1'
-  IDforStatement = '2'
+  QID = '1'
+  PID = '2'
+  IDforStatement = '3'
   label = '?label'
   value = '?value'
 
@@ -18,20 +19,43 @@ def prettyPrint(variable):
   pp.pprint(variable)
 
 
-def GetEntryOverSPARQL(ENDPOINT, item, mode=SparQL_Mode.ID, prop="P13", lang='en'):
+def GetEntryOverSPARQL(ENDPOINT, item, mode=SparQL_Mode.QID, prop="P13", lang='en'):
   '''
   Get Entry with Label Name and Language
   '''
+  
+  item = item.replace("'", ".")
+  item = item.replace("’", ".")
+  item = item.replace("(", ".")
+  item = item.replace(")", ".")
+  item = item.replace("É", ".")
+  item = item.replace("È", ".")
+  item = item.replace("*", ".")  
+  item = item.replace("]", ".") 
+  item = item.replace("[", ".") 
 
   #SPARQL endpoint
   endpoint_url = "http://zora.uni-trier.de:" + ENDPOINT + "/proxy/wdqs/bigdata/namespace/wdq/sparql"
   
   #Dynamic Query
-  if mode == SparQL_Mode.ID:
+  if mode == SparQL_Mode.QID:
     query = """
     SELECT *
     {
       ?item rdfs:label ?label.
+      Filter not exists {?item rdf:type wikibase:Property}
+      Filter (regex(?label, '^""" + item + """$', 'i'))
+      Filter (lang(?label) = '""" + lang + """') 
+      BIND (str(Replace(str(?item), '\\\\D+\\\\d+\\\\D+\\\\/', '')) as ?Result)    
+    }
+    """
+
+  elif mode == SparQL_Mode.PID:
+    query = """
+    SELECT *
+    {
+      ?item rdfs:label ?label.
+      ?item rdf:type wikibase:Property.
       Filter (regex(?label, '^""" + item + """$', 'i'))
       Filter (lang(?label) = '""" + lang + """') 
       BIND (str(Replace(str(?item), '\\\\D+\\\\d+\\\\D+\\\\/', '')) as ?Result)    
