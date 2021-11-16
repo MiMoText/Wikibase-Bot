@@ -1,165 +1,165 @@
-pointer					value
-add	statements				
-id	Spalte	text	Keyword	property	Themenwert
-00.37	r_c	aventures galantes;	galant	isabout	galanterie
-00.37	r_s	précisions pornographiques. (Ce serait une satire contre Joséphine de Beauharnais, madame Tallien et madame Visconti.)	pornographiques	isabout	érotisme
-51.42	r_c	aventures galantes (un père et une mère racontent chacun leur vie à leur fils et à leur fille, pour prouver que le véritable bonheur tient à ce qu’on accepte sa propre nature);	galant	isabout	galanterie
-51.42	r_c	aventures galantes (un père et une mère racontent chacun leur vie à leur fils et à leur fille, pour prouver que le véritable bonheur tient à ce qu’on accepte sa propre nature);	nature	isabout	nature
-52.43	r_c	voyages, rencontres, discussions;	voyages	isabout	voyage
-52.43	r_s	thèmes philosophiques, ton satirique.	thèmes philosophiques	isabout	philosophie
-53.26	r_c	description d’une Utopie où l’on suit les lois de la nature; éléments merveilleux et allégoriques;	merveille	isabout	miracle
-53.26	r_c	description d’une Utopie où l’on suit les lois de la nature; éléments merveilleux et allégoriques;	nature	isabout	nature
-54.13	r_c	aventures merveilleuses et galantes	galant	isabout	galanterie
-54.13	r_c	aventures merveilleuses et galantes	merveille	isabout	miracle
-55.16	r_c	scène de séduction, conversations galantes;	galant	isabout	galanterie
-55.16	r_s	ton libertin.	libertin	isabout	libertinage
-57.12	r_c	amours malheureuses;	malheur	isabout	malheur
-57.12	r_c	amours malheureuses;	amour	isabout	amour
-58.13	r_c	aventures sentimentales;	sentimentale	isabout	sentiment
-58.13	r_s	réflexions morales.	morale	isabout	morale
-58.17	r_c	intrigue sentimentale;	sentimentale	isabout	sentiment
-58.17	r_s	analyse des sentiments, mélancolie.	mélancolie	isabout	mélancolie
-58.5	r_c	voyage imaginaire; description de l’Hôtel des auteurs françois, critique littéraire	voyage	isabout	voyage
-59.22	r_c	intrigues sentimentales;	sentimentale	isabout	sentiment
-59.22	r_s	sensibilité.	sensibilité	isabout	sentimentalisme
-60.21	r_c	intrigue sentimentale et aventures romanesques;	sentimentale	isabout	sentiment
-60.21	r_s	sensibilité, mélancolie.	sensibilité	isabout	sentimentalisme
-60.21	r_s	sensibilité, mélancolie.	mélancolie	isabout	mélancolie
-61.17	r_c	éducation d’un jeune prince;	éducation	isabout	éducation
-61.6	r_s	conte galant.	galant	isabout	galanterie
-62.11	r_s	critique des mœurs, ton satirique.	mœurs	isabout	mœurs
-62.33	r_c	En marge: traité d’éducation sous une forme narrative.	éducation	isabout	éducation
-63.19	r_c	voyages, aventures, éléments féeriques;	voyages	isabout	voyage
-64.39	r_s	sensibilité.	sensibilité	isabout	sentimentalisme
-64.39	r_c	les malheurs d’une jeune fille de naissance obscure, histoires de famille;	famille	isabout	famille
-64.39	r_c	les malheurs d’une jeune fille de naissance obscure, histoires de famille;	malheurs	isabout	malheur
-66.11	r_c	intrigue sentimentale;	sentimentale	isabout	sentiment
-66.11	r_s	sensibilité, analyse des sentiments.	sensibilité	isabout	sentimentalisme
-67.36	r_s	sensibilité, mélancolie, sentiments chrétiens et anti-philosophiques.	sensibilité	isabout	sentimentalisme
-67.36	r_c	les malheurs d’une jeune fille, intrigues de famille;	famille	isabout	famille
-67.36	r_c	les malheurs d’une jeune fille, intrigues de famille;	malheurs	isabout	malheur
-67.36	r_s	sensibilité, mélancolie, sentiments chrétiens et anti-philosophiques.	philosophiques	isabout	philosophie
-67.36	r_s	sensibilité, mélancolie, sentiments chrétiens et anti-philosophiques.	mélancolie	isabout	mélancolie
-67.39	r_s	style noble, vertu, thèmes philosophiques.	thèmes philosophiques	isabout	philosophie
-67.39	r_s	style noble, vertu, thèmes philosophiques.	vertu	isabout	vertu
-67.44	r_c	intrigue sentimentale (les suites d’un mariage malheureux), histoires de famille;	sentimentale	isabout	sentiment
-67.44	r_c	intrigue sentimentale (les suites d’un mariage malheureux), histoires de famille;	famille	isabout	famille
-67.44	r_c	intrigue sentimentale (les suites d’un mariage malheureux), histoires de famille;	malheur	isabout	malheur
-68.55	r_c	suite de malheurs, discussions;	malheurs	isabout	malheur
-68.55	r_s	thèmes économiques et philosophiques	philosophiques	isabout	philosophie
-69.57	r_c	intrigue sentimentale, amours contrariées;	sentimentale	isabout	sentiment
-69.57	r_s	sensibilité, vertu, prose poétique.	sensibilité	isabout	sentimentalisme
-69.57	r_c	intrigue sentimentale, amours contrariées;	amour	isabout	amour
-69.57	r_s	sensibilité, vertu, prose poétique.	vertu	isabout	vertu
-71.23	r_c	aventures galantes, réflexions morales	galant	isabout	galanterie
-71.23	r_c	aventures galantes, réflexions morales	morale	isabout	morale
-71.25	r_c	intrigue sentimentale, amours contrariées;	sentimentale	isabout	sentiment
-71.25	r_s	sensibilité effrénée.	sensibilité	isabout	sentimentalisme
-71.25	r_c	intrigue sentimentale, amours contrariées;	amour	isabout	amour
-71.36	r_c	rêve de l’avenir, critique des mœurs et des institutions;	mœurs	isabout	mœurs
-72.17	r_c	aventures merveilleuses et fantastiques	merveille	isabout	miracle
-72.19	r_c	intrigue sentimentale (un cœur sensible peut pécher mais reste pur), malheurs;	sentimentale	isabout	sentiment
-72.19	r_s	sensibilité effrénée, analyse d’un problème moral.	sensibilité	isabout	sentimentalisme
-72.19	r_c	intrigue sentimentale (un cœur sensible peut pécher mais reste pur), malheurs;	malheurs	isabout	malheur
-74.15	r_s	sensibilité, vertu, prétentions moralisatrices.	sensibilité	isabout	sentimentalisme
-74.15	r_s	sensibilité, vertu, prétentions moralisatrices.	vertu	isabout	vertu
-74.20	r_c	intrigue sentimentale (qui finit par la mort de l’héroïne);	sentimentale	isabout	sentiment
-74.20	r_s	malheurs, sensibilité passionnée.	sensibilité	isabout	sentimentalisme
-74.20	r_s	malheurs, sensibilité passionnée.	malheurs	isabout	malheur
-74.20	r_s	malheurs, sensibilité passionnée.	passion	isabout	passion
-75.37	r_c	aventures galantes et libertines.	galant	isabout	galanterie
-75.37	r_c	aventures galantes et libertines.	libertines	isabout	libertinage
-76.36	r_c	intrigue sentimentale, aventures, entremêlées de thèmes religieux et philosophiques;	sentimentale	isabout	sentiment
-76.36	r_s	sensibilité, vertu.	sensibilité	isabout	sentimentalisme
-76.36	r_c	intrigue sentimentale, aventures, entremêlées de thèmes religieux et philosophiques;	philosophiques	isabout	philosophie
-76.36	r_s	sensibilité, vertu.	vertu	isabout	vertu
-77.50	r_c	aventures guerrières, incidents romanesques;	guerrière	isabout	guerre
-77.57	r_s	observations sur les mœurs.	mœurs	isabout	mœurs
-79.22	r_s	sensibilité, vertu.	sensibilité	isabout	sentimentalisme
-79.22	r_c	amours contrariées, malheurs;	malheurs	isabout	malheur
-79.22	r_c	amours contrariées, malheurs;	amour	isabout	amour
-79.22	r_s	sensibilité, vertu.	vertu	isabout	vertu
-82.17	r_c	intrigues libertines, vengeances;	libertines	isabout	libertinage
-82.20	r_s	but didactique (roman d’éducation), sensibilité, vertu.	sensibilité	isabout	sentimentalisme
-82.20	r_s	but didactique (roman d’éducation), sensibilité, vertu.	éducation	isabout	éducation
-82.20	r_s	but didactique (roman d’éducation), sensibilité, vertu.	vertu	isabout	vertu
-82.27	r_c	aventures romanesques, voyages en France et dans des pays exotiques, description d’un pays imaginaire;	voyages	isabout	voyage
-82.27	r_s	thèmes philosophiques, quelques épisodes aux tendances réalistes.	thèmes philosophiques	isabout	philosophie
-83.15	r_s	sensibilité larmoyante, malheurs.	sensibilité	isabout	sentimentalisme
-83.15	r_c	pour échapper à la poursuite, les membres de la famille La Bédoyère se déguisent en paysans...;	famille	isabout	famille
-83.15	r_s	sensibilité larmoyante, malheurs.	malheurs	isabout	malheur
-83.26	r_c	intrigue sentimentale;	sentimentale	isabout	sentiment
-83.31	r_c	intrigue sentimentale, malheurs;	sentimentale	isabout	sentiment
-83.31	r_s	sensibilité larmoyante.	sensibilité	isabout	sentimentalisme
-83.31	r_c	intrigue sentimentale, malheurs;	malheurs	isabout	malheur
-83.40	r_c	aventures d’un libertin;	libertin	isabout	libertinage
-83.40	r_s	précisions pornographiques.	pornographiques	isabout	érotisme
-83.42	r_s	ton sensible.	sensible	isabout	sentimentalisme
-83.42	r_c	intrigues politiques et amoureuses;	politique	isabout	politique
-83.42	r_c	intrigues politiques et amoureuses;	amour	isabout	amour
-84.27	r_c	voyages, aventures fantaisistes et décousues.	voyages	isabout	voyage
-84.50	r_c	aventures libertines	libertines	isabout	libertinage
-84.58	r_c	aventures galantes, malheurs d’une villageoise entraînée par le mauvais exemple;	galant	isabout	galanterie
-84.58	r_s	sensibilité, intentions moralisatrices, tendances réalistes.	sensibilité	isabout	sentimentalisme
-84.58	r_c	aventures galantes, malheurs d’une villageoise entraînée par le mauvais exemple;	malheurs	isabout	malheur
-84.58	r_c	aventures galantes, malheurs d’une villageoise entraînée par le mauvais exemple;	village	isabout	village
-85.24	r_c	une mère raconte dans des lettres l’éducation mondaine et sentimentale de sa fille;	sentimentale	isabout	sentiment
-85.24	r_c	une mère raconte dans des lettres l’éducation mondaine et sentimentale de sa fille;	éducation	isabout	éducation
-86.27	r_s	sensibilité, vie à la campagne.	sensibilité	isabout	sentimentalisme
-86.27	r_c	intrigue mondaine, histoire d’amour;	amour	isabout	amour
-86.32	r_c	aventures sentimentales, intrigues politiques;	sentimentale	isabout	sentiment
-86.32	r_c	aventures sentimentales, intrigues politiques;	politique	isabout	politique
-86.51	r_c	aventures libertines	libertines	isabout	libertinage
-87.25	r_c	voyages, aventures merveilleuses;	merveille	isabout	miracle
-87.25	r_c	voyages, aventures merveilleuses;	voyages	isabout	voyage
-87.54bis	r_c	intrigue sentimentale;	sentimentale	isabout	sentiment
-87.54bis	r_s	sensibilité passionnée, retour à la nature.	sensibilité	isabout	sentimentalisme
-87.54bis	r_s	sensibilité passionnée, retour à la nature.	passion	isabout	passion
-87.54bis	r_s	sensibilité passionnée, retour à la nature.	nature	isabout	nature
-87.56	r_c	aventures galantes;	galant	isabout	galanterie
-88.53	r_c	intrigue sentimentale;	sentimentale	isabout	sentiment
-89.104	r_c	correspondance amoureuse au cours de laquelle le marquis délaisse Ninon pour madame Scarron	amour	isabout	amour
-89.104	r_c	correspondance amoureuse au cours de laquelle le marquis délaisse Ninon pour madame Scarron	correspondance	isabout	correspondance littéraire
-89.104	r_c	correspondance amoureuse au cours de laquelle le marquis délaisse Ninon pour madame Scarron	cour	isabout	cour
-90.47	r_c	aventures galantes;	galant	isabout	galanterie
-91.42	r_c	les malheurs et aventures de deux soeurs orphelines de caractères opposés;	malheurs	isabout	malheur
-91.42	r_s	détails pornographiques.	pornographiques	isabout	érotisme
-91.44	r_c	éducation et vie d’un roi;	éducation	isabout	éducation
-93.16	r_c	tableaux du libertinage;	libertin	isabout	libertinage
-93.16	r_s	précisions pornographiques.	pornographiques	isabout	érotisme
-94.13	r_c	intrigue sentimentale;	sentimentale	isabout	sentiment
-95.20	r_c	aventures chevaleresques;	chevaleresques	isabout	chevalerie
-95.20	r_s	sensibilité.	sensibilité	isabout	sentimentalisme
-95.36	r_c	aventures romanesques, voyages, libertinage;	libertin	isabout	libertinage
-95.36	r_c	aventures romanesques, voyages, libertinage;	voyages	isabout	voyage
-95.37	r_c	cours de libertinage;	libertin	isabout	libertinage
-95.37	r_s	précisions pornographiques.	pornographiques	isabout	érotisme
-95.37	r_c	cours de libertinage;	cour	isabout	cour
-96.18	r_c	intrigues mondaines et sentimentales, tableaux des moeurs	sentimentale	isabout	sentiment
-97.21	r_c	voyage, aventures bouffonnes, galantes, romanesques;	galant	isabout	galanterie
-97.21	r_c	voyage, aventures bouffonnes, galantes, romanesques;	voyage	isabout	voyage
-97.21	r_s	thèmes philosophiques, mise en cause des techniques du romancier.	thèmes philosophiques	isabout	philosophie
-97.22	r_c	les malheurs de la victime d’une claustration forcée;	malheurs	isabout	malheur
-97.22	r_s	thèmes philosophiques et humanitaires.	thèmes philosophiques	isabout	philosophie
-97.74	r_c	amours malheureuses;	malheur	isabout	malheur
-97.74	r_c	amours malheureuses;	amour	isabout	amour
-98.41	r_c	malheurs, intrigue sentimentale;	sentimentale	isabout	sentiment
-98.41	r_s	sensibilité, vertu.	sensibilité	isabout	sentimentalisme
-98.41	r_c	malheurs, intrigue sentimentale;	malheurs	isabout	malheur
-98.41	r_s	sensibilité, vertu.	vertu	isabout	vertu
-98.84	r_c	de multiples scènes libertines et pornographiques	libertines	isabout	libertinage
-98.84	r_c	de multiples scènes libertines et pornographiques	pornographiques	isabout	érotisme
-98.85	r_c	les malheurs d’une réfugiée, éléments d’actualité	malheurs	isabout	malheur
-98.88	r_c	aventures révolutionnaires, voyages	révolutionnaires	isabout	révolution
-98.88	r_c	aventures révolutionnaires, voyages	voyages	isabout	voyage
-99.104	r_c	intrigue mondaine, histoire sentimentale	sentimentale	isabout	sentiment
-99.105	r_c	querelles de famille, intrigue sentimentale	sentimentale	isabout	sentiment
-99.105	r_c	querelles de famille, intrigue sentimentale	famille	isabout	famille
-99.62	r_c	intrigue sentimentale (une femme vertueuse éprouvée par l’amour);	sentimentale	isabout	sentiment
-99.62	r_s	analyse des sentiments, sensibilité, vertu.	sensibilité	isabout	sentimentalisme
-99.62	r_c	intrigue sentimentale (une femme vertueuse éprouvée par l’amour);	amour	isabout	amour
-99.62	r_c	intrigue sentimentale (une femme vertueuse éprouvée par l’amour);	vertu	isabout	vertu
-99.76	r_s	nature, sensibilité, vertu, bienfaisance.	sensibilité	isabout	sentimentalisme
-99.76	r_c	malheurs d’une enfant trouvée qui est adoptée par une dame charitable;	malheurs	isabout	malheur
-99.76	r_s	nature, sensibilité, vertu, bienfaisance.	vertu	isabout	vertu
-99.76	r_s	nature, sensibilité, vertu, bienfaisance.	nature	isabout	nature
+P13					P25	P25RP14	P25R1P14
+update						Q1	Q24
+id	Spalte	text	Keyword	property	Themenwert		
+00.37	r_c	aventures galantes;	galant	isabout	galanterie		
+00.37	r_s	précisions pornographiques. (Ce serait une satire contre Joséphine de Beauharnais, madame Tallien et madame Visconti.)	pornographiques	isabout	érotisme		
+51.42	r_c	aventures galantes (un père et une mère racontent chacun leur vie à leur fils et à leur fille, pour prouver que le véritable bonheur tient à ce qu’on accepte sa propre nature);	galant	isabout	galanterie		
+51.42	r_c	aventures galantes (un père et une mère racontent chacun leur vie à leur fils et à leur fille, pour prouver que le véritable bonheur tient à ce qu’on accepte sa propre nature);	nature	isabout	nature		
+52.43	r_c	voyages, rencontres, discussions;	voyages	isabout	voyage		
+52.43	r_s	thèmes philosophiques, ton satirique.	thèmes philosophiques	isabout	philosophie		
+53.26	r_c	description d’une Utopie où l’on suit les lois de la nature; éléments merveilleux et allégoriques;	merveille	isabout	miracle		
+53.26	r_c	description d’une Utopie où l’on suit les lois de la nature; éléments merveilleux et allégoriques;	nature	isabout	nature		
+54.13	r_c	aventures merveilleuses et galantes	galant	isabout	galanterie		
+54.13	r_c	aventures merveilleuses et galantes	merveille	isabout	miracle		
+55.16	r_c	scène de séduction, conversations galantes;	galant	isabout	galanterie		
+55.16	r_s	ton libertin.	libertin	isabout	libertinage		
+57.12	r_c	amours malheureuses;	malheur	isabout	malheur		
+57.12	r_c	amours malheureuses;	amour	isabout	amour		
+58.13	r_c	aventures sentimentales;	sentimentale	isabout	sentiment		
+58.13	r_s	réflexions morales.	morale	isabout	morale		
+58.17	r_c	intrigue sentimentale;	sentimentale	isabout	sentiment		
+58.17	r_s	analyse des sentiments, mélancolie.	mélancolie	isabout	mélancolie		
+58.5	r_c	voyage imaginaire; description de l’Hôtel des auteurs françois, critique littéraire	voyage	isabout	voyage		
+59.22	r_c	intrigues sentimentales;	sentimentale	isabout	sentiment		
+59.22	r_s	sensibilité.	sensibilité	isabout	sentimentalisme		
+60.21	r_c	intrigue sentimentale et aventures romanesques;	sentimentale	isabout	sentiment		
+60.21	r_s	sensibilité, mélancolie.	sensibilité	isabout	sentimentalisme		
+60.21	r_s	sensibilité, mélancolie.	mélancolie	isabout	mélancolie		
+61.17	r_c	éducation d’un jeune prince;	éducation	isabout	éducation		
+61.6	r_s	conte galant.	galant	isabout	galanterie		
+62.11	r_s	critique des mœurs, ton satirique.	mœurs	isabout	mœurs		
+62.33	r_c	En marge: traité d’éducation sous une forme narrative.	éducation	isabout	éducation		
+63.19	r_c	voyages, aventures, éléments féeriques;	voyages	isabout	voyage		
+64.39	r_s	sensibilité.	sensibilité	isabout	sentimentalisme		
+64.39	r_c	les malheurs d’une jeune fille de naissance obscure, histoires de famille;	famille	isabout	famille		
+64.39	r_c	les malheurs d’une jeune fille de naissance obscure, histoires de famille;	malheurs	isabout	malheur		
+66.11	r_c	intrigue sentimentale;	sentimentale	isabout	sentiment		
+66.11	r_s	sensibilité, analyse des sentiments.	sensibilité	isabout	sentimentalisme		
+67.36	r_s	sensibilité, mélancolie, sentiments chrétiens et anti-philosophiques.	sensibilité	isabout	sentimentalisme		
+67.36	r_c	les malheurs d’une jeune fille, intrigues de famille;	famille	isabout	famille		
+67.36	r_c	les malheurs d’une jeune fille, intrigues de famille;	malheurs	isabout	malheur		
+67.36	r_s	sensibilité, mélancolie, sentiments chrétiens et anti-philosophiques.	philosophiques	isabout	philosophie		
+67.36	r_s	sensibilité, mélancolie, sentiments chrétiens et anti-philosophiques.	mélancolie	isabout	mélancolie		
+67.39	r_s	style noble, vertu, thèmes philosophiques.	thèmes philosophiques	isabout	philosophie		
+67.39	r_s	style noble, vertu, thèmes philosophiques.	vertu	isabout	vertu		
+67.44	r_c	intrigue sentimentale (les suites d’un mariage malheureux), histoires de famille;	sentimentale	isabout	sentiment		
+67.44	r_c	intrigue sentimentale (les suites d’un mariage malheureux), histoires de famille;	famille	isabout	famille		
+67.44	r_c	intrigue sentimentale (les suites d’un mariage malheureux), histoires de famille;	malheur	isabout	malheur		
+68.55	r_c	suite de malheurs, discussions;	malheurs	isabout	malheur		
+68.55	r_s	thèmes économiques et philosophiques	philosophiques	isabout	philosophie		
+69.57	r_c	intrigue sentimentale, amours contrariées;	sentimentale	isabout	sentiment		
+69.57	r_s	sensibilité, vertu, prose poétique.	sensibilité	isabout	sentimentalisme		
+69.57	r_c	intrigue sentimentale, amours contrariées;	amour	isabout	amour		
+69.57	r_s	sensibilité, vertu, prose poétique.	vertu	isabout	vertu		
+71.23	r_c	aventures galantes, réflexions morales	galant	isabout	galanterie		
+71.23	r_c	aventures galantes, réflexions morales	morale	isabout	morale		
+71.25	r_c	intrigue sentimentale, amours contrariées;	sentimentale	isabout	sentiment		
+71.25	r_s	sensibilité effrénée.	sensibilité	isabout	sentimentalisme		
+71.25	r_c	intrigue sentimentale, amours contrariées;	amour	isabout	amour		
+71.36	r_c	rêve de l’avenir, critique des mœurs et des institutions;	mœurs	isabout	mœurs		
+72.17	r_c	aventures merveilleuses et fantastiques	merveille	isabout	miracle		
+72.19	r_c	intrigue sentimentale (un cœur sensible peut pécher mais reste pur), malheurs;	sentimentale	isabout	sentiment		
+72.19	r_s	sensibilité effrénée, analyse d’un problème moral.	sensibilité	isabout	sentimentalisme		
+72.19	r_c	intrigue sentimentale (un cœur sensible peut pécher mais reste pur), malheurs;	malheurs	isabout	malheur		
+74.15	r_s	sensibilité, vertu, prétentions moralisatrices.	sensibilité	isabout	sentimentalisme		
+74.15	r_s	sensibilité, vertu, prétentions moralisatrices.	vertu	isabout	vertu		
+74.20	r_c	intrigue sentimentale (qui finit par la mort de l’héroïne);	sentimentale	isabout	sentiment		
+74.20	r_s	malheurs, sensibilité passionnée.	sensibilité	isabout	sentimentalisme		
+74.20	r_s	malheurs, sensibilité passionnée.	malheurs	isabout	malheur		
+74.20	r_s	malheurs, sensibilité passionnée.	passion	isabout	passion		
+75.37	r_c	aventures galantes et libertines.	galant	isabout	galanterie		
+75.37	r_c	aventures galantes et libertines.	libertines	isabout	libertinage		
+76.36	r_c	intrigue sentimentale, aventures, entremêlées de thèmes religieux et philosophiques;	sentimentale	isabout	sentiment		
+76.36	r_s	sensibilité, vertu.	sensibilité	isabout	sentimentalisme		
+76.36	r_c	intrigue sentimentale, aventures, entremêlées de thèmes religieux et philosophiques;	philosophiques	isabout	philosophie		
+76.36	r_s	sensibilité, vertu.	vertu	isabout	vertu		
+77.50	r_c	aventures guerrières, incidents romanesques;	guerrière	isabout	guerre		
+77.57	r_s	observations sur les mœurs.	mœurs	isabout	mœurs		
+79.22	r_s	sensibilité, vertu.	sensibilité	isabout	sentimentalisme		
+79.22	r_c	amours contrariées, malheurs;	malheurs	isabout	malheur		
+79.22	r_c	amours contrariées, malheurs;	amour	isabout	amour		
+79.22	r_s	sensibilité, vertu.	vertu	isabout	vertu		
+82.17	r_c	intrigues libertines, vengeances;	libertines	isabout	libertinage		
+82.20	r_s	but didactique (roman d’éducation), sensibilité, vertu.	sensibilité	isabout	sentimentalisme		
+82.20	r_s	but didactique (roman d’éducation), sensibilité, vertu.	éducation	isabout	éducation		
+82.20	r_s	but didactique (roman d’éducation), sensibilité, vertu.	vertu	isabout	vertu		
+82.27	r_c	aventures romanesques, voyages en France et dans des pays exotiques, description d’un pays imaginaire;	voyages	isabout	voyage		
+82.27	r_s	thèmes philosophiques, quelques épisodes aux tendances réalistes.	thèmes philosophiques	isabout	philosophie		
+83.15	r_s	sensibilité larmoyante, malheurs.	sensibilité	isabout	sentimentalisme		
+83.15	r_c	pour échapper à la poursuite, les membres de la famille La Bédoyère se déguisent en paysans...;	famille	isabout	famille		
+83.15	r_s	sensibilité larmoyante, malheurs.	malheurs	isabout	malheur		
+83.26	r_c	intrigue sentimentale;	sentimentale	isabout	sentiment		
+83.31	r_c	intrigue sentimentale, malheurs;	sentimentale	isabout	sentiment		
+83.31	r_s	sensibilité larmoyante.	sensibilité	isabout	sentimentalisme		
+83.31	r_c	intrigue sentimentale, malheurs;	malheurs	isabout	malheur		
+83.40	r_c	aventures d’un libertin;	libertin	isabout	libertinage		
+83.40	r_s	précisions pornographiques.	pornographiques	isabout	érotisme		
+83.42	r_s	ton sensible.	sensible	isabout	sentimentalisme		
+83.42	r_c	intrigues politiques et amoureuses;	politique	isabout	politique		
+83.42	r_c	intrigues politiques et amoureuses;	amour	isabout	amour		
+84.27	r_c	voyages, aventures fantaisistes et décousues.	voyages	isabout	voyage		
+84.50	r_c	aventures libertines	libertines	isabout	libertinage		
+84.58	r_c	aventures galantes, malheurs d’une villageoise entraînée par le mauvais exemple;	galant	isabout	galanterie		
+84.58	r_s	sensibilité, intentions moralisatrices, tendances réalistes.	sensibilité	isabout	sentimentalisme		
+84.58	r_c	aventures galantes, malheurs d’une villageoise entraînée par le mauvais exemple;	malheurs	isabout	malheur		
+84.58	r_c	aventures galantes, malheurs d’une villageoise entraînée par le mauvais exemple;	village	isabout	village		
+85.24	r_c	une mère raconte dans des lettres l’éducation mondaine et sentimentale de sa fille;	sentimentale	isabout	sentiment		
+85.24	r_c	une mère raconte dans des lettres l’éducation mondaine et sentimentale de sa fille;	éducation	isabout	éducation		
+86.27	r_s	sensibilité, vie à la campagne.	sensibilité	isabout	sentimentalisme		
+86.27	r_c	intrigue mondaine, histoire d’amour;	amour	isabout	amour		
+86.32	r_c	aventures sentimentales, intrigues politiques;	sentimentale	isabout	sentiment		
+86.32	r_c	aventures sentimentales, intrigues politiques;	politique	isabout	politique		
+86.51	r_c	aventures libertines	libertines	isabout	libertinage		
+87.25	r_c	voyages, aventures merveilleuses;	merveille	isabout	miracle		
+87.25	r_c	voyages, aventures merveilleuses;	voyages	isabout	voyage		
+87.54bis	r_c	intrigue sentimentale;	sentimentale	isabout	sentiment		
+87.54bis	r_s	sensibilité passionnée, retour à la nature.	sensibilité	isabout	sentimentalisme		
+87.54bis	r_s	sensibilité passionnée, retour à la nature.	passion	isabout	passion		
+87.54bis	r_s	sensibilité passionnée, retour à la nature.	nature	isabout	nature		
+87.56	r_c	aventures galantes;	galant	isabout	galanterie		
+88.53	r_c	intrigue sentimentale;	sentimentale	isabout	sentiment		
+89.104	r_c	correspondance amoureuse au cours de laquelle le marquis délaisse Ninon pour madame Scarron	amour	isabout	amour		
+89.104	r_c	correspondance amoureuse au cours de laquelle le marquis délaisse Ninon pour madame Scarron	correspondance	isabout	correspondance littéraire		
+89.104	r_c	correspondance amoureuse au cours de laquelle le marquis délaisse Ninon pour madame Scarron	cour	isabout	cour		
+90.47	r_c	aventures galantes;	galant	isabout	galanterie		
+91.42	r_c	les malheurs et aventures de deux soeurs orphelines de caractères opposés;	malheurs	isabout	malheur		
+91.42	r_s	détails pornographiques.	pornographiques	isabout	érotisme		
+91.44	r_c	éducation et vie d’un roi;	éducation	isabout	éducation		
+93.16	r_c	tableaux du libertinage;	libertin	isabout	libertinage		
+93.16	r_s	précisions pornographiques.	pornographiques	isabout	érotisme		
+94.13	r_c	intrigue sentimentale;	sentimentale	isabout	sentiment		
+95.20	r_c	aventures chevaleresques;	chevaleresques	isabout	chevalerie		
+95.20	r_s	sensibilité.	sensibilité	isabout	sentimentalisme		
+95.36	r_c	aventures romanesques, voyages, libertinage;	libertin	isabout	libertinage		
+95.36	r_c	aventures romanesques, voyages, libertinage;	voyages	isabout	voyage		
+95.37	r_c	cours de libertinage;	libertin	isabout	libertinage		
+95.37	r_s	précisions pornographiques.	pornographiques	isabout	érotisme		
+95.37	r_c	cours de libertinage;	cour	isabout	cour		
+96.18	r_c	intrigues mondaines et sentimentales, tableaux des moeurs	sentimentale	isabout	sentiment		
+97.21	r_c	voyage, aventures bouffonnes, galantes, romanesques;	galant	isabout	galanterie		
+97.21	r_c	voyage, aventures bouffonnes, galantes, romanesques;	voyage	isabout	voyage		
+97.21	r_s	thèmes philosophiques, mise en cause des techniques du romancier.	thèmes philosophiques	isabout	philosophie		
+97.22	r_c	les malheurs de la victime d’une claustration forcée;	malheurs	isabout	malheur		
+97.22	r_s	thèmes philosophiques et humanitaires.	thèmes philosophiques	isabout	philosophie		
+97.74	r_c	amours malheureuses;	malheur	isabout	malheur		
+97.74	r_c	amours malheureuses;	amour	isabout	amour		
+98.41	r_c	malheurs, intrigue sentimentale;	sentimentale	isabout	sentiment		
+98.41	r_s	sensibilité, vertu.	sensibilité	isabout	sentimentalisme		
+98.41	r_c	malheurs, intrigue sentimentale;	malheurs	isabout	malheur		
+98.41	r_s	sensibilité, vertu.	vertu	isabout	vertu		
+98.84	r_c	de multiples scènes libertines et pornographiques	libertines	isabout	libertinage		
+98.84	r_c	de multiples scènes libertines et pornographiques	pornographiques	isabout	érotisme		
+98.85	r_c	les malheurs d’une réfugiée, éléments d’actualité	malheurs	isabout	malheur		
+98.88	r_c	aventures révolutionnaires, voyages	révolutionnaires	isabout	révolution		
+98.88	r_c	aventures révolutionnaires, voyages	voyages	isabout	voyage		
+99.104	r_c	intrigue mondaine, histoire sentimentale	sentimentale	isabout	sentiment		
+99.105	r_c	querelles de famille, intrigue sentimentale	sentimentale	isabout	sentiment		
+99.105	r_c	querelles de famille, intrigue sentimentale	famille	isabout	famille		
+99.62	r_c	intrigue sentimentale (une femme vertueuse éprouvée par l’amour);	sentimentale	isabout	sentiment		
+99.62	r_s	analyse des sentiments, sensibilité, vertu.	sensibilité	isabout	sentimentalisme		
+99.62	r_c	intrigue sentimentale (une femme vertueuse éprouvée par l’amour);	amour	isabout	amour		
+99.62	r_c	intrigue sentimentale (une femme vertueuse éprouvée par l’amour);	vertu	isabout	vertu		
+99.76	r_s	nature, sensibilité, vertu, bienfaisance.	sensibilité	isabout	sentimentalisme		
+99.76	r_c	malheurs d’une enfant trouvée qui est adoptée par une dame charitable;	malheurs	isabout	malheur		
+99.76	r_s	nature, sensibilité, vertu, bienfaisance.	vertu	isabout	vertu		
+99.76	r_s	nature, sensibilité, vertu, bienfaisance.	nature	isabout	nature		
