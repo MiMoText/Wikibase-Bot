@@ -1,12 +1,12 @@
-FR	EN	DE	P25	P2	P2RP14	P58	P24
-create	items		vocabulary narrative perspective/form	concept narrative perspective/form	vocabulary narrative perspective/form		
-					stated in vocabulary		
-concept perspective/forme narrative	concept narrative perspective/form	Konzept Erzählperspektive/-form	#	#	#		
-vocabulaire perspective/forme narrative	vocabulary narrative perspective/form	Vokabular Erzählperspektive/-form	# 	#	#		https://github.com/MiMoText/vocabularies
-hétérodiégétique	heterodiegetic	heterodiegetisch				https://www.wikidata.org/wiki/Q18088015	
-homodiégétique	homodiegetic	homodiegetisch				https://www.wikidata.org/wiki/Q18088045	
-autodiégétique	autodiegetic	autodiegetisch					
-lettres	epistolary	Briefroman				https://www.wikidata.org/wiki/Q465821	
-dialogues	dialogue	Dialogroman					
-mélangé	mixed	gemischt					
-inconnu	unknown	unbekannt					
+new	FR	EN	DE	P25	P2	P2RP14	P58	P24
+	create	items		vocabulary narrative perspective/form	concept narrative perspective/form	vocabulary narrative perspective/form		
+						stated in vocabulary		
+	concept perspective/forme narrative	concept narrative perspective/form	Konzept Erzählperspektive/-form	#	#	#		
+	vocabulaire perspective/forme narrative	vocabulary narrative perspective/form	Vokabular Erzählperspektive/-form	"# "	#	#		https://github.com/MiMoText/vocabularies
+	hétérodiégétique	heterodiegetic	heterodiegetisch				https://www.wikidata.org/wiki/Q18088015	
+	homodiégétique	homodiegetic	homodiegetisch				https://www.wikidata.org/wiki/Q18088045	
+	autodiégétique	autodiegetic	autodiegetisch					
+	lettres	epistolary	Briefroman				https://www.wikidata.org/wiki/Q465821	
+y	dialogues	dialogue	Dialogroman					
+	mélangé	mixed	gemischt					
+	inconnu	unknown	unbekannt					

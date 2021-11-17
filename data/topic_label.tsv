@@ -1,33 +1,33 @@
-	FR	EN	DE	P57	1P57
-create	items				
-TopicNumber	Label fr	Label en	Label de	Themenkonzept 1	Themenkonzept 2
-0	Topic 0:[temps paraître encore]	Topic 0:[temps paraître encore]	Topic 0:[temps paraître encore]	[temps paraître encore]	
-1	Topic 1:richesse	Topic 1:wealth	Topic 1:Reichtum	wealth	
-2	Topic 2:monarchie	Topic 2:monarchy	Topic 2:Monarchie	monarchy	
-3	Topic 3:relation amoureuse	Topic 3:romantic relationship	Topic 3:Liebesbeziehung	romantic relationship	
-4	Topic 4:[femme fille servir]	Topic 4:[femme fille servir]	Topic 4:[femme fille servir]	[femme fille servir]	
-5	Topic 5:amour_sentiment	Topic 5:love_sentiment	Topic 5:Liebe_Gefühl	love	sentiment
-6	Topic 6:locus amoenus_pastorale en littérature	Topic 6:locus amoenus_pastorale in litterature	Topic 6:Locus amoenus_Pastorale in der Literatur	locus amoenus	pastorale in litterature
-7	Topic 7:nature	Topic 7:nature	Topic 7:Natur	nature	
-8	Topic 8:[voir croire là]	Topic 8:[voir croire là]	Topic 8:[voir croire là]	[voir croire là]	
-9	Topic 9:alimentation_sociabilité	Topic 9:aliment_sociability	Topic 9:Nahrung_Soziabilität	aliment	sociability
-10	Topic 10:philosophie	Topic 10:philosophy	Topic 10:Philosophie	philosophy	
-11	Topic 11:correspondance	Topic 11:correspondence	Topic 11:Korrespondenz	correspondence	
-12	Topic 12:migration_voyage	Topic 12:migration_travel	Topic 12:Migration_Reise	migration	travel
-13	Topic 13:[chevalier voir mot]	Topic 13:[chevalier voir mot]	Topic 13:[chevalier voir mot]	[chevalier voir mot]	
-14	Topic 14:interaction	Topic 14:interaction	Topic 14:Interaktion	interaction	
-15	Topic 15:crime	Topic 15:crime	Topic 15:Verbrechen	crime	
-16	Topic 16:deuil	Topic 16:mourning	Topic 16:Trauer	mourning	
-17	Topic 17:libertinage	Topic 17:libertinism	Topic 17:Libertinismus	libertinism	
-18	Topic 18:[point voir jour]	Topic 18:[point voir jour]	Topic 18:[point voir jour]	[point voir jour]	
-19	Topic 19:censure_religion	Topic 19:censure_religion	Topic 19:Zensur_Religion	censure	religion
-20	Topic 20:religion	Topic 20:religion	Topic 20:Religion	religion	
-21	Topic 21:bonheur	Topic 21:happiness	Topic 21:Glück	happiness	
-22	Topic 22:attraction_personnalité	Topic 22:attraction_personality	Topic 22:Anziehung_Persönlichkeit	attraction	personality
-23	Topic 23:famille	Topic 23:family	Topic 23:Familie	family	
-24	Topic 24:mort	Topic 24:death	Topic 24:Tod	death	
-25	Topic 25:[point voir moins]	Topic 25:[point voir moins]	Topic 25:[point voir moins]	[point voir moins]	
-26	Topic 26:art	Topic 26:art	Topic 26:Kunst	art	
-27	Topic 27:éducation_enfance	Topic 27:education_childhood	Topic 27:Ausbildung_Kindheit	education	childhood
-28	Topic 28:nuit	Topic 28:night	Topic 28:Nacht	night	
-29	Topic 29:noblesse	Topic 29:nobility	Topic 29:Adel	nobility	
+	FR	EN	DE	P57	1P57	P2	P2RP14
+create	items					Q22	Q21
+TopicNumber	Label fr	Label en	Label de	Themenkonzept 1	Themenkonzept 2		
+0	Topic 0:[temps paraître encore]	Topic 0:[temps paraître encore]	Topic 0:[temps paraître encore]	[temps paraître encore]			
+1	Topic 1:richesse	Topic 1:wealth	Topic 1:Reichtum	wealth			
+2	Topic 2:monarchie	Topic 2:monarchy	Topic 2:Monarchie	monarchy			
+3	Topic 3:relation amoureuse	Topic 3:romantic relationship	Topic 3:Liebesbeziehung	romantic relationship			
+4	Topic 4:[femme fille servir]	Topic 4:[femme fille servir]	Topic 4:[femme fille servir]	[femme fille servir]			
+5	Topic 5:amour_sentiment	Topic 5:love_sentiment	Topic 5:Liebe_Gefühl	love	sentiment		
+6	Topic 6:locus amoenus_pastorale en littérature	Topic 6:locus amoenus_pastorale in litterature	Topic 6:Locus amoenus_Pastorale in der Literatur	locus amoenus	pastorale in litterature		
+7	Topic 7:nature	Topic 7:nature	Topic 7:Natur	nature			
+8	Topic 8:[voir croire là]	Topic 8:[voir croire là]	Topic 8:[voir croire là]	[voir croire là]			
+9	Topic 9:alimentation_sociabilité	Topic 9:aliment_sociability	Topic 9:Nahrung_Soziabilität	aliment	sociability		
+10	Topic 10:philosophie	Topic 10:philosophy	Topic 10:Philosophie	philosophy			
+11	Topic 11:correspondance	Topic 11:correspondence	Topic 11:Korrespondenz	correspondence			
+12	Topic 12:migration_voyage	Topic 12:migration_travel	Topic 12:Migration_Reise	migration	travel		
+13	Topic 13:[chevalier voir mot]	Topic 13:[chevalier voir mot]	Topic 13:[chevalier voir mot]	[chevalier voir mot]			
+14	Topic 14:interaction	Topic 14:interaction	Topic 14:Interaktion	interaction			
+15	Topic 15:crime	Topic 15:crime	Topic 15:Verbrechen	crime			
+16	Topic 16:deuil	Topic 16:mourning	Topic 16:Trauer	mourning			
+17	Topic 17:libertinage	Topic 17:libertinism	Topic 17:Libertinismus	libertinism			
+18	Topic 18:[point voir jour]	Topic 18:[point voir jour]	Topic 18:[point voir jour]	[point voir jour]			
+19	Topic 19:censure_religion	Topic 19:censure_religion	Topic 19:Zensur_Religion	censure	religion		
+20	Topic 20:religion	Topic 20:religion	Topic 20:Religion	religion			
+21	Topic 21:bonheur	Topic 21:happiness	Topic 21:Glück	happiness			
+22	Topic 22:attraction_personnalité	Topic 22:attraction_personality	Topic 22:Anziehung_Persönlichkeit	attraction	personality		
+23	Topic 23:famille	Topic 23:family	Topic 23:Familie	family			
+24	Topic 24:mort	Topic 24:death	Topic 24:Tod	death			
+25	Topic 25:[point voir moins]	Topic 25:[point voir moins]	Topic 25:[point voir moins]	[point voir moins]			
+26	Topic 26:art	Topic 26:art	Topic 26:Kunst	art			
+27	Topic 27:éducation_enfance	Topic 27:education_childhood	Topic 27:Ausbildung_Kindheit	education	childhood		
+28	Topic 28:nuit	Topic 28:night	Topic 28:Nacht	night			
+29	Topic 29:noblesse	Topic 29:nobility	Topic 29:Adel	nobility			
