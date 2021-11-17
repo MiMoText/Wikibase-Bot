@@ -70,3 +70,7 @@ While adding globe-coordinates
 API error modification-failed: Missing required field "precision"
     =>  precision = 0.000001
         pywikibot.Coordinate(lat, lon, None, precision)
+
+Statement dupletten werden angelegt mit Referenz
+    => das item wurde gecached. Dadurch bezog sich die zweite Claim abfrage auf das alte Item
+    item.get(True) fetch item and override cache

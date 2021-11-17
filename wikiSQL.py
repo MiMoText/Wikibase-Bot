@@ -9,6 +9,8 @@ class SparQL_Mode(Enum):
   IDforStatement = '3'
   label = '?label'
   value = '?value'
+  ID_WithTarget = 4
+  ID_from_P30 = 5
 
 class SparQL_Properties(Enum):
   instance_of = 'P2'
@@ -19,7 +21,7 @@ def prettyPrint(variable):
   pp.pprint(variable)
 
 
-def GetEntryOverSPARQL(ENDPOINT, item, mode=SparQL_Mode.QID, prop="P13", lang='en'):
+def GetEntryOverSPARQL(ENDPOINT, item, mode=SparQL_Mode.QID, prop="P13", lang='en', target=None):
   '''
   Get Entry with Label Name and Language
   '''
@@ -80,6 +82,27 @@ def GetEntryOverSPARQL(ENDPOINT, item, mode=SparQL_Mode.QID, prop="P13", lang='e
     }
     """
   
+  elif mode == SparQL_Mode.ID_WithTarget:
+    query ="""
+    select *
+    {
+      ?item rdfs:label ?label.
+      ?item wdt:P2 wd:""" + target + """.
+      Filter (regex(?label, '^"""+ item +"""$'))
+      BIND (str(Replace(str(?item), "\\\\D+\\\\d+\\\\D+\\\\/", "")) as ?Result)
+    }
+    """
+  
+  elif mode == SparQL_Mode.ID_from_P30:
+    query="""
+    select *
+    {
+      ?item wdt:P30|wdt:P58 ?label.
+      Filter (regex(str(?label), "^""" + item + """$", "i"))
+      BIND (str(Replace(str(?item), "\\\\D+\\\\d+\\\\D+\\\\/", "")) as ?Result)
+    }
+    """
+
   #print(item)
   results = get_results(endpoint_url, query)
   #prettyPrint(results)

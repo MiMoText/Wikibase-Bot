@@ -36,28 +36,34 @@ def CreateItem(repo, ENDPOINT, row):
 
   '''
   #TODO: quatsch? anders
-  if 'FR' in row and not SQL.GetEntryOverSPARQL(ENDPOINT, row['FR']) or 'DE' in row and not SQL.GetEntryOverSPARQL(ENDPOINT, row['DE']) or 'EN' in row and not SQL.GetEntryOverSPARQL(ENDPOINT, row['EN']):
-    new_item = pywikibot.ItemPage(repo)
-    if 'FR' in row:
-      fr = row['FR']
-    else:
-      fr = ''
-    if 'EN' in row:
-      en = row['EN']
-    else:
-      en = ''
-    if 'DE' in row:
-      de = row['DE']
-    else:
-      de = ''
-    label_dict = {'fr': fr, 'de': de, 'en': en}
-    new_item.editLabels(labels=label_dict, summary="Setting labels")
+  
+  new_item = pywikibot.ItemPage(repo)
+  if 'FR MiMoText' in row and row['FR MiMoText'] != '':
+    fr = row['FR MiMoText']
+  elif 'FR' in row and row['FR'] != '':
+    fr = row['FR']
+  else:
+    fr = ''
+  if 'EN MiMoText' in row and row['EN MiMoText'] != '':
+    en = row['EN MiMoText']
+  elif 'EN' in row and row['EN'] != '':
+    en = row['EN']
+  else:
+    en = ''
+  if 'DE MiMoText' in row and row['DE MiMoText'] != '':
+    de = row['DE MiMoText']
+  elif 'DE' in row and row['DE'] != '':
+    de = row['DE']
+  else:
+    de = ''
+  label_dict = {'fr': fr, 'de': de, 'en': en}
+  new_item.editLabels(labels=label_dict, summary="Setting labels")
 
-    if 'description-fr' in row or 'description-de' in row or 'description-en' in row:
-      desc_dict = {'fr': row['description-fr'], 'de': row['description-de'], 'en': row['description-en']}
-      new_item.editDescriptions(descriptions=desc_dict, summary="Setting descriptions")
+  if 'description-fr' in row or 'description-de' in row or 'description-en' in row:
+    desc_dict = {'fr': row['description-fr'], 'de': row['description-de'], 'en': row['description-en']}
+    new_item.editDescriptions(descriptions=desc_dict, summary="Setting descriptions")
 
-    return new_item
+  return new_item
 
 def CreateAuthor(name, repo):
   '''
@@ -242,7 +248,6 @@ def CreateClaim(repo, ENDPOINT, item, prop, target, references = None):
     claim = ''
     claim = pywikibot.Claim(repo, prop)
     print(prop)
-    print(claim)
     sTarget = SetTarget(repo,ENDPOINT, prop, target)
     if sTarget:
       claim.setTarget(sTarget)
@@ -252,14 +257,32 @@ def CreateClaim(repo, ENDPOINT, item, prop, target, references = None):
             CreateReferenz(repo,ENDPOINT,claim, ref[0], ref[1])
       item.addClaim(claim, summary='Adding claim ' + prop)
 
-def getClaim(item, prop):
+def getClaim(item, pid, ENDPOINT=None, REPO=None, target=None):
   #print(item)
   #TODO: items with more then one matching property
   itemClaims = item.get()['claims']
   for claimProperty, claims in itemClaims.items():
-      if claimProperty == prop:
+      if claimProperty == pid:
           for claim in claims:
+            if not REPO or not ENDPOINT:
               return claim
+            if not target:
+              return None
+            if re.match(r"^Q\d+$", target):
+              qid = target
+            else:
+              propertyPage = pywikibot.PropertyPage(REPO, pid)
+              propertyPage.get(True)
+              if propertyPage._type == "wikibase-item":
+                qid = SQL.GetEntryOverSPARQL(ENDPOINT, target)
+                if not qid:
+                  qid = SQL.GetEntryOverSPARQL(ENDPOINT, target, lang="fr")
+                if not qid:
+                  qid = SQL.GetEntryOverSPARQL(ENDPOINT, target, lang="de")
+            if claim.target_equals(qid):
+              return claim
+            
+          return None
             
 
 def SetTarget(repo,ENDPOINT, prop, target):
