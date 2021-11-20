@@ -243,11 +243,32 @@ with open(filename, 'r', newline='') as tsv_data:
     #-------------------------------------------------------------------------------------------------------------------------------
     elif infos[0] == 'update' and rowcount > 1:
 
-      if 'P13' in row:
-        print(row['P13'])
+      if 'IDcheck' in row and row["IDcheck"] != '':
+        QID_item = GetEntryOverSPARQL(ENDPOINT, row["IDcheck"], SparQL_Mode.ID_from_P30)
+      elif 'P13' in row and row["P13"] != '':
         QID_item = GetEntryOverSPARQL(ENDPOINT,row['P13'], SparQL_Mode.IDforStatement)
-      elif 'ID' in row:
+      elif 'ID' in row and row["ID"] != '':
         QID_item = GetEntryOverSPARQL(ENDPOINT,row['ID'])
+      elif ('EN MiMoText' in row and row["EN MiMoText"] != '' and row["IDcheck"] == ''):
+        QID_item = GetEntryOverSPARQL(ENDPOINT, row["EN MiMoText"], SparQL_Mode.ID_without_Property_and_instance_of_Item, "wdt:P30|wdt:P58", instanceOf="Q26")  
+        if ('FR MiMoText' in row and row["FR MiMoText"] != '' and row["IDcheck"] == '') and not QID_item:
+          QID_item = GetEntryOverSPARQL(ENDPOINT, row["FR MiMoText"], SparQL_Mode.ID_without_Property_and_instance_of_Item, "wdt:P30|wdt:P58",'fr', instanceOf="Q26") 
+        if ('DE MiMoText' in row and row["DE MiMoText"] != '' and row["IDcheck"] == '') and not QID_item:
+          QID_item = GetEntryOverSPARQL(ENDPOINT, row["DE MiMoText"], SparQL_Mode.ID_without_Property_and_instance_of_Item, "wdt:P30|wdt:P58",'de', instanceOf="Q26") 
+      elif 'EN MiMoText' in row and row["EN MiMoText"] != '':
+        QID_item = GetEntryOverSPARQL(ENDPOINT, row['EN MiMoText'])
+      elif 'FR MiMoText' in row and row["FR MiMoText"] != '':
+        QID_item = GetEntryOverSPARQL(ENDPOINT, row['FR MiMoText'], lang='fr')
+      elif 'DE MiMoText' in row and row["DE MiMoText"] != '':
+        QID_item = GetEntryOverSPARQL(ENDPOINT, row['DE MiMoText'], lang='de')
+      elif 'EN' in row and row['EN'] != '':
+        QID_item = GetEntryOverSPARQL(ENDPOINT, row['EN'])
+      elif 'FR' in row and row['FR'] != '':
+        QID_item = GetEntryOverSPARQL(ENDPOINT, row['FR'], SparQL_Mode.QID, '', 'fr')
+      elif 'DE' in row and row['DE'] != '':
+        QID_item = GetEntryOverSPARQL(ENDPOINT, row['DE'], SparQL_Mode.QID, '', 'de')
+
+       
 
       statement = None
       if "statements" in row0 and row0["statements"] != '':
@@ -261,7 +282,7 @@ with open(filename, 'r', newline='') as tsv_data:
       #check headers and choose operation based on it
       #TODO: how to signal if update or new and what to do with multiple items in statement
       for pid in head:       
-        if(re.match(r"^P\d+$", pid)) and row[pid] != '': # Px
+        if re.match(r"^P\d+$", pid) and row[pid] != '': # Px
           if pid != 'P13' and pid != 'P26' and not row0[pid] and item:
             item.get(True)
             if infos[1] == "edit":
@@ -322,6 +343,20 @@ with open(filename, 'r', newline='') as tsv_data:
               print("CreateClaim", pid, row[pid])
             else:
               print("createClaim", pid, row0[pid])'''
+        if re.match(r"P\d+$", pid) and row0[pid] != None and row0[pid] != '': # Px and entry in head (row0)
+          if row0[pid] == "delete":
+            item.get(True)
+            claim = getClaim(item, pid)
+            if claim:
+              item.removeClaims(claim)
+          elif row[pid] != '' and row[pid] != None: # check entry in row
+            if row[pid].strip() != '#': # check if entry is #
+              CreateClaim(REPO,ENDPOINT, item, pid, row[pid])
+          else: # no entry in row
+            item.get(True)
+            claim = getClaim(item, pid, ENDPOINT, REPO, row0[pid])
+            if not claim:
+              CreateClaim(REPO, ENDPOINT,item, pid, row0[pid])
         if re.match(r"^P\d+RP\d+$", pid) and row0[pid] != '': # PxRPx
 
           pos = pid.find("R")
@@ -439,7 +474,31 @@ with open(filename, 'r', newline='') as tsv_data:
               print("Create Claim 2")
               references = [(propRef, propRefTarget)]
               CreateClaim(REPO,ENDPOINT, item, prop, QID_Loc, references) 
+        if pid == "FR MiMoText":
+          if row["FR MiMoText"] != '':
+            fr = row["FR MiMoText"]
+          elif row["FR"] != '':
+            fr = row["FR"]
+          else:
+            fr = ''
 
+          if row["EN MiMoText"] != '':
+            en = row["EN MiMoText"]
+          elif row["EN"] != '':
+            en = row["EN"]
+          else:
+            en = ''
+
+          if row["DE MiMoText"] != '':
+            de = row["DE MiMoText"]
+          elif row["DE"] != '':
+            de = row["DE"]
+          else:
+            de = ''
+
+          label_dict = {'fr': fr, 'de': de, 'en': en}
+          item.editLabels(labels=label_dict, summary="edit labels")
+            
     elif infos[0] == 'create' and infos[1] == 'vocab' and rowcount > 1:
 
       if not GetEntryOverSPARQL(ENDPOINT,row['title-fr'],'fr') and not GetEntryOverSPARQL(ENDPOINT,row['title-de'],'de') and not GetEntryOverSPARQL(ENDPOINT,row['title-en']):

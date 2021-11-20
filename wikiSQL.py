@@ -11,6 +11,7 @@ class SparQL_Mode(Enum):
   value = '?value'
   ID_WithTarget = 4
   ID_from_P30 = 5
+  ID_without_Property_and_instance_of_Item = 6
 
 class SparQL_Properties(Enum):
   instance_of = 'P2'
@@ -21,7 +22,7 @@ def prettyPrint(variable):
   pp.pprint(variable)
 
 
-def GetEntryOverSPARQL(ENDPOINT, item, mode=SparQL_Mode.QID, prop="P13", lang='en', target=None):
+def GetEntryOverSPARQL(ENDPOINT, item, mode=SparQL_Mode.QID, prop="P13", lang='en', target=None, instanceOf = None):
   '''
   Get Entry with Label Name and Language
   '''
@@ -100,6 +101,19 @@ def GetEntryOverSPARQL(ENDPOINT, item, mode=SparQL_Mode.QID, prop="P13", lang='e
       ?item wdt:P30|wdt:P58 ?label.
       Filter (regex(str(?label), "^""" + item + """$", "i"))
       BIND (str(Replace(str(?item), "\\\\D+\\\\d+\\\\D+\\\\/", "")) as ?Result)
+    }
+    """
+  elif mode == SparQL_Mode.ID_without_Property_and_instance_of_Item:
+    query = """
+    SELECT *
+    {
+      ?item rdfs:label ?label.
+      ?item wdt:P2 wd:""" + instanceOf + """.
+      Filter not exists {?item rdf:type wikibase:Property}
+      Filter not exists {?item """ + prop + """ ?o}
+      Filter (regex(?label, '^""" + item + """$', 'i'))
+      Filter (lang(?label) = '""" + lang + """') 
+      BIND (str(Replace(str(?item), '\\\\D+\\\\d+\\\\D+\\\\/', '')) as ?Result)    
     }
     """
 
