@@ -1,4 +1,4 @@
-FR MiMoText	EN MiMoText	DE MiMoText		P30	P58		FR	EN	DE						P25	P2	P2RP14
+FR MiMoText	EN MiMoText	DE MiMoText		P30	P58		FR	EN	DE						P20	P2	P2RP14
 create	items														Q25	Q26	Q25
 MiMoText Label (fr)	MiMoText Label (en)	MiMoText Label (de)	Wikidata IDs	Wikidata URLs		coordinate location	Wikidata Label (fr) | copy MMT-Label	Wikidata Label (en)	Wikidata Label (de)	Quelle (intern)	matching quality	skos:altLabel (fr)	skos:altLabel (en)	skos:altLabel (de)			
 			Q1	https://www.wikidata.org/wiki/Q1			univers	universe	Universum								
@@ -412,171 +412,171 @@ Locus amoenus	Locus amoenus	Locus amoenus	Q739317		https://www.wikidata.org/wiki
 			Q9679	https://www.wikidata.org/wiki/Q9679		50.666666666667,-1.2666666666667	île de Wight	Isle of Wight	Isle of Wight								
 			Q980	https://www.wikidata.org/wiki/Q980		48.7775,11.431111111111	Bavière	Bavaria	Bayern								
 			Q99545681	https://www.wikidata.org/wiki/Q99545681			Perse antique	ancient Persia									
-Versenai							Versenai			NER							
-Albi							Albi			NER							
-Alcine							Alcine			NER							
-Alibre							Alibre			NER							
-Alibre							Alibre			NER							
-Almont							Almont			NER							
-Amand							Amand			NER							
-Amazan							Amazan			NER							
-Arcis							Arcis			NER							
-Armincourt							Armincourt			NER							
-Barin							Barin			NER							
-Baronnet							Baronnet			NER							
-Beaumenard							Beaumenard			NER							
-Belcour							Belcour			NER							
-Belise							Belise			NER							
-Bougainville							Bougainville			NER							
-Branlinos							Branlinos			NER							
-Briceval							Briceval			NER							
-Bruxelles							Bruxelles			NER							
-Bude							Bude			NER							
-Calais							Calais			NER							
-Cardoville							Cardoville			NER							
-Chelles							Chelles			NER							
-Cidalise							Cidalise			NER							
-Clarens							Clarens			NER							
-Combe							Combe			NER							
-Comminges							Comminges			NER							
-Cressy							Cressy			NER							
-Dainville							Dainville			NER							
-Déterville							Déterville			NER							
-Diaulas							Diaulas			NER							
-Dinazarde							Dinazarde			NER							
-Dolimon							Dolimon			NER							
-Dorneuil							Dorneuil			NER							
-Dorville							Dorville			NER							
-Elmasie							Elmasie			NER							
-Eranville							Eranville			NER							
-Europe							Europe			NER							
-Fakreddin							Fakreddin			NER							
-Fanchette							Fanchette			NER							
-Fanchette							Fanchette			NER							
-Fermon							Fermon			NER							
-Fessinot							Fessinot			NER							
-Flamacour							Flamacour			NER							
-Florimonde							Florimonde			NER							
-Florise							Florise			NER							
-Fromonville							Fromonville			NER							
-Gaine							Gaine			NER							
-Galligènes							Galligènes			NER							
-Géminyile							Géminyile			NER							
-Gersay							Gersay			NER							
-Guaé							Guaé			NER							
-Guaiziek							Guaiziek			NER							
-Gulchenrouz							Gulchenrouz			NER							
-Hariote							Hariote			NER							
-Hiboumanes							Hiboumanes			NER							
-Inare							Inare			NER							
-Isle							Isle			NER							
-Isles							Isles			NER							
-Isménie							Isménie			NER							
-Jagrenat							Jagrenat			NER							
-Lacédémone							Lacédémone			NER							
-Lagaraye							Lagaraye			NER							
-Lagouache							Lagouache			NER							
-Layrac							Layrac			NER							
-le Taïtien							le Taïtien			NER							
-Lesseville							Lesseville			NER							
-Locriens							Locriens			NER							
-Longchamp							Longchamp			NER							
-Manzaïde							Manzaïde			NER							
-Massanne							Massanne			NER							
-Médie							Médie			NER							
-Ménécrate							Ménécrate			NER							
-Méris							Méris			NER							
-Merval							Merval			NER							
-Milcourt							Milcourt			NER							
-Minois							Minois			NER							
-Mirval							Mirval			NER							
-Mœris							Mœris			NER							
-Molinos							Molinos			NER							
-Montfort							Montfort			NER							
-Morakanabad							Morakanabad			NER							
-Murcé							Murcé			NER							
-Nasuf							Nasuf			NER							
-Neuilly							Neuilly			NER							
-Nismes							Nismes			NER							
-Nitri							Nitri			NER							
-Olympia							Olympia			NER							
-Orbe							Orbe			NER							
-Orl							Orl			NER							
-Ormilly							Ormilly			NER							
-Orseuil							Orseuil			NER							
-Paquantois							Paquantois			NER							
-Parangon							Parangon			NER							
-Phocus							Phocus			NER							
-Primrose							Primrose			NER							
-Rosemont							Rosemont			NER							
-Saint - Flour							Saint - Flour			NER							
-Saint-Ange							Saint-Ange			NER							
-Saint-Flour							Saint-Flour			NER							
-Saintré							Saintré			NER							
-Sancerre							Sancerre			NER							
-Sargines							Sargines			NER							
-sauvai							sauvai			NER							
-Senneterre							Senneterre			NER							
-Senneville							Senneville			NER							
-Sidley							Sidley			NER							
-Sinderson							Sinderson			NER							
-Sylvanire							Sylvanire			NER							
-Syndham							Syndham			NER							
-Téolinde							Téolinde			NER							
-Tergowitz							Tergowitz			NER							
-Thémines							Thémines			NER							
-Thomill							Thomill			NER							
-Thrazylle							Thrazylle			NER							
-Tien							Tien			NER							
-Tiennete							Tiennete			NER							
-Timante							Timante			NER							
-Timori							Timori			NER							
-Tout-Ou-Rien							Tout-Ou-Rien			NER							
-Ust							Ust			NER							
-Valcreux							Valcreux			NER							
-Vante							Vante			NER							
-Vinchester							Vinchester			NER							
-Vitikind							Vitikind			NER							
-Volsange							Volsange			NER							
-Wilton							Wilton			NER							
-Zeinzemin							Zeinzemin			NER							
-Zerbin							Zerbin			NER							
-Alménidore							Alménidore			NER							
-Ardasire							Ardasire			NER							
-Armoflède							Armoflède			NER							
-Artidore							Artidore			NER							
-Auterive							Auterive			NER							
-Axiochus							Axiochus			NER							
-Barville							Barville			NER							
-Bazilette							Bazilette			NER							
-Belosane							Belosane			NER							
-Célimene							Célimene			NER							
-Desglands							Desglands			NER							
-Dubois							Dubois			NER							
-Euphrosie							Euphrosie			NER							
-Fleur-De-Myrte							Fleur-De-Myrte			NER							
-Florizene							Florizene			NER							
-Français							Français			NER							
-Franval							Franval			NER							
-Frivolipolis							Frivolipolis			NER							
-Golconde							Golconde			NER							
-Jezennemours							Jezennemours			NER							
-Kermouth							Kermouth			NER							
-Lamontette							Lamontette			NER							
-Luzan							Luzan			NER							
-Mondelis							Mondelis			NER							
-Mortagne							Mortagne			NER							
-Nassès							Nassès			NER							
-Némorin							Némorin			NER							
-Nouronihar							Nouronihar			NER							
-Paquans							Paquans			NER							
-Periphas							Periphas			NER							
-Pizarre							Pizarre			NER							
-Saint-Flour							Saint-Flour			NER							
-Saint-Silvain							Saint-Silvain			NER							
-Schah-Baham							Schah-Baham			NER							
-S-Firmin							S-Firmin			NER							
-Sydney							Sydney			NER							
-Trénel							Trénel			NER							
-Verglan							Verglan			NER							
-Vernol							Vernol			NER							
+Versenai	Versenai	Versenai					Versenai			NER							
+Albi	Albi	Albi					Albi			NER							
+Alcine	Alcine	Alcine					Alcine			NER							
+Alibre	Alibre	Alibre					Alibre			NER							
+Alibre	Alibre	Alibre					Alibre			NER							
+Almont	Almont	Almont					Almont			NER							
+Amand	Amand	Amand					Amand			NER							
+Amazan	Amazan	Amazan					Amazan			NER							
+Arcis	Arcis	Arcis					Arcis			NER							
+Armincourt	Armincourt	Armincourt					Armincourt			NER							
+Barin	Barin	Barin					Barin			NER							
+Baronnet	Baronnet	Baronnet					Baronnet			NER							
+Beaumenard	Beaumenard	Beaumenard					Beaumenard			NER							
+Belcour	Belcour	Belcour					Belcour			NER							
+Belise	Belise	Belise					Belise			NER							
+Bougainville	Bougainville	Bougainville					Bougainville			NER							
+Branlinos	Branlinos	Branlinos					Branlinos			NER							
+Briceval	Briceval	Briceval					Briceval			NER							
+Bruxelles	Bruxelles	Bruxelles					Bruxelles			NER							
+Bude	Bude	Bude					Bude			NER							
+Calais	Calais	Calais					Calais			NER							
+Cardoville	Cardoville	Cardoville					Cardoville			NER							
+Chelles	Chelles	Chelles					Chelles			NER							
+Cidalise	Cidalise	Cidalise					Cidalise			NER							
+Clarens	Clarens	Clarens					Clarens			NER							
+Combe	Combe	Combe					Combe			NER							
+Comminges	Comminges	Comminges					Comminges			NER							
+Cressy	Cressy	Cressy					Cressy			NER							
+Dainville	Dainville	Dainville					Dainville			NER							
+Déterville	Déterville	Déterville					Déterville			NER							
+Diaulas	Diaulas	Diaulas					Diaulas			NER							
+Dinazarde	Dinazarde	Dinazarde					Dinazarde			NER							
+Dolimon	Dolimon	Dolimon					Dolimon			NER							
+Dorneuil	Dorneuil	Dorneuil					Dorneuil			NER							
+Dorville	Dorville	Dorville					Dorville			NER							
+Elmasie	Elmasie	Elmasie					Elmasie			NER							
+Eranville	Eranville	Eranville					Eranville			NER							
+Europe	Europe	Europe					Europe			NER							
+Fakreddin	Fakreddin	Fakreddin					Fakreddin			NER							
+Fanchette	Fanchette	Fanchette					Fanchette			NER							
+Fanchette	Fanchette	Fanchette					Fanchette			NER							
+Fermon	Fermon	Fermon					Fermon			NER							
+Fessinot	Fessinot	Fessinot					Fessinot			NER							
+Flamacour	Flamacour	Flamacour					Flamacour			NER							
+Florimonde	Florimonde	Florimonde					Florimonde			NER							
+Florise	Florise	Florise					Florise			NER							
+Fromonville	Fromonville	Fromonville					Fromonville			NER							
+Gaine	Gaine	Gaine					Gaine			NER							
+Galligènes	Galligènes	Galligènes					Galligènes			NER							
+Géminyile	Géminyile	Géminyile					Géminyile			NER							
+Gersay	Gersay	Gersay					Gersay			NER							
+Guaé	Guaé	Guaé					Guaé			NER							
+Guaiziek	Guaiziek	Guaiziek					Guaiziek			NER							
+Gulchenrouz	Gulchenrouz	Gulchenrouz					Gulchenrouz			NER							
+Hariote	Hariote	Hariote					Hariote			NER							
+Hiboumanes	Hiboumanes	Hiboumanes					Hiboumanes			NER							
+Inare	Inare	Inare					Inare			NER							
+Isle	Isle	Isle					Isle			NER							
+Isles	Isles	Isles					Isles			NER							
+Isménie	Isménie	Isménie					Isménie			NER							
+Jagrenat	Jagrenat	Jagrenat					Jagrenat			NER							
+Lacédémone	Lacédémone	Lacédémone					Lacédémone			NER							
+Lagaraye	Lagaraye	Lagaraye					Lagaraye			NER							
+Lagouache	Lagouache	Lagouache					Lagouache			NER							
+Layrac	Layrac	Layrac					Layrac			NER							
+le Taïtien	le Taïtien	le Taïtien					le Taïtien			NER							
+Lesseville	Lesseville	Lesseville					Lesseville			NER							
+Locriens	Locriens	Locriens					Locriens			NER							
+Longchamp	Longchamp	Longchamp					Longchamp			NER							
+Manzaïde	Manzaïde	Manzaïde					Manzaïde			NER							
+Massanne	Massanne	Massanne					Massanne			NER							
+Médie	Médie	Médie					Médie			NER							
+Ménécrate	Ménécrate	Ménécrate					Ménécrate			NER							
+Méris	Méris	Méris					Méris			NER							
+Merval	Merval	Merval					Merval			NER							
+Milcourt	Milcourt	Milcourt					Milcourt			NER							
+Minois	Minois	Minois					Minois			NER							
+Mirval	Mirval	Mirval					Mirval			NER							
+Mœris	Mœris	Mœris					Mœris			NER							
+Molinos	Molinos	Molinos					Molinos			NER							
+Montfort	Montfort	Montfort					Montfort			NER							
+Morakanabad	Morakanabad	Morakanabad					Morakanabad			NER							
+Murcé	Murcé	Murcé					Murcé			NER							
+Nasuf	Nasuf	Nasuf					Nasuf			NER							
+Neuilly	Neuilly	Neuilly					Neuilly			NER							
+Nismes	Nismes	Nismes					Nismes			NER							
+Nitri	Nitri	Nitri					Nitri			NER							
+Olympia	Olympia	Olympia					Olympia			NER							
+Orbe	Orbe	Orbe					Orbe			NER							
+Orl	Orl	Orl					Orl			NER							
+Ormilly	Ormilly	Ormilly					Ormilly			NER							
+Orseuil	Orseuil	Orseuil					Orseuil			NER							
+Paquantois	Paquantois	Paquantois					Paquantois			NER							
+Parangon	Parangon	Parangon					Parangon			NER							
+Phocus	Phocus	Phocus					Phocus			NER							
+Primrose	Primrose	Primrose					Primrose			NER							
+Rosemont	Rosemont	Rosemont					Rosemont			NER							
+Saint - Flour	Saint - Flour	Saint - Flour					Saint - Flour			NER							
+Saint-Ange	Saint-Ange	Saint-Ange					Saint-Ange			NER							
+Saint-Flour	Saint-Flour	Saint-Flour					Saint-Flour			NER							
+Saintré	Saintré	Saintré					Saintré			NER							
+Sancerre	Sancerre	Sancerre					Sancerre			NER							
+Sargines	Sargines	Sargines					Sargines			NER							
+sauvai	sauvai	sauvai					sauvai			NER							
+Senneterre	Senneterre	Senneterre					Senneterre			NER							
+Senneville	Senneville	Senneville					Senneville			NER							
+Sidley	Sidley	Sidley					Sidley			NER							
+Sinderson	Sinderson	Sinderson					Sinderson			NER							
+Sylvanire	Sylvanire	Sylvanire					Sylvanire			NER							
+Syndham	Syndham	Syndham					Syndham			NER							
+Téolinde	Téolinde	Téolinde					Téolinde			NER							
+Tergowitz	Tergowitz	Tergowitz					Tergowitz			NER							
+Thémines	Thémines	Thémines					Thémines			NER							
+Thomill	Thomill	Thomill					Thomill			NER							
+Thrazylle	Thrazylle	Thrazylle					Thrazylle			NER							
+Tien	Tien	Tien					Tien			NER							
+Tiennete	Tiennete	Tiennete					Tiennete			NER							
+Timante	Timante	Timante					Timante			NER							
+Timori	Timori	Timori					Timori			NER							
+Tout-Ou-Rien	Tout-Ou-Rien	Tout-Ou-Rien					Tout-Ou-Rien			NER							
+Ust	Ust	Ust					Ust			NER							
+Valcreux	Valcreux	Valcreux					Valcreux			NER							
+Vante	Vante	Vante					Vante			NER							
+Vinchester	Vinchester	Vinchester					Vinchester			NER							
+Vitikind	Vitikind	Vitikind					Vitikind			NER							
+Volsange	Volsange	Volsange					Volsange			NER							
+Wilton	Wilton	Wilton					Wilton			NER							
+Zeinzemin	Zeinzemin	Zeinzemin					Zeinzemin			NER							
+Zerbin	Zerbin	Zerbin					Zerbin			NER							
+Alménidore	Alménidore	Alménidore					Alménidore			NER							
+Ardasire	Ardasire	Ardasire					Ardasire			NER							
+Armoflède	Armoflède	Armoflède					Armoflède			NER							
+Artidore	Artidore	Artidore					Artidore			NER							
+Auterive	Auterive	Auterive					Auterive			NER							
+Axiochus	Axiochus	Axiochus					Axiochus			NER							
+Barville	Barville	Barville					Barville			NER							
+Bazilette	Bazilette	Bazilette					Bazilette			NER							
+Belosane	Belosane	Belosane					Belosane			NER							
+Célimene	Célimene	Célimene					Célimene			NER							
+Desglands	Desglands	Desglands					Desglands			NER							
+Dubois	Dubois	Dubois					Dubois			NER							
+Euphrosie	Euphrosie	Euphrosie					Euphrosie			NER							
+Fleur-De-Myrte	Fleur-De-Myrte	Fleur-De-Myrte					Fleur-De-Myrte			NER							
+Florizene	Florizene	Florizene					Florizene			NER							
+Français	Français	Français					Français			NER							
+Franval	Franval	Franval					Franval			NER							
+Frivolipolis	Frivolipolis	Frivolipolis					Frivolipolis			NER							
+Golconde	Golconde	Golconde					Golconde			NER							
+Jezennemours	Jezennemours	Jezennemours					Jezennemours			NER							
+Kermouth	Kermouth	Kermouth					Kermouth			NER							
+Lamontette	Lamontette	Lamontette					Lamontette			NER							
+Luzan	Luzan	Luzan					Luzan			NER							
+Mondelis	Mondelis	Mondelis					Mondelis			NER							
+Mortagne	Mortagne	Mortagne					Mortagne			NER							
+Nassès	Nassès	Nassès					Nassès			NER							
+Némorin	Némorin	Némorin					Némorin			NER							
+Nouronihar	Nouronihar	Nouronihar					Nouronihar			NER							
+Paquans	Paquans	Paquans					Paquans			NER							
+Periphas	Periphas	Periphas					Periphas			NER							
+Pizarre	Pizarre	Pizarre					Pizarre			NER							
+Saint-Flour	Saint-Flour	Saint-Flour					Saint-Flour			NER							
+Saint-Silvain	Saint-Silvain	Saint-Silvain					Saint-Silvain			NER							
+Schah-Baham	Schah-Baham	Schah-Baham					Schah-Baham			NER							
+S-Firmin	S-Firmin	S-Firmin					S-Firmin			NER							
+Sydney	Sydney	Sydney					Sydney			NER							
+Trénel	Trénel	Trénel					Trénel			NER							
+Verglan	Verglan	Verglan					Verglan			NER							
+Vernol	Vernol	Vernol					Vernol			NER							

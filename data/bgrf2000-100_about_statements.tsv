@@ -30,7 +30,7 @@ id	Spalte	text	Keyword	property	Themenwert
 00.119	r_c	amours contrariées	amour	isabout	amour		
 00.120	r_c	aventures romanesques, intrigues politiques, histoire d’amour	politique	isabout	politique		
 00.120	r_c	aventures romanesques, intrigues politiques, histoire d’amour	amour	isabout	amour		
-00.120	r_s	éléments historiques	éléments historiques	isabout	"histoire "		
+00.120	r_s	éléments historiques	éléments historiques	isabout	histoire		
 00.123	r_c	voyages, aventures romanesques	voyages	isabout	voyage		
 00.124	r_c	histoires de famille	famille	isabout	famille		
 00.126	r_c	intrigues sentimentales et de famille	sentimentale	isabout	sentiment		
@@ -42,11 +42,11 @@ id	Spalte	text	Keyword	property	Themenwert
 00.129	r_c	voyages, aventures, amours, espiègleries (la vie de Figaro jusqu’au début du Barbier de Séville)	amour	isabout	amour		
 00.130	r_s	éléments historiques, sensibilité, mélancolie	sensibilité	isabout	sentimentalisme		
 00.130	r_s	éléments historiques, sensibilité, mélancolie	mélancolie	isabout	mélancolie		
-00.130	r_s	éléments historiques, sensibilité, mélancolie	éléments historiques	isabout	"histoire "		
+00.130	r_s	éléments historiques, sensibilité, mélancolie	éléments historiques	isabout	histoire		
 00.131	r_s	sensibilité, éléments du roman noir	sensibilité	isabout	sentimentalisme		
 00.131	r_c	les amours des célèbres amants mises en roman	amour	isabout	amour		
 00.136	r_c	les malheurs romanesques d’une jeune orpheline	malheurs	isabout	malheur		
-00.137	r_s	critique des mœurs et des institutions (à la manière des Lettres persanes)	mœurs	isabout	"mœurs "		
+00.137	r_s	critique des mœurs et des institutions (à la manière des Lettres persanes)	mœurs	isabout	mœurs		
 00.138	r_c	aventures comiques, intrigues galantes, voyages d’un jeune homme	galant	isabout	galanterie		
 00.138	r_c	aventures comiques, intrigues galantes, voyages d’un jeune homme	voyages	isabout	voyage		
 00.140	r_c	aventures romanesques (duels, bandits), intrigues sentimentales	sentimentale	isabout	sentiment		
@@ -71,8 +71,8 @@ id	Spalte	text	Keyword	property	Themenwert
 00.15	r_c	les aventures et les amours d’un jeune fugitif	amour	isabout	amour		
 00.150	r_s	tableau de mœurs, ton sensible et moralisateur	sensible	isabout	sentimentalisme		
 00.150	r_c	les amours et aventures de Ned, qui de souche bourgeoise finit par épouser lady Cécilia, suivies de nouvelles péripéties en Amérique	amour	isabout	amour		
-00.150	r_s	tableau de mœurs, ton sensible et moralisateur	mœurs	isabout	"mœurs "		
-00.151	r_c	intrigue mondaine, peinture des mœurs	mœurs	isabout	"mœurs "		
+00.150	r_s	tableau de mœurs, ton sensible et moralisateur	mœurs	isabout	mœurs		
+00.151	r_c	intrigue mondaine, peinture des mœurs	mœurs	isabout	mœurs		
 00.152	r_c	histoires de famille, malheurs	famille	isabout	famille		
 00.152	r_c	histoires de famille, malheurs	malheurs	isabout	malheur		
 00.153	r_s	thèmes philosophiques	thèmes philosophiques	isabout	philosophie		
@@ -83,7 +83,7 @@ id	Spalte	text	Keyword	property	Themenwert
 00.16	r_s	précisions pornographiques	pornographiques	isabout	érotisme		
 00.18	r_s	peinture des mœurs, ton sentimental	sentimental	isabout	sentiment		
 00.18	r_c	intrigues domestiques, amours criminelles, aventures	amour	isabout	amour		
-00.18	r_s	peinture des mœurs, ton sentimental	mœurs	isabout	"mœurs "		
+00.18	r_s	peinture des mœurs, ton sentimental	mœurs	isabout	mœurs		
 00.18	r_c	intrigues domestiques, amours criminelles, aventures	criminel	isabout	crime		
 00.20	r_c	voyages et aventures d’un assassin involontaire	voyages	isabout	voyage		
 00.21	r_c	voyages, amours et aventures d’un jeune homme	voyages	isabout	voyage		
@@ -125,7 +125,7 @@ id	Spalte	text	Keyword	property	Themenwert
 00.58	r_c	aventures chevaleresques et guerrières, mélancolie	guerrière	isabout	guerre		
 00.58	r_c	aventures chevaleresques et guerrières, mélancolie	chevaleresques	isabout	chevalerie		
 00.58	r_c	aventures chevaleresques et guerrières, mélancolie	mélancolie	isabout	mélancolie		
-00.58	r_s	éléments historiques (Charles Martel, la bataille de Tours)	éléments historiques	isabout	"histoire "		
+00.58	r_s	éléments historiques (Charles Martel, la bataille de Tours)	éléments historiques	isabout	histoire		
 00.60	r_s	sensibilité, mélancolie	sensibilité	isabout	sentimentalisme		
 00.60	r_c	les malheurs d’une femme vertueuse	malheurs	isabout	malheur		
 00.60	r_s	sensibilité, mélancolie	mélancolie	isabout	mélancolie		
@@ -144,7 +144,7 @@ id	Spalte	text	Keyword	property	Themenwert
 00.68	r_c	intrigue sentimentale	sentimentale	isabout	sentiment		
 00.7	r_c	intrigues sentimentales, observations sur les mœurs	sentimentale	isabout	sentiment		
 00.7	r_s	sensibilité	sensibilité	isabout	sentimentalisme		
-00.7	r_c	intrigues sentimentales, observations sur les mœurs	mœurs	isabout	"mœurs "		
+00.7	r_c	intrigues sentimentales, observations sur les mœurs	mœurs	isabout	mœurs		
 00.70	r_c	intrigues romanesques et sentimentales, malheurs	sentimentale	isabout	sentiment		
 00.70	r_s	sensibilité, roman noir	sensibilité	isabout	sentimentalisme		
 00.70	r_c	intrigues romanesques et sentimentales, malheurs	malheurs	isabout	malheur		
@@ -164,8 +164,8 @@ id	Spalte	text	Keyword	property	Themenwert
 00.84	r_c	voyages et amours d’Ardinghello, qui rêve d’organiser une petite société heureuse	voyages	isabout	voyage		
 00.84	r_c	voyages et amours d’Ardinghello, qui rêve d’organiser une petite société heureuse	amour	isabout	amour		
 00.85	r_c	intrigues sentimentales	sentimentale	isabout	sentiment		
-00.85	r_s	roman de mœurs	mœurs	isabout	"mœurs "		
-00.87	r_c	Récit d’un tour du monde servant à décrire le milieu, les habitants, la faune et la flore, les mœurs et les monuments du passé de divers pays [...]	mœurs	isabout	"mœurs "		
+00.85	r_s	roman de mœurs	mœurs	isabout	mœurs		
+00.87	r_c	Récit d’un tour du monde servant à décrire le milieu, les habitants, la faune et la flore, les mœurs et les monuments du passé de divers pays [...]	mœurs	isabout	mœurs		
 00.9	r_c	intrigues politiques et sentimentales, éléments mystérieux, arrière-plan historique (Etienne Marcel, Jacquerie)	sentimentale	isabout	sentiment		
 00.9	r_s	sentiments royalistes et anti-révolutionnaires	révolutionnaires	isabout	révolution		
 00.9	r_c	intrigues politiques et sentimentales, éléments mystérieux, arrière-plan historique (Etienne Marcel, Jacquerie)	mystérieux	isabout	mystère		
@@ -192,15 +192,15 @@ id	Spalte	text	Keyword	property	Themenwert
 51.11	r_c	aventures galantes et sentimentales (le héros apprend à être ‘philosophe’, se retire du monde)	sentimentale	isabout	sentiment		
 51.13	r_c	voyages, aventures romanesques, épisodes orientaux	voyages	isabout	voyage		
 51.14	r_c	Deux contes de fées libertins	libertin	isabout	libertinage		
-51.15	r_c	satire allégorique des mœurs françaises	mœurs	isabout	"mœurs "		
+51.15	r_c	satire allégorique des mœurs françaises	mœurs	isabout	mœurs		
 51.16	r_c	voyage en Corse	voyage	isabout	voyage		
 51.17	r_c	carrière d’une courtisane, avec quelques scènes très libres	cour	isabout	cour		
 51.18	r_s	anecdotes libertines	libertines	isabout	libertinage		
-51.2	r_c	Peinture de mœurs, à propos du Jubilé de 1750	mœurs	isabout	"mœurs "		
+51.2	r_c	Peinture de mœurs, à propos du Jubilé de 1750	mœurs	isabout	mœurs		
 51.21	r_c	aventures galantes et libertines	galant	isabout	galanterie		
 51.21	r_c	aventures galantes et libertines	libertines	isabout	libertinage		
 51.22	r_c	aventures galantes d’un jeune homme, critique des mœurs	galant	isabout	galanterie		
-51.22	r_c	aventures galantes d’un jeune homme, critique des mœurs	mœurs	isabout	"mœurs "		
+51.22	r_c	aventures galantes d’un jeune homme, critique des mœurs	mœurs	isabout	mœurs		
 51.23	r_c	intrigues de cour	cour	isabout	cour		
 51.24	r_c	peinture voluptueuse de la passion, suivie de discussions sur le bonheur	passion	isabout	passion		
 51.25	r_s	sensibilité	sensibilité	isabout	sentimentalisme		
@@ -210,7 +210,7 @@ id	Spalte	text	Keyword	property	Themenwert
 51.3	r_c	intrigues sentimentales	sentimentale	isabout	sentiment		
 51.3	r_s	sensibilité	sensibilité	isabout	sentimentalisme		
 51.31	r_c	intrigues politiques menées par le héros pour pouvoir rentrer à la cour de Siam	politique	isabout	politique		
-51.31	r_s	observations sur les mœurs européennes, ton plaisant	mœurs	isabout	"mœurs "		
+51.31	r_s	observations sur les mœurs européennes, ton plaisant	mœurs	isabout	mœurs		
 51.31	r_c	intrigues politiques menées par le héros pour pouvoir rentrer à la cour de Siam	cour	isabout	cour		
 51.32	r_c	voyages et aventures romanesques d’un jeune homme qui apprend à être philosophe	voyages	isabout	voyage		
 51.34	r_c	aventures merveilleuses et chevaleresques	merveille	isabout	miracle		
@@ -219,7 +219,7 @@ id	Spalte	text	Keyword	property	Themenwert
 51.37	r_c	critique des mœurs (un fils de bonne famille devient fat); intrigue sentimentale	sentimentale	isabout	sentiment		
 51.37	r_c	critique des mœurs (un fils de bonne famille devient fat); intrigue sentimentale	famille	isabout	famille		
 51.37	r_s	intentions moralisatrices, thème de l’éducation	éducation	isabout	éducation		
-51.37	r_c	critique des mœurs (un fils de bonne famille devient fat); intrigue sentimentale	mœurs	isabout	"mœurs "		
+51.37	r_c	critique des mœurs (un fils de bonne famille devient fat); intrigue sentimentale	mœurs	isabout	mœurs		
 51.38	r_c	description d’une utopie où les gens sont honnêtes et sensibles	sensible	isabout	sentimentalisme		
 51.40	r_s	intentions moralisatrices, sensibilité	sensibilité	isabout	sentimentalisme		
 51.41	r_c	une suite d’incidents assez peu vraisemblables indique les effets des passions telles que l’amour, la jalousie, l’avarice etc	amour	isabout	amour		
@@ -238,14 +238,14 @@ id	Spalte	text	Keyword	property	Themenwert
 52.13	r_c	aventures romanesques et sentimentales	sentimentale	isabout	sentiment		
 52.14	r_c	récit allégorique, philosophique (éducation d’une jeune fille).	éducation	isabout	éducation		
 52.17	r_c	la Folie et la Mode tâchent de répandre leurs doctrines en Egypte, mais elles sont contrecarrées par des gens vertueux et raisonnables; critique des mœurs	vertu	isabout	vertu		
-52.17	r_c	la Folie et la Mode tâchent de répandre leurs doctrines en Egypte, mais elles sont contrecarrées par des gens vertueux et raisonnables; critique des mœurs	mœurs	isabout	"mœurs "		
+52.17	r_c	la Folie et la Mode tâchent de répandre leurs doctrines en Egypte, mais elles sont contrecarrées par des gens vertueux et raisonnables; critique des mœurs	mœurs	isabout	mœurs		
 52.18	r_c	aventures merveilleuses et féeriques, voyages allégoriques	merveille	isabout	miracle		
 52.18	r_c	aventures merveilleuses et féeriques, voyages allégoriques	voyages	isabout	voyage		
 52.19	r_c	aventures galantes et merveilleuses, satire des mœurs	galant	isabout	galanterie		
 52.19	r_c	aventures galantes et merveilleuses, satire des mœurs	merveille	isabout	miracle		
-52.19	r_c	aventures galantes et merveilleuses, satire des mœurs	mœurs	isabout	"mœurs "		
+52.19	r_c	aventures galantes et merveilleuses, satire des mœurs	mœurs	isabout	mœurs		
 52.2	r_c	aventures galantes avec épisodes scabreux	galant	isabout	galanterie		
-52.21	r_s	satire des mœurs	mœurs	isabout	"mœurs "		
+52.21	r_s	satire des mœurs	mœurs	isabout	mœurs		
 52.22	r_s	réflexions morales	morale	isabout	morale		
 52.23	r_c	intrigues de famille	famille	isabout	famille		
 52.24	r_c	aventures amoureuses et guerrières	guerrière	isabout	guerre		
@@ -313,7 +313,7 @@ id	Spalte	text	Keyword	property	Themenwert
 54.10	r_c	aventures galantes, voyages, éléments merveilleux et féeriques	voyages	isabout	voyage		
 54.12	r_c	aventures sentimentales	sentimentale	isabout	sentiment		
 54.14	r_c	description des mœurs de différents pays; intrigue sentimentale: Ruspia épouse le vice-roi de Goa	sentimentale	isabout	sentiment		
-54.14	r_c	description des mœurs de différents pays; intrigue sentimentale: Ruspia épouse le vice-roi de Goa	mœurs	isabout	"mœurs "		
+54.14	r_c	description des mœurs de différents pays; intrigue sentimentale: Ruspia épouse le vice-roi de Goa	mœurs	isabout	mœurs		
 54.15	r_c	aventures, voyages, malheurs	malheurs	isabout	malheur		
 54.15	r_c	aventures, voyages, malheurs	voyages	isabout	voyage		
 54.16	r_c	aventures galantes d’un moine, voyages	galant	isabout	galanterie		
@@ -330,16 +330,16 @@ id	Spalte	text	Keyword	property	Themenwert
 54.23	r_c	un prince japonais est enlevé pour qu ’il puisse recevoir une meilleure éducation entre les mains d’une gouvernante européenne	éducation	isabout	éducation		
 54.24	r_c	aventures galantes	galant	isabout	galanterie		
 54.24	r_s	roman libertin	libertin	isabout	libertinage		
-54.26	r_s	critique des mœurs	mœurs	isabout	"mœurs "		
+54.26	r_s	critique des mœurs	mœurs	isabout	mœurs		
 54.27	r_c	intrigues politiques, éléments historiques	politique	isabout	politique		
-54.27	r_c	intrigues politiques, éléments historiques	éléments historiques	isabout	"histoire "		
+54.27	r_c	intrigues politiques, éléments historiques	éléments historiques	isabout	histoire		
 54.28	r_c	intrigues politiques, aventures sentimentales et militaires, voyages	sentimentale	isabout	sentiment		
 54.28	r_c	intrigues politiques, aventures sentimentales et militaires, voyages	politique	isabout	politique		
 54.28	r_c	intrigues politiques, aventures sentimentales et militaires, voyages	voyages	isabout	voyage		
 54.28	r_c	intrigues politiques, aventures sentimentales et militaires, voyages	militaire	isabout	militaire		
 54.29	r_c	un misogyne raconte ses aventures galantes et fait des réflexions sur les femmes	galant	isabout	galanterie		
 54.29	r_s	analyse morale	morale	isabout	morale		
-54.30	r_s	éléments historiques	éléments historiques	isabout	"histoire "		
+54.30	r_s	éléments historiques	éléments historiques	isabout	histoire		
 54.30	r_c	aventures romanesques et militaires; intrigues de cour	militaire	isabout	militaire		
 54.30	r_c	aventures romanesques et militaires; intrigues de cour	cour	isabout	cour		
 54.31	r_c	intrigue sentimentale, aventures merveilleuses et guerrières, voyages	sentimentale	isabout	sentiment		
@@ -350,12 +350,12 @@ id	Spalte	text	Keyword	property	Themenwert
 54.8	r_c	allégorie merveilleuse	merveille	isabout	miracle		
 54.9	r_c	aventures galantes; après une jeunesse déréglée, le héros embrasse une vie vertueuse	galant	isabout	galanterie		
 54.9	r_c	aventures galantes; après une jeunesse déréglée, le héros embrasse une vie vertueuse	vertu	isabout	vertu		
-55.11	r_s	critique des mœurs, ton satirique	mœurs	isabout	"mœurs "		
+55.11	r_s	critique des mœurs, ton satirique	mœurs	isabout	mœurs		
 55.12	r_c	voyages imaginaires, critique des mœurs, thèmes philosophiques	voyages	isabout	voyage		
 55.12	r_c	voyages imaginaires, critique des mœurs, thèmes philosophiques	thèmes philosophiques	isabout	philosophie		
-55.12	r_c	voyages imaginaires, critique des mœurs, thèmes philosophiques	mœurs	isabout	"mœurs "		
+55.12	r_c	voyages imaginaires, critique des mœurs, thèmes philosophiques	mœurs	isabout	mœurs		
 55.14	r_c	aventures galantes d’un jeune homme, avec critique des mœurs	galant	isabout	galanterie		
-55.14	r_c	aventures galantes d’un jeune homme, avec critique des mœurs	mœurs	isabout	"mœurs "		
+55.14	r_c	aventures galantes d’un jeune homme, avec critique des mœurs	mœurs	isabout	mœurs		
 55.15	r_c	intrigue sentimentale (l’amour contre la philosophie)	sentimentale	isabout	sentiment		
 55.15	r_c	intrigue sentimentale (l’amour contre la philosophie)	amour	isabout	amour		
 55.18	r_c	intrigues amoureuses (un miroir révèle ce que pensent les gens qu ’on y voit)	amour	isabout	amour		
@@ -399,15 +399,15 @@ id	Spalte	text	Keyword	property	Themenwert
 56.14	r_c	intrigues sentimentales, amours tragiques	amour	isabout	amour		
 56.16	r_c	les aventures galantes d’un imprimeur, suivies de ses démêlés avec les autorités et de ses ennuis avec un de ses auteurs	galant	isabout	galanterie		
 56.2	r_c	aventures galantes	galant	isabout	galanterie		
-56.21	r_s	peinture satirique des mœurs à la manière du Diable boiteux	mœurs	isabout	"mœurs "		
+56.21	r_s	peinture satirique des mœurs à la manière du Diable boiteux	mœurs	isabout	mœurs		
 56.23	r_c	amours romanesques et malheureuses	malheur	isabout	malheur		
 56.23	r_c	amours romanesques et malheureuses	amour	isabout	amour		
-56.24	r_c	critique des mœurs	mœurs	isabout	"mœurs "		
+56.24	r_c	critique des mœurs	mœurs	isabout	mœurs		
 56.25	r_c	aventures sentimentales et romanesques	sentimentale	isabout	sentiment		
 56.26	r_c	visions, aventures merveilleuses	merveille	isabout	miracle		
 56.28	r_c	aventures galantes et romanesques	galant	isabout	galanterie		
 56.29	r_c	intrigues de cour, histoires d’amour, aventures militaires, éléments historiques	amour	isabout	amour		
-56.29	r_c	intrigues de cour, histoires d’amour, aventures militaires, éléments historiques	éléments historiques	isabout	"histoire "		
+56.29	r_c	intrigues de cour, histoires d’amour, aventures militaires, éléments historiques	éléments historiques	isabout	histoire		
 56.29	r_c	intrigues de cour, histoires d’amour, aventures militaires, éléments historiques	militaire	isabout	militaire		
 56.29	r_c	intrigues de cour, histoires d’amour, aventures militaires, éléments historiques	cour	isabout	cour		
 56.3	r_c	aventures d’un vaurien qui devient Jésuite et qui abuse de son pouvoir politique et militaire en Amérique du Sud	politique	isabout	politique		
@@ -459,14 +459,14 @@ id	Spalte	text	Keyword	property	Themenwert
 58.7	r_s	sensibilité, vertu	vertu	isabout	vertu		
 59.10	r_c	voyages, critique des mœurs et des institutions (fanatisme, droit de la propriété...)	voyages	isabout	voyage		
 59.10	r_s	thèmes philosophiques	thèmes philosophiques	isabout	philosophie		
-59.10	r_c	voyages, critique des mœurs et des institutions (fanatisme, droit de la propriété...)	mœurs	isabout	"mœurs "		
+59.10	r_c	voyages, critique des mœurs et des institutions (fanatisme, droit de la propriété...)	mœurs	isabout	mœurs		
 59.13	r_c	aventures merveilleuses et guerrières, éducation d’un prince	merveille	isabout	miracle		
 59.13	r_c	aventures merveilleuses et guerrières, éducation d’un prince	guerrière	isabout	guerre		
 59.13	r_c	aventures merveilleuses et guerrières, éducation d’un prince	éducation	isabout	éducation		
 59.17	r_c	nouvelles parisiennes et incidents de la vie de province, réflexions sociales et morales	morale	isabout	morale		
 59.4	r_c	campagnes militaires, avec précisions historiques (le narrateur se croit victime de l’injustice parce qu’il n’a pas pu devenir officier)	militaire	isabout	militaire		
 59.7	r_s	thèmes philosophiques	thèmes philosophiques	isabout	philosophie		
-59.7	r_c	intrigue peu développée, plutôt des critiques des mœurs, des institutions	mœurs	isabout	"mœurs "		
+59.7	r_c	intrigue peu développée, plutôt des critiques des mœurs, des institutions	mœurs	isabout	mœurs		
 59.8	r_c	intrigue sentimentale, aventures romanesques	sentimentale	isabout	sentiment		
 59.9	r_c	le génie voyage pour découvrir le caractère des deux nations	voyage	isabout	voyage		
 60.10	r_s	sensibilité	sensibilité	isabout	sentimentalisme		
@@ -480,8 +480,8 @@ id	Spalte	text	Keyword	property	Themenwert
 60.20	r_s	sensibilité, mélancolie, réflexions	sensibilité	isabout	sentimentalisme		
 60.20	r_s	sensibilité, mélancolie, réflexions	mélancolie	isabout	mélancolie		
 60.22	r_c	aventures d’une orpheline, voyages, peinture des mœurs, réalisme comique	voyages	isabout	voyage		
-60.22	r_c	aventures d’une orpheline, voyages, peinture des mœurs, réalisme comique	mœurs	isabout	"mœurs "		
-60.24	r_c	critique sévère des mœurs et des institutions anglaises (le Chinois considère les Anglais comme des barbares)	mœurs	isabout	"mœurs "		
+60.22	r_c	aventures d’une orpheline, voyages, peinture des mœurs, réalisme comique	mœurs	isabout	mœurs		
+60.24	r_c	critique sévère des mœurs et des institutions anglaises (le Chinois considère les Anglais comme des barbares)	mœurs	isabout	mœurs		
 60.25	r_c	aventures galantes d’un marchand de vin (R*** = Ramponneau, cabaretier) et ses démêlés avec le public	galant	isabout	galanterie		
 60.28	r_s	sensibilité, mélancolie.	sensibilité	isabout	sentimentalisme		
 60.28	r_c	démêlés de famille, voyages, aventures romanesques;	famille	isabout	famille		
@@ -495,7 +495,7 @@ id	Spalte	text	Keyword	property	Themenwert
 60.7	r_c	aventures comiques, voyage, anecdotes	voyage	isabout	voyage		
 60.9	r_c	histoire d’une courtisane avec précisions pornographiques	pornographiques	isabout	érotisme		
 60.9	r_c	histoire d’une courtisane avec précisions pornographiques	cour	isabout	cour		
-61.13	r_c	le baron et la déesse ’Folie du temps’, invisibles, assistent à des conversations, à de petites scènes de mœurs	mœurs	isabout	"mœurs "		
+61.13	r_c	le baron et la déesse ’Folie du temps’, invisibles, assistent à des conversations, à de petites scènes de mœurs	mœurs	isabout	mœurs		
 61.15	r_c	l’illustre Sophocle offre son secours à une descendante d’Eschyle	cour	isabout	cour		
 61.16	r_c	aventures galantes de l’impératrice romaine	galant	isabout	galanterie		
 61.18	r_c	intrigue sentimentale, aventures merveilleuses et allégoriques	sentimentale	isabout	sentiment		
@@ -528,12 +528,12 @@ id	Spalte	text	Keyword	property	Themenwert
 62.32	r_s	ton sensible	sensible	isabout	sentimentalisme		
 62.34	r_s	sensibilité, but moralisateur	sensibilité	isabout	sentimentalisme		
 62.36	r_c	aventures libertines d’un Jésuite	libertines	isabout	libertinage		
-62.37	r_s	critique des mœurs	mœurs	isabout	"mœurs "		
+62.37	r_s	critique des mœurs	mœurs	isabout	mœurs		
 62.38	r_c	Au cours d’un voyage en Egypte, le narrateur rencontre le fils de Jean-Jacques Rousseau	voyage	isabout	voyage		
 62.38	r_c	Au cours d’un voyage en Egypte, le narrateur rencontre le fils de Jean-Jacques Rousseau	cour	isabout	cour		
 62.5	r_c	Lettres galantes: lettres d’amour et d’affaires, écrues par une femme à son mari qui se trouve à l’armée.	galant	isabout	galanterie		
 62.5	r_c	Lettres galantes: lettres d’amour et d’affaires, écrues par une femme à son mari qui se trouve à l’armée.	amour	isabout	amour		
-62.7	r_s	critique des mœurs à la manière du Diable boiteux	mœurs	isabout	"mœurs "		
+62.7	r_s	critique des mœurs à la manière du Diable boiteux	mœurs	isabout	mœurs		
 62.7	r_c	au cours d’un rêve, la fée Lumineuse emmène le narrateur à travers la ville; il observe l’intérieur des maisons et voit des personnages historiques tels que Luther et Calvin	cour	isabout	cour		
 63.1	r_c	partie de plaisir accompagnée de discussions savantes et philosophiques	philosophiques	isabout	philosophie		
 63.11	r_c	voyages, aventures romanesques d’un jeune homme	voyages	isabout	voyage		
@@ -546,11 +546,11 @@ id	Spalte	text	Keyword	property	Themenwert
 63.24	r_c	intrigues mondaines, histoire sentimentale	sentimentale	isabout	sentiment		
 63.24	r_s	sensibilité	sensibilité	isabout	sentimentalisme		
 63.25	r_c	aventure galante	galant	isabout	galanterie		
-63.26	r_c	critique satirique des mœurs et des institutions religieuses en dissertations et anecdotes	mœurs	isabout	"mœurs "		
+63.26	r_c	critique satirique des mœurs et des institutions religieuses en dissertations et anecdotes	mœurs	isabout	mœurs		
 63.29	r_c	critique des mœurs, réflexions morales, peu d’intrigue	morale	isabout	morale		
-63.29	r_c	critique des mœurs, réflexions morales, peu d’intrigue	mœurs	isabout	"mœurs "		
+63.29	r_c	critique des mœurs, réflexions morales, peu d’intrigue	mœurs	isabout	mœurs		
 63.3	r_c	intrigue sentimentale, aventures romanesques, couleur locale musulmane	sentimentale	isabout	sentiment		
-63.30	r_s	critique des mœurs, ton comique	mœurs	isabout	"mœurs "		
+63.30	r_s	critique des mœurs, ton comique	mœurs	isabout	mœurs		
 63.31	r_c	le règne de deux frères, l’un hautain et méchant, l’autre modeste, sensible et bon	sensible	isabout	sentimentalisme		
 63.31	r_s	intentions moralisatrices, idées politiques	politique	isabout	politique		
 63.32	r_c	aventures galantes et voyages d’une fille du peuple	galant	isabout	galanterie		
@@ -571,7 +571,7 @@ id	Spalte	text	Keyword	property	Themenwert
 63.42	r_c	(Ligri singe presque humain, élevé par le docteur Abadolfs, lui écrit pendant ses voyages) intrigue sentimentale comique	sentimentale	isabout	sentiment		
 63.42	r_c	(Ligri singe presque humain, élevé par le docteur Abadolfs, lui écrit pendant ses voyages) intrigue sentimentale comique	voyages	isabout	voyage		
 63.42	r_s	remarques sur les mœurs, les institutions, thèmes philosophiques, ton satirique	thèmes philosophiques	isabout	philosophie		
-63.42	r_s	remarques sur les mœurs, les institutions, thèmes philosophiques, ton satirique	mœurs	isabout	"mœurs "		
+63.42	r_s	remarques sur les mœurs, les institutions, thèmes philosophiques, ton satirique	mœurs	isabout	mœurs		
 63.5	r_c	intrigues libertines	libertines	isabout	libertinage		
 63.6	r_c	intrigue sentimentale, aventures merveilleuses	sentimentale	isabout	sentiment		
 63.6	r_c	intrigue sentimentale, aventures merveilleuses	merveille	isabout	miracle		
@@ -596,7 +596,7 @@ id	Spalte	text	Keyword	property	Themenwert
 64.21	r_c	aventures romanesques, intrigue sentimentale	sentimentale	isabout	sentiment		
 64.23	r_c	intrigue sentimentale	sentimentale	isabout	sentiment		
 64.27	r_c	discussions philosophiques, critique des mœurs	philosophiques	isabout	philosophie		
-64.27	r_c	discussions philosophiques, critique des mœurs	mœurs	isabout	"mœurs "		
+64.27	r_c	discussions philosophiques, critique des mœurs	mœurs	isabout	mœurs		
 64.3	r_c	éducation sentimentale du marquis de **	sentimentale	isabout	sentiment		
 64.3	r_s	ton moralisateur, sensibilité	sensibilité	isabout	sentimentalisme		
 64.3	r_c	éducation sentimentale du marquis de **	éducation	isabout	éducation		
@@ -617,7 +617,7 @@ id	Spalte	text	Keyword	property	Themenwert
 64.6	r_s	sensibilité	sensibilité	isabout	sentimentalisme		
 64.7	r_c	aventures romanesques, voyages, épisodes orientaux	voyages	isabout	voyage		
 65.11	r_c	le marquis et la marquise de Florimène et leur famille suivent toutes les modes ridicules	famille	isabout	famille		
-65.11	r_s	critique des mœurs, ton satirique	mœurs	isabout	"mœurs "		
+65.11	r_s	critique des mœurs, ton satirique	mœurs	isabout	mœurs		
 65.14	r_c	aventures romanesques et sentimentales	sentimentale	isabout	sentiment		
 65.14	r_s	thèmes philosophiques	thèmes philosophiques	isabout	philosophie		
 65.15	r_c	intrigue sentimentale comique	sentimentale	isabout	sentiment		
@@ -625,7 +625,7 @@ id	Spalte	text	Keyword	property	Themenwert
 65.19	r_s	mélancolie, sensibilité (à la manière de Prévost)	sensibilité	isabout	sentimentalisme		
 65.19	r_c	voyages, aventures romanesques, sentimentales, éléments historiques	voyages	isabout	voyage		
 65.19	r_s	mélancolie, sensibilité (à la manière de Prévost)	mélancolie	isabout	mélancolie		
-65.19	r_c	voyages, aventures romanesques, sentimentales, éléments historiques	éléments historiques	isabout	"histoire "		
+65.19	r_c	voyages, aventures romanesques, sentimentales, éléments historiques	éléments historiques	isabout	histoire		
 65.2	r_c	aventures romanesques et sentimentales d’une orpheline	sentimentale	isabout	sentiment		
 65.2	r_s	sensibilité	sensibilité	isabout	sentimentalisme		
 65.20	r_c	intrigues galantes et sentimentales	galant	isabout	galanterie		
@@ -635,7 +635,7 @@ id	Spalte	text	Keyword	property	Themenwert
 65.22	r_s	sensibilité	sensibilité	isabout	sentimentalisme		
 65.22	r_c	intrigue sentimentale, amours contrariées par un père peu compréhensif	amour	isabout	amour		
 65.24	r_c	aventures galantes et observations sur les mœurs	galant	isabout	galanterie		
-65.24	r_c	aventures galantes et observations sur les mœurs	mœurs	isabout	"mœurs "		
+65.24	r_c	aventures galantes et observations sur les mœurs	mœurs	isabout	mœurs		
 65.25	r_c	aventures galantes et romanesques	galant	isabout	galanterie		
 65.25	r_s	intentions moralisatrices, sensibilité	sensibilité	isabout	sentimentalisme		
 65.26	r_c	aventures galantes et sentimentales d’une jeune fille de petite naissance recueillie par des bienfaiteurs	galant	isabout	galanterie		
@@ -646,7 +646,7 @@ id	Spalte	text	Keyword	property	Themenwert
 65.28	r_s	sensibilité	sensibilité	isabout	sentimentalisme		
 65.29	r_c	voyages, aventures, intrigue sentimentale	sentimentale	isabout	sentiment		
 65.29	r_c	voyages, aventures, intrigue sentimentale	voyages	isabout	voyage		
-65.29	r_s	critique des mœurs, réflexions	mœurs	isabout	"mœurs "		
+65.29	r_s	critique des mœurs, réflexions	mœurs	isabout	mœurs		
 65.30	r_c	intrigues sentimentales	sentimentale	isabout	sentiment		
 65.31	r_c	aventures sentimentales, louange de la vie pastorale	sentimentale	isabout	sentiment		
 65.31	r_s	extrême sensibilité	sensibilité	isabout	sentimentalisme		
@@ -677,22 +677,22 @@ id	Spalte	text	Keyword	property	Themenwert
 66.10	r_c	intrigue sentimentale (deux amoureux vertueux renoncent à se voir pour ne pas succomber à la tentation)	sentimentale	isabout	sentiment		
 66.10	r_c	intrigue sentimentale (deux amoureux vertueux renoncent à se voir pour ne pas succomber à la tentation)	amour	isabout	amour		
 66.10	r_c	intrigue sentimentale (deux amoureux vertueux renoncent à se voir pour ne pas succomber à la tentation)	vertu	isabout	vertu		
-66.14	r_c	Dialogues entre Ariste et Philindor où les mœurs sont critiquées et qui sont émaillés de petites anecdotes arrivées aux deux interlocuteurs	mœurs	isabout	"mœurs "		
+66.14	r_c	Dialogues entre Ariste et Philindor où les mœurs sont critiquées et qui sont émaillés de petites anecdotes arrivées aux deux interlocuteurs	mœurs	isabout	mœurs		
 66.15	r_s	mélancolie, sensibilité (à la manière de Prévost)	sensibilité	isabout	sentimentalisme		
 66.15	r_c	aventures romanesques, malheurs	malheurs	isabout	malheur		
 66.15	r_s	mélancolie, sensibilité (à la manière de Prévost)	mélancolie	isabout	mélancolie		
 66.16	r_s	sensibilité passionnée	sensibilité	isabout	sentimentalisme		
 66.16	r_s	sensibilité passionnée	passion	isabout	passion		
 66.16	r_c	intrigue mondaine, critique des mœurs, la vertu aux prises avec la méchanceté et le vice	vertu	isabout	vertu		
-66.16	r_c	intrigue mondaine, critique des mœurs, la vertu aux prises avec la méchanceté et le vice	mœurs	isabout	"mœurs "		
+66.16	r_c	intrigue mondaine, critique des mœurs, la vertu aux prises avec la méchanceté et le vice	mœurs	isabout	mœurs		
 66.17	r_c	Le roman de Defoe en raccourci	cour	isabout	cour		
 66.18	r_s	sensibilité, mélancolie	sensibilité	isabout	sentimentalisme		
 66.18	r_c	amours contrariées	amour	isabout	amour		
 66.18	r_s	sensibilité, mélancolie	mélancolie	isabout	mélancolie		
 66.21	r_c	voyages, aventures romanesques et comiques, critique des mœurs et des institutions (de l’église surtout)	voyages	isabout	voyage		
 66.21	r_s	ton satirique, thèmes philosophiques	thèmes philosophiques	isabout	philosophie		
-66.21	r_c	voyages, aventures romanesques et comiques, critique des mœurs et des institutions (de l’église surtout)	mœurs	isabout	"mœurs "		
-66.24	r_c	peinture des mœurs	mœurs	isabout	"mœurs "		
+66.21	r_c	voyages, aventures romanesques et comiques, critique des mœurs et des institutions (de l’église surtout)	mœurs	isabout	mœurs		
+66.24	r_c	peinture des mœurs	mœurs	isabout	mœurs		
 66.27	r_c	aventures romanesques et sentimentales	sentimentale	isabout	sentiment		
 66.27	r_s	sensibilité, malheurs	sensibilité	isabout	sentimentalisme		
 66.27	r_s	sensibilité, malheurs	malheurs	isabout	malheur		
@@ -720,7 +720,7 @@ id	Spalte	text	Keyword	property	Themenwert
 66.39	r_s	intrigue sentimentale (leçon de musique)	sentimentale	isabout	sentiment		
 66.4	r_c	aventures d’un jeune homme, intrigue sentimentale	sentimentale	isabout	sentiment		
 66.40	r_c	intrigues sentimentales	sentimentale	isabout	sentiment		
-66.40	r_s	peinture des mœurs	mœurs	isabout	"mœurs "		
+66.40	r_s	peinture des mœurs	mœurs	isabout	mœurs		
 66.41	r_c	Contes moraux orientaux, avec éléments merveilleux, racontés dans un cadre	merveille	isabout	miracle		
 66.42	r_c	histoires de famille, aventures romanesques et sentimentales	sentimentale	isabout	sentiment		
 66.42	r_s	sensibilité, malheurs, vertu	sensibilité	isabout	sentimentalisme		
@@ -729,7 +729,7 @@ id	Spalte	text	Keyword	property	Themenwert
 66.42	r_s	sensibilité, malheurs, vertu	vertu	isabout	vertu		
 66.43	r_s	sensibilité, vertu	sensibilité	isabout	sentimentalisme		
 66.43	r_s	sensibilité, vertu	vertu	isabout	vertu		
-66.43	r_c	aventures d’une orpheline en société, peinture des mœurs	mœurs	isabout	"mœurs "		
+66.43	r_c	aventures d’une orpheline en société, peinture des mœurs	mœurs	isabout	mœurs		
 66.44	r_s	mélancolie, sensibilité	sensibilité	isabout	sentimentalisme		
 66.44	r_c	histoires de famille, malheurs	famille	isabout	famille		
 66.44	r_c	histoires de famille, malheurs	malheurs	isabout	malheur		
@@ -775,10 +775,10 @@ id	Spalte	text	Keyword	property	Themenwert
 67.24	r_s	sensibilité, bienfaisance, vertu	vertu	isabout	vertu		
 67.26	r_c	un Turc en voyage fait ta critique des mœurs, avec intrigue sentimentale	sentimentale	isabout	sentiment		
 67.26	r_c	un Turc en voyage fait ta critique des mœurs, avec intrigue sentimentale	voyage	isabout	voyage		
-67.26	r_c	un Turc en voyage fait ta critique des mœurs, avec intrigue sentimentale	mœurs	isabout	"mœurs "		
+67.26	r_c	un Turc en voyage fait ta critique des mœurs, avec intrigue sentimentale	mœurs	isabout	mœurs		
 67.27	r_s	ton très sensible	sensible	isabout	sentimentalisme		
 67.27	r_c	En marge: récit d’un voyage en Prusse; observations sur les mœurs, avec peu d’épisodes romanesques	voyage	isabout	voyage		
-67.27	r_c	En marge: récit d’un voyage en Prusse; observations sur les mœurs, avec peu d’épisodes romanesques	mœurs	isabout	"mœurs "		
+67.27	r_c	En marge: récit d’un voyage en Prusse; observations sur les mœurs, avec peu d’épisodes romanesques	mœurs	isabout	mœurs		
 67.28	r_c	En marge: petites biographies édifiantes (sujets bibliques, historiques, vies de saints)	biblique	isabout	bible		
 67.29	r_c	rêves (voyage au ciel), discussions	voyage	isabout	voyage		
 67.3	r_c	thèmes philosophiques: progrès moral de Candide	thèmes philosophiques	isabout	philosophie		
@@ -792,7 +792,7 @@ id	Spalte	text	Keyword	property	Themenwert
 67.32	r_c	amours contrariées, éléments fantastiques	amour	isabout	amour		
 67.34	r_s	intentions moralisatrices, sensibilité	sensibilité	isabout	sentimentalisme		
 67.34	r_c	les vicissitudes d’une famille pauvre, aventures romanesques, tableau des mœurs	famille	isabout	famille		
-67.34	r_c	les vicissitudes d’une famille pauvre, aventures romanesques, tableau des mœurs	mœurs	isabout	"mœurs "		
+67.34	r_c	les vicissitudes d’une famille pauvre, aventures romanesques, tableau des mœurs	mœurs	isabout	mœurs		
 67.4	r_s	sensibilité effrénée, vertu	sensibilité	isabout	sentimentalisme		
 67.4	r_c	amours contrariées, aventures romanesques, malheurs	malheurs	isabout	malheur		
 67.4	r_c	amours contrariées, aventures romanesques, malheurs	amour	isabout	amour		
@@ -812,7 +812,7 @@ id	Spalte	text	Keyword	property	Themenwert
 67.48	r_s	sensibilité, vertu	vertu	isabout	vertu		
 67.5	r_c	les débuts d’un jeune bourgeois, voyages, aventures romanesques, épisode oriental	voyages	isabout	voyage		
 67.50	r_c	les personnages se rencontrent dans un coche et se racontent leur vie (aventures sentimentales et romanesques)	sentimentale	isabout	sentiment		
-67.50	r_s	intentions moralisatrices, ton comique, peinture des mœurs, quelques tendances réalistes	mœurs	isabout	"mœurs "		
+67.50	r_s	intentions moralisatrices, ton comique, peinture des mœurs, quelques tendances réalistes	mœurs	isabout	mœurs		
 67.51	r_c	intrigues sentimentales, histoires de famille, sensibilité, malheurs	sentimentale	isabout	sentiment		
 67.51	r_c	intrigues sentimentales, histoires de famille, sensibilité, malheurs	sensibilité	isabout	sentimentalisme		
 67.51	r_c	intrigues sentimentales, histoires de famille, sensibilité, malheurs	famille	isabout	famille		
@@ -823,13 +823,13 @@ id	Spalte	text	Keyword	property	Themenwert
 67.6	r_c	aventures romanesques et galantes, exploits d’escroc, voyages	galant	isabout	galanterie		
 67.6	r_c	aventures romanesques et galantes, exploits d’escroc, voyages	voyages	isabout	voyage		
 67.7	r_c	intrigue mondaine, histoire d’amour, peinture des mœurs	amour	isabout	amour		
-67.7	r_c	intrigue mondaine, histoire d’amour, peinture des mœurs	mœurs	isabout	"mœurs "		
+67.7	r_c	intrigue mondaine, histoire d’amour, peinture des mœurs	mœurs	isabout	mœurs		
 67.8	r_c	aventures galantes, peinture des mœurs	galant	isabout	galanterie		
-67.8	r_c	aventures galantes, peinture des mœurs	mœurs	isabout	"mœurs "		
+67.8	r_c	aventures galantes, peinture des mœurs	mœurs	isabout	mœurs		
 67.9	r_c	aventures galantes et romanesques, voyages	galant	isabout	galanterie		
 67.9	r_c	aventures galantes et romanesques, voyages	voyages	isabout	voyage		
 68.1	r_c	intrigue sentimentale	sentimentale	isabout	sentiment		
-68.10	r_c	observations sur les mœurs et les institutions	mœurs	isabout	"mœurs "		
+68.10	r_c	observations sur les mœurs et les institutions	mœurs	isabout	mœurs		
 68.11	r_c	voyages, aventures romanesques	voyages	isabout	voyage		
 68.12	r_s	sensibilité	sensibilité	isabout	sentimentalisme		
 68.13	r_c	aventures romanesques et sentimentales	sentimentale	isabout	sentiment		
@@ -864,7 +864,7 @@ id	Spalte	text	Keyword	property	Themenwert
 68.36	r_c	intrigues galantes et sentimentales, peinture des mœurs	galant	isabout	galanterie		
 68.36	r_c	intrigues galantes et sentimentales, peinture des mœurs	sentimentale	isabout	sentiment		
 68.36	r_s	sensibilité	sensibilité	isabout	sentimentalisme		
-68.36	r_c	intrigues galantes et sentimentales, peinture des mœurs	mœurs	isabout	"mœurs "		
+68.36	r_c	intrigues galantes et sentimentales, peinture des mœurs	mœurs	isabout	mœurs		
 68.37	r_s	sensibilité effrénée, mélancolie (’J’ai déjà trop vécu ’)	sensibilité	isabout	sentimentalisme		
 68.37	r_c	aventures romanesques, voyages, horreur et violence	voyages	isabout	voyage		
 68.37	r_s	sensibilité effrénée, mélancolie (’J’ai déjà trop vécu ’)	mélancolie	isabout	mélancolie		
@@ -872,7 +872,7 @@ id	Spalte	text	Keyword	property	Themenwert
 68.40	r_c	intrigue sentimentale, aventures romanesques (deux amoureux persécutés)	sentimentale	isabout	sentiment		
 68.40	r_c	intrigue sentimentale, aventures romanesques (deux amoureux persécutés)	amour	isabout	amour		
 68.41	r_c	intrigues galantes suivies d’un retour à la vie champêtre, peinture des mœurs	galant	isabout	galanterie		
-68.41	r_c	intrigues galantes suivies d’un retour à la vie champêtre, peinture des mœurs	mœurs	isabout	"mœurs "		
+68.41	r_c	intrigues galantes suivies d’un retour à la vie champêtre, peinture des mœurs	mœurs	isabout	mœurs		
 68.42	r_s	observations morales et philosophiques	philosophiques	isabout	philosophie		
 68.42	r_s	observations morales et philosophiques	morale	isabout	morale		
 68.42	r_c	songes allégoriques (L’optimisme, De l’Ame, De la cupidité et de la vertu, ...)	vertu	isabout	vertu		
@@ -881,7 +881,7 @@ id	Spalte	text	Keyword	property	Themenwert
 68.44	r_s	sensibilité larmoyante	sensibilité	isabout	sentimentalisme		
 68.46	r_c	mésalliance, mauvaise éducation, aventures romanesques, histoires d’amour	éducation	isabout	éducation		
 68.46	r_c	mésalliance, mauvaise éducation, aventures romanesques, histoires d’amour	amour	isabout	amour		
-68.47	r_c	intrigues mondaines, peinture des mœurs	mœurs	isabout	"mœurs "		
+68.47	r_c	intrigues mondaines, peinture des mœurs	mœurs	isabout	mœurs		
 68.48	r_c	mariage mal assorti, intrigues sentimentales	sentimentale	isabout	sentiment		
 68.5	r_c	aventures sentimentales et militaires	sentimentale	isabout	sentiment		
 68.5	r_s	mélancolie, sensibilité	sensibilité	isabout	sentimentalisme		
@@ -892,7 +892,7 @@ id	Spalte	text	Keyword	property	Themenwert
 68.50	r_c	intrigues galantes et sentimentales, histoires de famille, incidents romanesques	famille	isabout	famille		
 68.51	r_c	aventures romanesques, éléments merveilleux, voyages	merveille	isabout	miracle		
 68.51	r_c	aventures romanesques, éléments merveilleux, voyages	voyages	isabout	voyage		
-68.53	r_c	querelles de village, critique des mœurs affectées	mœurs	isabout	"mœurs "		
+68.53	r_c	querelles de village, critique des mœurs affectées	mœurs	isabout	mœurs		
 68.53	r_c	querelles de village, critique des mœurs affectées	village	isabout	village		
 68.54	r_c	intrigues de cour, aventures romanesques, éléments fantastiques	cour	isabout	cour		
 68.55	r_c	suite de malheurs, discussions	malheurs	isabout	malheur		
@@ -900,22 +900,22 @@ id	Spalte	text	Keyword	property	Themenwert
 68.56	r_c	voyages, aventures merveilleuses	merveille	isabout	miracle		
 68.56	r_c	voyages, aventures merveilleuses	voyages	isabout	voyage		
 68.56	r_s	critique des mœurs, thèmes philosophiques	thèmes philosophiques	isabout	philosophie		
-68.56	r_s	critique des mœurs, thèmes philosophiques	mœurs	isabout	"mœurs "		
+68.56	r_s	critique des mœurs, thèmes philosophiques	mœurs	isabout	mœurs		
 68.57	r_c	incidents romanesques, épisodes galants, discussions	galant	isabout	galanterie		
 68.57	r_s	ironie, analyse des idées et des passions	passion	isabout	passion		
 68.5bis	r_s	ton sentimental et moralisateur	sentimental	isabout	sentiment		
 68.6	r_c	aventures sentimentales et romanesques	sentimentale	isabout	sentiment		
 68.7	r_c	peinture des mœurs parisiennes, intrigue sentimentale	sentimentale	isabout	sentiment		
 68.7	r_s	sensibilité	sensibilité	isabout	sentimentalisme		
-68.7	r_c	peinture des mœurs parisiennes, intrigue sentimentale	mœurs	isabout	"mœurs "		
+68.7	r_c	peinture des mœurs parisiennes, intrigue sentimentale	mœurs	isabout	mœurs		
 68.8	r_c	aventures galantes et romanesques (un jeune homme est séduit par ses passions et ses mauvaises fréquentations...)	galant	isabout	galanterie		
 68.8	r_s	sensibilité, vertu, intentions moralisatrices, peinture des mœurs	sensibilité	isabout	sentimentalisme		
 68.8	r_c	aventures galantes et romanesques (un jeune homme est séduit par ses passions et ses mauvaises fréquentations...)	passion	isabout	passion		
 68.8	r_s	sensibilité, vertu, intentions moralisatrices, peinture des mœurs	vertu	isabout	vertu		
-68.8	r_s	sensibilité, vertu, intentions moralisatrices, peinture des mœurs	mœurs	isabout	"mœurs "		
+68.8	r_s	sensibilité, vertu, intentions moralisatrices, peinture des mœurs	mœurs	isabout	mœurs		
 68.9	r_s	sensibilité	sensibilité	isabout	sentimentalisme		
 69.1	r_c	intrigues sentimentales	sentimentale	isabout	sentiment		
-69.10	r_c	critique des mœurs parisiennes, aventures romanesques, ton satirique	mœurs	isabout	"mœurs "		
+69.10	r_c	critique des mœurs parisiennes, aventures romanesques, ton satirique	mœurs	isabout	mœurs		
 69.11	r_c	aventures galantes d’une prostituée	galant	isabout	galanterie		
 69.12	r_s	intentions moralisatrices, sensibilité effrénée, mélancolie	sensibilité	isabout	sentimentalisme		
 69.12	r_c	amours contrariées, tragiques	amour	isabout	amour		
@@ -924,9 +924,9 @@ id	Spalte	text	Keyword	property	Themenwert
 69.13	r_c	intrigues amoureuses	amour	isabout	amour		
 69.13	r_s	sensibilité, vertu	vertu	isabout	vertu		
 69.14	r_c	intrigue mondaine, voyage en province, peinture des mœurs	voyage	isabout	voyage		
-69.14	r_c	intrigue mondaine, voyage en province, peinture des mœurs	mœurs	isabout	"mœurs "		
+69.14	r_c	intrigue mondaine, voyage en province, peinture des mœurs	mœurs	isabout	mœurs		
 69.15	r_c	intrigues galantes, critique des mœurs	galant	isabout	galanterie		
-69.15	r_c	intrigues galantes, critique des mœurs	mœurs	isabout	"mœurs "		
+69.15	r_c	intrigues galantes, critique des mœurs	mœurs	isabout	mœurs		
 69.16	r_c	la passion domptée d’une femme mariée	passion	isabout	passion		
 69.17	r_c	intrigue sentimentale (une mère prépare une épreuve d’amour. . .)	sentimentale	isabout	sentiment		
 69.17	r_c	intrigue sentimentale (une mère prépare une épreuve d’amour. . .)	amour	isabout	amour		
@@ -937,9 +937,9 @@ id	Spalte	text	Keyword	property	Themenwert
 69.20	r_c	aventures romanesques, histoires d’amour et de famille	famille	isabout	famille		
 69.20	r_c	aventures romanesques, histoires d’amour et de famille	amour	isabout	amour		
 69.23	r_c	intrigues politiques (lutte contre les Portugais), éléments historiques	politique	isabout	politique		
-69.23	r_c	intrigues politiques (lutte contre les Portugais), éléments historiques	éléments historiques	isabout	"histoire "		
+69.23	r_c	intrigues politiques (lutte contre les Portugais), éléments historiques	éléments historiques	isabout	histoire		
 69.25	r_c	un fils de famille normande (membre de l’ ‘élection’ de sa région, d’où l’ ’élu’) vient à Paris et observe les mœurs parisiennes (un ‘président’ cherche à lui faire épouser sa fille)	famille	isabout	famille		
-69.25	r_c	un fils de famille normande (membre de l’ ‘élection’ de sa région, d’où l’ ’élu’) vient à Paris et observe les mœurs parisiennes (un ‘président’ cherche à lui faire épouser sa fille)	mœurs	isabout	"mœurs "		
+69.25	r_c	un fils de famille normande (membre de l’ ‘élection’ de sa région, d’où l’ ’élu’) vient à Paris et observe les mœurs parisiennes (un ‘président’ cherche à lui faire épouser sa fille)	mœurs	isabout	mœurs		
 69.26	r_c	intrigue sentimentale et romanesque, avec les idées d’un père philosophe sur le mariage	sentimentale	isabout	sentiment		
 69.29	r_s	sensibilité passionnée	sensibilité	isabout	sentimentalisme		
 69.29	r_c	amours contrariées, malheurs, aventures romanesques	malheurs	isabout	malheur		
@@ -961,7 +961,7 @@ id	Spalte	text	Keyword	property	Themenwert
 69.36	r_c	éducation et prouesses d’un jeune homme vertueux qui, ministre de ia cour enfin, fait beaucoup pour son pays	cour	isabout	cour		
 69.38	r_c	intrigue sentimentale	sentimentale	isabout	sentiment		
 69.40	r_s	peinture des mœurs et observations morales, ton satirique	morale	isabout	morale		
-69.40	r_s	peinture des mœurs et observations morales, ton satirique	mœurs	isabout	"mœurs "		
+69.40	r_s	peinture des mœurs et observations morales, ton satirique	mœurs	isabout	mœurs		
 69.41	r_c	histoires de famille, intrigues sentimentales, malheurs	sentimentale	isabout	sentiment		
 69.41	r_s	vertu, sensibilité	sensibilité	isabout	sentimentalisme		
 69.41	r_c	histoires de famille, intrigues sentimentales, malheurs	famille	isabout	famille		
@@ -972,9 +972,9 @@ id	Spalte	text	Keyword	property	Themenwert
 69.43	r_c	histoire d’amour, intrigues de cour, événements politiques, campagnes militaires	militaire	isabout	militaire		
 69.43	r_c	histoire d’amour, intrigues de cour, événements politiques, campagnes militaires	cour	isabout	cour		
 69.44	r_s	sensibilité	sensibilité	isabout	sentimentalisme		
-69.44	r_c	intrigue mondaine, critique des mœurs	mœurs	isabout	"mœurs "		
+69.44	r_c	intrigue mondaine, critique des mœurs	mœurs	isabout	mœurs		
 69.47	r_c	un jeune homme ingénu fait son chemin dans le monde (voyages, peinture des mœurs)	voyages	isabout	voyage		
-69.47	r_c	un jeune homme ingénu fait son chemin dans le monde (voyages, peinture des mœurs)	mœurs	isabout	"mœurs "		
+69.47	r_c	un jeune homme ingénu fait son chemin dans le monde (voyages, peinture des mœurs)	mœurs	isabout	mœurs		
 69.49	r_c	aventures galantes	galant	isabout	galanterie		
 69.5	r_s	sensibilité	sensibilité	isabout	sentimentalisme		
 69.50	r_c	intrigues sentimentales, histoires de famille	sentimentale	isabout	sentiment		
@@ -988,14 +988,14 @@ id	Spalte	text	Keyword	property	Themenwert
 69.56	r_s	sensibilité, vertu, prétentions moralisatrices	sensibilité	isabout	sentimentalisme		
 69.56	r_s	sensibilité, vertu, prétentions moralisatrices	vertu	isabout	vertu		
 69.6	r_c	aventures romanesques et galantes d’un Français emmené esclave à Constantinople, suivies de réflexions sur les mœurs et la littérature	galant	isabout	galanterie		
-69.6	r_c	aventures romanesques et galantes d’un Français emmené esclave à Constantinople, suivies de réflexions sur les mœurs et la littérature	mœurs	isabout	"mœurs "		
+69.6	r_c	aventures romanesques et galantes d’un Français emmené esclave à Constantinople, suivies de réflexions sur les mœurs et la littérature	mœurs	isabout	mœurs		
 69.6	r_c	aventures romanesques et galantes d’un Français emmené esclave à Constantinople, suivies de réflexions sur les mœurs et la littérature	esclave	isabout	esclavage		
 69.60	r_s	prétentions moralisatrices, sensibilité effrénée	sensibilité	isabout	sentimentalisme		
 69.60	r_c	amours contrariées, aventures romanesques, malheurs	malheurs	isabout	malheur		
 69.60	r_c	amours contrariées, aventures romanesques, malheurs	amour	isabout	amour		
 69.62	r_c	malheurs d ’un jeune homme qui reçoit le don de l’immortalité, mais qui finit par apprendre la sagesse	malheurs	isabout	malheur		
 69.64	r_c	aventures d’un voyageur, observations sur les mœurs	voyage	isabout	voyage		
-69.64	r_c	aventures d’un voyageur, observations sur les mœurs	mœurs	isabout	"mœurs "		
+69.64	r_c	aventures d’un voyageur, observations sur les mœurs	mœurs	isabout	mœurs		
 69.64bis	r_s	sensibilité effrénée	sensibilité	isabout	sentimentalisme		
 69.64bis	r_c	les malheurs d’une femme calomniée	malheurs	isabout	malheur		
 69.65	r_s	sensibilité effrénée, analyse des sentiments	sensibilité	isabout	sentimentalisme		
@@ -1014,12 +1014,12 @@ id	Spalte	text	Keyword	property	Themenwert
 70.10	r_s	critique des mœurs et sensibilité mélancolique (dans les lettres)	sensibilité	isabout	sentimentalisme		
 70.10	r_c	aventures romanesques et histoires de famille (dans les mémoires)	famille	isabout	famille		
 70.10	r_s	critique des mœurs et sensibilité mélancolique (dans les lettres)	mélancolique	isabout	mélancolie		
-70.10	r_s	critique des mœurs et sensibilité mélancolique (dans les lettres)	mœurs	isabout	"mœurs "		
+70.10	r_s	critique des mœurs et sensibilité mélancolique (dans les lettres)	mœurs	isabout	mœurs		
 70.11	r_c	intrigue mondaine, histoires d’amour	amour	isabout	amour		
 70.14	r_c	un fils de parents riches sombre dans le crime car son éducation morale a été négligée (voyages)	éducation	isabout	éducation		
 70.14	r_c	un fils de parents riches sombre dans le crime car son éducation morale a été négligée (voyages)	voyages	isabout	voyage		
 70.14	r_c	un fils de parents riches sombre dans le crime car son éducation morale a été négligée (voyages)	morale	isabout	morale		
-70.14	r_c	un fils de parents riches sombre dans le crime car son éducation morale a été négligée (voyages)	"crime "	isabout	crime		
+70.14	r_c	un fils de parents riches sombre dans le crime car son éducation morale a été négligée (voyages)	crime	isabout	crime		
 70.15	r_c	intrigue sentimentale (amours contrariées par des malentendus)	sentimentale	isabout	sentiment		
 70.15	r_s	sensibilité	sensibilité	isabout	sentimentalisme		
 70.15	r_c	intrigue sentimentale (amours contrariées par des malentendus)	amour	isabout	amour		
@@ -1035,11 +1035,11 @@ id	Spalte	text	Keyword	property	Themenwert
 70.27	r_c	intrigue sentimentale, aventures romanesques (un jeune homme impétueux ne sait pas maîtriser ses désirs... )	sentimentale	isabout	sentiment		
 70.27	r_s	intentions moralisatrices, sensibilité, mélancolie	sensibilité	isabout	sentimentalisme		
 70.27	r_s	intentions moralisatrices, sensibilité, mélancolie	mélancolie	isabout	mélancolie		
-70.29	r_c	intrigue mondaine, observations sur les mœurs	mœurs	isabout	"mœurs "		
+70.29	r_c	intrigue mondaine, observations sur les mœurs	mœurs	isabout	mœurs		
 70.3	r_s	sensibilité, prétentions moralisatrices	sensibilité	isabout	sentimentalisme		
 70.30	r_c	intrigue sentimentale	sentimentale	isabout	sentiment		
 70.32	r_c	aventures galantes, peinture des mœurs	galant	isabout	galanterie		
-70.32	r_c	aventures galantes, peinture des mœurs	mœurs	isabout	"mœurs "		
+70.32	r_c	aventures galantes, peinture des mœurs	mœurs	isabout	mœurs		
 70.34	r_c	aventures romanesques, merveilleuses, légendaires	merveille	isabout	miracle		
 70.35	r_c	aventures maritimes et sentimentales du ‘Navigateur le plus intrépide & du plus grand Commerçant de l’Europe’	sentimentale	isabout	sentiment		
 70.36	r_c	aventures romanesques, chevaleresques, intrigue sentimentale	sentimentale	isabout	sentiment		
@@ -1063,7 +1063,7 @@ id	Spalte	text	Keyword	property	Themenwert
 70.47	r_s	sensibilité, mélancolie, malheurs	mélancolie	isabout	mélancolie		
 70.49	r_s	sensibilité	sensibilité	isabout	sentimentalisme		
 70.49	r_c	aventures romanesques, intrigues mondaines, voyages, peinture des mœurs	voyages	isabout	voyage		
-70.49	r_c	aventures romanesques, intrigues mondaines, voyages, peinture des mœurs	mœurs	isabout	"mœurs "		
+70.49	r_c	aventures romanesques, intrigues mondaines, voyages, peinture des mœurs	mœurs	isabout	mœurs		
 70.5	r_s	sensibilité	sensibilité	isabout	sentimentalisme		
 70.5	r_c	amours contrariées, aventures romanesques	amour	isabout	amour		
 70.51	r_c	aventures romanesques, voyages	voyages	isabout	voyage		
@@ -1076,13 +1076,13 @@ id	Spalte	text	Keyword	property	Themenwert
 70.56	r_s	sensibilité, mélancolie	sensibilité	isabout	sentimentalisme		
 70.56	r_c	exploits guerriers, amours, éléments historiques	amour	isabout	amour		
 70.56	r_s	sensibilité, mélancolie	mélancolie	isabout	mélancolie		
-70.56	r_c	exploits guerriers, amours, éléments historiques	éléments historiques	isabout	"histoire "		
+70.56	r_c	exploits guerriers, amours, éléments historiques	éléments historiques	isabout	histoire		
 70.57	r_c	les malheurs d’une jeune fille vertueuse, intrigues mondaines	malheurs	isabout	malheur		
 70.57	r_c	les malheurs d’une jeune fille vertueuse, intrigues mondaines	vertu	isabout	vertu		
 70.6	r_c	intrigues sentimentales	sentimentale	isabout	sentiment		
 70.60	r_c	Histoire romancée de la Cochinchine, pour illustrer la tactique militaire (aventures guerrières, discussions, dialogues, mise en scène)	guerrière	isabout	guerre		
 70.60	r_c	Histoire romancée de la Cochinchine, pour illustrer la tactique militaire (aventures guerrières, discussions, dialogues, mise en scène)	militaire	isabout	militaire		
-70.61	r_c	critique des mœurs	mœurs	isabout	"mœurs "		
+70.61	r_c	critique des mœurs	mœurs	isabout	mœurs		
 70.65	r_c	courts songes moraux, avec éléments narratifs	cour	isabout	cour		
 70.66	r_c	Dinville tombe amoureux d’Emilie, une belle marchande, l’invite chez son oncle, mais celui-ci interrompt leur tête-à-tête...	amour	isabout	amour		
 70.7	r_c	intrigue sentimentale	sentimentale	isabout	sentiment		
@@ -1094,7 +1094,7 @@ id	Spalte	text	Keyword	property	Themenwert
 70.74	r_s	sensibilité passionnée, poème en prose	sensibilité	isabout	sentimentalisme		
 70.74	r_s	sensibilité passionnée, poème en prose	passion	isabout	passion		
 70.75	r_c	campagnes militaires, intrigues de cour, histoires d’amour, éléments historiques	amour	isabout	amour		
-70.75	r_c	campagnes militaires, intrigues de cour, histoires d’amour, éléments historiques	éléments historiques	isabout	"histoire "		
+70.75	r_c	campagnes militaires, intrigues de cour, histoires d’amour, éléments historiques	éléments historiques	isabout	histoire		
 70.75	r_c	campagnes militaires, intrigues de cour, histoires d’amour, éléments historiques	militaire	isabout	militaire		
 70.75	r_c	campagnes militaires, intrigues de cour, histoires d’amour, éléments historiques	cour	isabout	cour		
 70.77	r_c	voyages en mer, aventures romanesques, discussions philosophiques	voyages	isabout	voyage		
@@ -1116,7 +1116,7 @@ id	Spalte	text	Keyword	property	Themenwert
 71.24	r_s	malheurs, sensibilité	malheurs	isabout	malheur		
 71.24	r_c	aventures romanesques, voyages, dissertation sur l’île de Saint-Domingue	voyages	isabout	voyage		
 71.27	r_c	voyages, critique des mœurs et des institutions	voyages	isabout	voyage		
-71.27	r_c	voyages, critique des mœurs et des institutions	mœurs	isabout	"mœurs "		
+71.27	r_c	voyages, critique des mœurs et des institutions	mœurs	isabout	mœurs		
 71.28	r_c	En marge: voyage allégorique aux Champs-Elysées, suivi par des dialogues des morts sur des sujets littéraires	voyage	isabout	voyage		
 71.30	r_c	les aventures galantes et les malheurs d’un jeune homme qui mène une vie trop libre	galant	isabout	galanterie		
 71.30	r_c	les aventures galantes et les malheurs d’un jeune homme qui mène une vie trop libre	malheurs	isabout	malheur		
@@ -1124,7 +1124,7 @@ id	Spalte	text	Keyword	property	Themenwert
 71.32	r_s	sensibilité	sensibilité	isabout	sentimentalisme		
 71.32	r_c	intrigues de cour, histoires d’amour, éléments pseudo-historiques	amour	isabout	amour		
 71.32	r_c	intrigues de cour, histoires d’amour, éléments pseudo-historiques	cour	isabout	cour		
-71.37	r_c	peinture des mœurs dans une multitude d’anecdotes	mœurs	isabout	"mœurs "		
+71.37	r_c	peinture des mœurs dans une multitude d’anecdotes	mœurs	isabout	mœurs		
 71.38	r_c	aventures romanesques, voyages	voyages	isabout	voyage		
 71.39	r_c	aventures et égarements d’un jeune seigneur, histoires de famille, incidents romanesques	famille	isabout	famille		
 71.39	r_s	roman d’éducation, thèmes philosophiques	éducation	isabout	éducation		
@@ -1138,7 +1138,7 @@ id	Spalte	text	Keyword	property	Themenwert
 71.7	r_s	sensibilité larmoyante	sensibilité	isabout	sentimentalisme		
 71.7	r_c	intrigue sentimentale, malheurs	malheurs	isabout	malheur		
 71.8	r_c	intrigue sentimentale, critique des mœurs	sentimentale	isabout	sentiment		
-71.8	r_c	intrigue sentimentale, critique des mœurs	mœurs	isabout	"mœurs "		
+71.8	r_c	intrigue sentimentale, critique des mœurs	mœurs	isabout	mœurs		
 72.1	r_c	malheurs d’une famille, intrigue sentimentale	sentimentale	isabout	sentiment		
 72.1	r_s	sensibilité larmoyante, vertu	sensibilité	isabout	sentimentalisme		
 72.1	r_c	malheurs d’une famille, intrigue sentimentale	famille	isabout	famille		
@@ -1155,11 +1155,11 @@ id	Spalte	text	Keyword	property	Themenwert
 72.13	r_c	Petite facétie licencieuse: la Fé-lure, courtisée par l’Ange-lure (aidé par la Fé-néantise et l’Ange-oleur), reçoit chez elle l’Ange-in, mais est trahie par ta Fé-condité...	cour	isabout	cour		
 72.14	r_c	aventures galantes et romanesques	galant	isabout	galanterie		
 72.15	r_c	Lucidor (la Raison) fait un voyage imaginaire à travers l’Europe (critique des mœurs)	voyage	isabout	voyage		
-72.15	r_c	Lucidor (la Raison) fait un voyage imaginaire à travers l’Europe (critique des mœurs)	mœurs	isabout	"mœurs "		
+72.15	r_c	Lucidor (la Raison) fait un voyage imaginaire à travers l’Europe (critique des mœurs)	mœurs	isabout	mœurs		
 72.16	r_c	voyages, observations sur les mœurs, intrigue sentimentale	sentimentale	isabout	sentiment		
 72.16	r_c	voyages, observations sur les mœurs, intrigue sentimentale	voyages	isabout	voyage		
 72.16	r_s	thèmes philosophiques	thèmes philosophiques	isabout	philosophie		
-72.16	r_c	voyages, observations sur les mœurs, intrigue sentimentale	mœurs	isabout	"mœurs "		
+72.16	r_c	voyages, observations sur les mœurs, intrigue sentimentale	mœurs	isabout	mœurs		
 72.18	r_c	intrigue mondaine et sentimentale	sentimentale	isabout	sentiment		
 72.18	r_s	sensibilité	sensibilité	isabout	sentimentalisme		
 72.2	r_c	Série de lettres philosophiques et morales adressées à un jeune gentilhomme; il y entre beaucoup d’éléments romanesques (mise en scène, anecdotes sur la vie des correspondants)	philosophiques	isabout	philosophie		
@@ -1174,7 +1174,7 @@ id	Spalte	text	Keyword	property	Themenwert
 72.24bis	r_c	après un amour malheureux, l’héroïne devient un modèle de toutes les vertus	amour	isabout	amour		
 72.24bis	r_c	après un amour malheureux, l’héroïne devient un modèle de toutes les vertus	vertu	isabout	vertu		
 72.25	r_c	intrigue mondaine, histoires sentimentales, observation des mœurs	sentimentale	isabout	sentiment		
-72.25	r_c	intrigue mondaine, histoires sentimentales, observation des mœurs	mœurs	isabout	"mœurs "		
+72.25	r_c	intrigue mondaine, histoires sentimentales, observation des mœurs	mœurs	isabout	mœurs		
 72.27	r_c	intrigue sentimentale, aventures guerrières	sentimentale	isabout	sentiment		
 72.27	r_c	intrigue sentimentale, aventures guerrières	guerrière	isabout	guerre		
 72.27	r_s	sensibilité passionnée, couleur locale	sensibilité	isabout	sentimentalisme		
@@ -1198,7 +1198,7 @@ id	Spalte	text	Keyword	property	Themenwert
 72.6	r_c	aventures guerrières et sentimentales d’un être extraordinaire qui arrive à la cour (critique des mœurs et des institutions)	sentimentale	isabout	sentiment		
 72.6	r_c	aventures guerrières et sentimentales d’un être extraordinaire qui arrive à la cour (critique des mœurs et des institutions)	guerrière	isabout	guerre		
 72.6	r_s	ton satirique, thèmes philosophiques	thèmes philosophiques	isabout	philosophie		
-72.6	r_c	aventures guerrières et sentimentales d’un être extraordinaire qui arrive à la cour (critique des mœurs et des institutions)	mœurs	isabout	"mœurs "		
+72.6	r_c	aventures guerrières et sentimentales d’un être extraordinaire qui arrive à la cour (critique des mœurs et des institutions)	mœurs	isabout	mœurs		
 72.6	r_c	aventures guerrières et sentimentales d’un être extraordinaire qui arrive à la cour (critique des mœurs et des institutions)	cour	isabout	cour		
 72.8	r_c	intrigues galantes, réflexions sur l’amour	galant	isabout	galanterie		
 72.8	r_c	intrigues galantes, réflexions sur l’amour	amour	isabout	amour		
@@ -1209,17 +1209,17 @@ id	Spalte	text	Keyword	property	Themenwert
 73.11	r_s	passion, sensibilité	passion	isabout	passion		
 73.12	r_s	voyages extraordinaires	voyages	isabout	voyage		
 73.13	r_c	sujet historique (guerres, amours, discours)	amour	isabout	amour		
-73.13	r_c	sujet historique (guerres, amours, discours)	sujet historique	isabout	"histoire "		
+73.13	r_c	sujet historique (guerres, amours, discours)	sujet historique	isabout	histoire		
 73.13	r_c	sujet historique (guerres, amours, discours)	cour	isabout	cour		
 73.14	r_s	observations morales	morale	isabout	morale		
 73.15	r_s	critique des mœurs et observations morales	morale	isabout	morale		
-73.15	r_s	critique des mœurs et observations morales	mœurs	isabout	"mœurs "		
+73.15	r_s	critique des mœurs et observations morales	mœurs	isabout	mœurs		
 73.16	r_c	éducation de deux orphelins par un philosophe, suivie d’intrigues romanesques et sentimentales, et de voyages	sentimentale	isabout	sentiment		
 73.16	r_s	sensibilité, intentions moralisatrices	sensibilité	isabout	sentimentalisme		
 73.16	r_c	éducation de deux orphelins par un philosophe, suivie d’intrigues romanesques et sentimentales, et de voyages	éducation	isabout	éducation		
 73.16	r_c	éducation de deux orphelins par un philosophe, suivie d’intrigues romanesques et sentimentales, et de voyages	voyages	isabout	voyage		
-73.18	r_c	intrigue mondaine, critique des mœurs	mœurs	isabout	"mœurs "		
-73.19	r_c	critique des institutions et des mœurs	mœurs	isabout	"mœurs "		
+73.18	r_c	intrigue mondaine, critique des mœurs	mœurs	isabout	mœurs		
+73.19	r_c	critique des institutions et des mœurs	mœurs	isabout	mœurs		
 73.22	r_c	Pâris part en France et fonde la capitale française (mythologie grecque, voyages, aventures guerrières)	guerrière	isabout	guerre		
 73.22	r_c	Pâris part en France et fonde la capitale française (mythologie grecque, voyages, aventures guerrières)	voyages	isabout	voyage		
 73.23	r_c	intrigue galante et sentimentale	galant	isabout	galanterie		
@@ -1231,10 +1231,10 @@ id	Spalte	text	Keyword	property	Themenwert
 73.29	r_c	intrigues sentimentales et romanesques (les romans de Mlle de Scudéry ont tourné la tête à l’héroïne...)	sentimentale	isabout	sentiment		
 73.3	r_c	intrigue sentimentale, aventures guerrières et romanesques	sentimentale	isabout	sentiment		
 73.3	r_c	intrigue sentimentale, aventures guerrières et romanesques	guerrière	isabout	guerre		
-73.3	r_s	éléments historiques	éléments historiques	isabout	"histoire "		
+73.3	r_s	éléments historiques	éléments historiques	isabout	histoire		
 73.30	r_c	histoires de famille, voyages	famille	isabout	famille		
 73.30	r_c	histoires de famille, voyages	voyages	isabout	voyage		
-73.30	r_s	observations sur les mœurs; ton léger	mœurs	isabout	"mœurs "		
+73.30	r_s	observations sur les mœurs; ton léger	mœurs	isabout	mœurs		
 73.31	r_c	aventures romanesques et galantes, suivies d’un roman d’éducation	galant	isabout	galanterie		
 73.31	r_c	aventures romanesques et galantes, suivies d’un roman d’éducation	éducation	isabout	éducation		
 73.32	r_c	aventures galantes et comiques	galant	isabout	galanterie		
@@ -1249,7 +1249,7 @@ id	Spalte	text	Keyword	property	Themenwert
 73.37	r_c	intrigues politiques	politique	isabout	politique		
 73.4	r_c	voyages, aventures, peinture des mœurs, thèmes philosophiques	voyages	isabout	voyage		
 73.4	r_c	voyages, aventures, peinture des mœurs, thèmes philosophiques	thèmes philosophiques	isabout	philosophie		
-73.4	r_c	voyages, aventures, peinture des mœurs, thèmes philosophiques	mœurs	isabout	"mœurs "		
+73.4	r_c	voyages, aventures, peinture des mœurs, thèmes philosophiques	mœurs	isabout	mœurs		
 73.5	r_s	sensibilité, malheurs	sensibilité	isabout	sentimentalisme		
 73.5	r_s	sensibilité, malheurs	malheurs	isabout	malheur		
 73.5	r_c	amours contrariées (une marâtre tâche de forcer sa fille à entrer en religion)	amour	isabout	amour		
@@ -1290,7 +1290,7 @@ id	Spalte	text	Keyword	property	Themenwert
 74.4	r_s	sensibilité, bienfaisance	sensibilité	isabout	sentimentalisme		
 74.4bis	r_c	conversations sur l’amour, la littérature, des questions politiques, etc., quelques anecdotes et Ma mère l’oye, conte	politique	isabout	politique		
 74.4bis	r_c	conversations sur l’amour, la littérature, des questions politiques, etc., quelques anecdotes et Ma mère l’oye, conte	amour	isabout	amour		
-74.5	r_c	visite à la foire Saint-Ovide, critique des mœurs	mœurs	isabout	"mœurs "		
+74.5	r_c	visite à la foire Saint-Ovide, critique des mœurs	mœurs	isabout	mœurs		
 74.6	r_c	anecdote galante	galant	isabout	galanterie		
 74.6	r_s	sensibilité, prétentions moralisatrices	sensibilité	isabout	sentimentalisme		
 74.7	r_s	sensibilité, mélancolie	sensibilité	isabout	sentimentalisme		
@@ -1340,7 +1340,7 @@ id	Spalte	text	Keyword	property	Themenwert
 75.33	r_s	sensibilité, prétentions moralisatrices	sensibilité	isabout	sentimentalisme		
 75.35	r_s	malheurs, sensibilité	sensibilité	isabout	sentimentalisme		
 75.35	r_s	malheurs, sensibilité	malheurs	isabout	malheur		
-75.35	r_c	épisodes décousus de la vie de l’homme sensible, peinture des mœurs	mœurs	isabout	"mœurs "		
+75.35	r_c	épisodes décousus de la vie de l’homme sensible, peinture des mœurs	mœurs	isabout	mœurs		
 75.36	r_s	sensibilité effrénée, malheurs	sensibilité	isabout	sentimentalisme		
 75.36	r_s	sensibilité effrénée, malheurs	malheurs	isabout	malheur		
 75.36	r_c	amours contrariées	amour	isabout	amour		
@@ -1403,7 +1403,7 @@ id	Spalte	text	Keyword	property	Themenwert
 76.42	r_c	aventures picaresques, voyages en mer	voyages	isabout	voyage		
 76.43	r_c	traité d’éducation sous une forme romanesque	éducation	isabout	éducation		
 76.44	r_s	prétentions moralisatrices, tendances réalistes, sensibilité	sensibilité	isabout	sentimentalisme		
-76.45	r_c	les mésaventures d’un Anglais à Paris (peinture des mœurs)	mœurs	isabout	"mœurs "		
+76.45	r_c	les mésaventures d’un Anglais à Paris (peinture des mœurs)	mœurs	isabout	mœurs		
 76.46	r_c	Récit facétieux parsemé de calembours: ’Je suis né dans la ville de Mons & merveille, ce qui fait que je suis étranger à la chose’.	merveille	isabout	miracle		
 76.48	r_c	histoires sentimentales, intrigues de cour	sentimentale	isabout	sentiment		
 76.48	r_c	histoires sentimentales, intrigues de cour	cour	isabout	cour		
@@ -1427,7 +1427,7 @@ id	Spalte	text	Keyword	property	Themenwert
 77.10	r_s	sensibilité, nature, malheurs	nature	isabout	nature		
 77.11	r_s	sensibilité effrénée	sensibilité	isabout	sentimentalisme		
 77.12	r_c	En marge: biographie sans doute quelque peu romancée du célèbre criminel	criminel	isabout	crime		
-77.13	r_c	le héros, invisible, observe ses contemporains dans une série de scènes où les mœurs sont critiquées	mœurs	isabout	"mœurs "		
+77.13	r_c	le héros, invisible, observe ses contemporains dans une série de scènes où les mœurs sont critiquées	mœurs	isabout	mœurs		
 77.14	r_c	En marge: roman de l’éducation virant au traité (le roi Agathocrator et sa femme Sophronie s’occupent de l’éducation de leur fils, le jeune Agathocrator)	éducation	isabout	éducation		
 77.15	r_c	En marge: l’auteur raconte en prose et en vers un voyage par le coche d’eau de Paris en Bourgogne	voyage	isabout	voyage		
 77.16	r_s	sensibilité effrénée, vertu, bienfaisance	sensibilité	isabout	sentimentalisme		
@@ -1448,7 +1448,7 @@ id	Spalte	text	Keyword	property	Themenwert
 77.38	r_s	sensibilité, prétentions morales (portrait du citoyen vertueux)	morale	isabout	morale		
 77.38	r_s	sensibilité, prétentions morales (portrait du citoyen vertueux)	vertu	isabout	vertu		
 77.4	r_c	l’âme d’un homme qui vient de mourir voyage et observe les mœurs	voyage	isabout	voyage		
-77.4	r_c	l’âme d’un homme qui vient de mourir voyage et observe les mœurs	mœurs	isabout	"mœurs "		
+77.4	r_c	l’âme d’un homme qui vient de mourir voyage et observe les mœurs	mœurs	isabout	mœurs		
 77.42	r_c	intrigue sentimentale et mondaine	sentimentale	isabout	sentiment		
 77.48	r_c	allégorie politique de la France	politique	isabout	politique		
 77.52	r_s	sensibilité, prétentions moralisatrices	sensibilité	isabout	sentimentalisme		
@@ -1480,23 +1480,23 @@ id	Spalte	text	Keyword	property	Themenwert
 78.13	r_s	sensibilité	sensibilité	isabout	sentimentalisme		
 78.14	r_c	aventures romanesques et sentimentales d’une jeune fille ruinée	sentimentale	isabout	sentiment		
 78.15	r_c	voyages imaginaires, critique des mœurs de différents pays	voyages	isabout	voyage		
-78.15	r_c	voyages imaginaires, critique des mœurs de différents pays	mœurs	isabout	"mœurs "		
+78.15	r_c	voyages imaginaires, critique des mœurs de différents pays	mœurs	isabout	mœurs		
 78.16	r_s	vertu, sensibilité	sensibilité	isabout	sentimentalisme		
 78.16	r_c	l’amitié de deux hommes vertueux	vertu	isabout	vertu		
 78.17	r_c	intrigue mondaine et sentimentale	sentimentale	isabout	sentiment		
-78.18	r_c	série de petits croquis des mœurs, au fur et à mesure qu’un écu passe de main en main	mœurs	isabout	"mœurs "		
+78.18	r_c	série de petits croquis des mœurs, au fur et à mesure qu’un écu passe de main en main	mœurs	isabout	mœurs		
 78.19	r_c	intrigues politiques	politique	isabout	politique		
 78.2	r_c	voyages et vengeance de Vulcain	voyages	isabout	voyage		
 78.20	r_s	sensibilité, vertu	sensibilité	isabout	sentimentalisme		
 78.20	r_c	malheurs romanesques, observations sur les mœurs	malheurs	isabout	malheur		
 78.20	r_s	sensibilité, vertu	vertu	isabout	vertu		
-78.20	r_c	malheurs romanesques, observations sur les mœurs	mœurs	isabout	"mœurs "		
+78.20	r_c	malheurs romanesques, observations sur les mœurs	mœurs	isabout	mœurs		
 78.22	r_c	aventures romanesques et galantes d’un jeune homme, voyages	galant	isabout	galanterie		
 78.22	r_s	sensibilité	sensibilité	isabout	sentimentalisme		
 78.22	r_c	aventures romanesques et galantes d’un jeune homme, voyages	voyages	isabout	voyage		
 78.24	r_c	Entretiens moraux (entre madame de Valcour, Julie. Annette), entremêlés de petites scènes de comédie et de contes moraux	cour	isabout	cour		
 78.25	r_c	pèlerinage au temple de l’amour fait par deux époux qui s’aiment (critique des mœurs parisiennes)	amour	isabout	amour		
-78.25	r_c	pèlerinage au temple de l’amour fait par deux époux qui s’aiment (critique des mœurs parisiennes)	mœurs	isabout	"mœurs "		
+78.25	r_c	pèlerinage au temple de l’amour fait par deux époux qui s’aiment (critique des mœurs parisiennes)	mœurs	isabout	mœurs		
 78.26	r_c	intrigue sentimentale, réflexions	sentimentale	isabout	sentiment		
 78.26	r_s	sensibilité	sensibilité	isabout	sentimentalisme		
 78.27	r_s	sensibilité, vertu	sensibilité	isabout	sentimentalisme		
@@ -1505,9 +1505,9 @@ id	Spalte	text	Keyword	property	Themenwert
 78.27	r_s	sensibilité, vertu	vertu	isabout	vertu		
 78.27	r_c	naufrage, voyages, malheurs, utopie	naufrage	isabout	naufrage		
 78.28	r_c	intrigue sentimentale, observations sur les mœurs	sentimentale	isabout	sentiment		
-78.28	r_c	intrigue sentimentale, observations sur les mœurs	mœurs	isabout	"mœurs "		
+78.28	r_c	intrigue sentimentale, observations sur les mœurs	mœurs	isabout	mœurs		
 78.29	r_c	récit d’un voyage fait en Angleterre	voyage	isabout	voyage		
-78.29	r_s	critique des mœurs	mœurs	isabout	"mœurs "		
+78.29	r_s	critique des mœurs	mœurs	isabout	mœurs		
 78.30	r_c	intrigue sentimentale qui sert de cadre à des théories sur l’amour et le mariage	sentimentale	isabout	sentiment		
 78.30	r_s	sensibilité, but didactique, esprit de système	sensibilité	isabout	sentimentalisme		
 78.30	r_c	intrigue sentimentale qui sert de cadre à des théories sur l’amour et le mariage	amour	isabout	amour		
@@ -1525,7 +1525,7 @@ id	Spalte	text	Keyword	property	Themenwert
 79.1	r_c	aventures galantes et romanesques, voyages	galant	isabout	galanterie		
 79.1	r_c	aventures galantes et romanesques, voyages	voyages	isabout	voyage		
 79.10	r_c	voyages, critique des mœurs et des institutions (surtout de l’Eglise)	voyages	isabout	voyage		
-79.10	r_c	voyages, critique des mœurs et des institutions (surtout de l’Eglise)	mœurs	isabout	"mœurs "		
+79.10	r_c	voyages, critique des mœurs et des institutions (surtout de l’Eglise)	mœurs	isabout	mœurs		
 79.11	r_c	voyage aux enfers, discussions	voyage	isabout	voyage		
 79.13	r_c	malheurs d’une orpheline, histoires d’argent, aventures romanesques	malheurs	isabout	malheur		
 79.14	r_s	discussions politiques	politique	isabout	politique		
@@ -1581,13 +1581,13 @@ id	Spalte	text	Keyword	property	Themenwert
 80.14	r_c	aventures romanesques et guerrières, intrigues politiques et sentimentales	sentimentale	isabout	sentiment		
 80.14	r_c	aventures romanesques et guerrières, intrigues politiques et sentimentales	guerrière	isabout	guerre		
 80.14	r_c	aventures romanesques et guerrières, intrigues politiques et sentimentales	politique	isabout	politique		
-80.14	r_s	éléments historiques	éléments historiques	isabout	"histoire "		
+80.14	r_s	éléments historiques	éléments historiques	isabout	histoire		
 80.16	r_c	les malheurs d ’un berger qui part à la ville	malheurs	isabout	malheur		
 80.16	r_s	retour à la nature, thèmes anticléricaux (religion naturelle)	nature	isabout	nature		
-80.17	r_s	critique des mœurs anglaises	mœurs	isabout	"mœurs "		
+80.17	r_s	critique des mœurs anglaises	mœurs	isabout	mœurs		
 80.18	r_c	éducation d’un jeune homme, critique des mœurs et de l’éducation, thèmes philosophiques et littéraires	éducation	isabout	éducation		
 80.18	r_c	éducation d’un jeune homme, critique des mœurs et de l’éducation, thèmes philosophiques et littéraires	thèmes philosophiques	isabout	philosophie		
-80.18	r_c	éducation d’un jeune homme, critique des mœurs et de l’éducation, thèmes philosophiques et littéraires	mœurs	isabout	"mœurs "		
+80.18	r_c	éducation d’un jeune homme, critique des mœurs et de l’éducation, thèmes philosophiques et littéraires	mœurs	isabout	mœurs		
 80.19	r_c	intrigues mondaines, histoires d’amour, malheurs	malheurs	isabout	malheur		
 80.19	r_c	intrigues mondaines, histoires d’amour, malheurs	amour	isabout	amour		
 80.2	r_c	féerie, aventures chevaleresques	chevaleresques	isabout	chevalerie		
@@ -1599,7 +1599,7 @@ id	Spalte	text	Keyword	property	Themenwert
 80.24	r_s	sensibilité, analyse des passions	sensibilité	isabout	sentimentalisme		
 80.24	r_s	sensibilité, analyse des passions	passion	isabout	passion		
 80.25	r_c	aventures chevaleresques	chevaleresques	isabout	chevalerie		
-80.26	r_c	Vaste série de nouvelles, où l’auteur entreprend de brosser un tableau systématique des femmes et des mœurs de son époque	mœurs	isabout	"mœurs "		
+80.26	r_c	Vaste série de nouvelles, où l’auteur entreprend de brosser un tableau systématique des femmes et des mœurs de son époque	mœurs	isabout	mœurs		
 80.27	r_c	aventures galantes et romanesques	galant	isabout	galanterie		
 80.27	r_s	réalisme du cadre, autobiographie romancée, sensibilité, prétentions moralisatrices	sensibilité	isabout	sentimentalisme		
 80.28	r_c	intrigue sentimentale	sentimentale	isabout	sentiment		
@@ -1645,12 +1645,12 @@ id	Spalte	text	Keyword	property	Themenwert
 81.28	r_c	aventures romanesques (une princesse qui survit au massacre de sa famille est élevée par un prêtre dans un souterrain)	famille	isabout	famille		
 81.29	r_c	voyages imaginaires, aventures extraordinaires	voyages	isabout	voyage		
 81.29	r_s	thèmes philosophiques, théories pseudoscientifiques, critique des mœurs	thèmes philosophiques	isabout	philosophie		
-81.29	r_s	thèmes philosophiques, théories pseudoscientifiques, critique des mœurs	mœurs	isabout	"mœurs "		
+81.29	r_s	thèmes philosophiques, théories pseudoscientifiques, critique des mœurs	mœurs	isabout	mœurs		
 81.3	r_s	sensibilité	sensibilité	isabout	sentimentalisme		
 81.32	r_c	intrigue sentimentale et aventures militaires	sentimentale	isabout	sentiment		
 81.32	r_s	sensibilité	sensibilité	isabout	sentimentalisme		
 81.32	r_c	intrigue sentimentale et aventures militaires	militaire	isabout	militaire		
-81.6	r_c	visite à Paris de deux provinciaux, critique des mœurs	mœurs	isabout	"mœurs "		
+81.6	r_c	visite à Paris de deux provinciaux, critique des mœurs	mœurs	isabout	mœurs		
 81.9	r_s	sensibilité	sensibilité	isabout	sentimentalisme		
 81.9	r_c	intrigues politiques	politique	isabout	politique		
 82.10	r_c	intrigues politiques et sentimentales, aventures militaires	sentimentale	isabout	sentiment		
@@ -1667,7 +1667,7 @@ id	Spalte	text	Keyword	property	Themenwert
 82.2	r_c	aventures galantes et malheurs d’un jeune bourgeois à Paris, critique des mœurs	galant	isabout	galanterie		
 82.2	r_s	ton satirique, puis sensibilité	sensibilité	isabout	sentimentalisme		
 82.2	r_c	aventures galantes et malheurs d’un jeune bourgeois à Paris, critique des mœurs	malheurs	isabout	malheur		
-82.2	r_c	aventures galantes et malheurs d’un jeune bourgeois à Paris, critique des mœurs	mœurs	isabout	"mœurs "		
+82.2	r_c	aventures galantes et malheurs d’un jeune bourgeois à Paris, critique des mœurs	mœurs	isabout	mœurs		
 82.21	r_s	thèmes politiques	thèmes politiques	isabout	politique		
 82.21	r_c	campagnes militaires, discussions	militaire	isabout	militaire		
 82.24	r_c	intrigues sentimentales, aventures romanesques	sentimentale	isabout	sentiment		
@@ -1684,12 +1684,12 @@ id	Spalte	text	Keyword	property	Themenwert
 82.32	r_c	intrigues de cour, conversations politiques	politique	isabout	politique		
 82.32	r_s	thèmes philosophiques	thèmes philosophiques	isabout	philosophie		
 82.32	r_c	intrigues de cour, conversations politiques	cour	isabout	cour		
-82.34	r_c	pseudo-histoire des Mirmidons (premiers habitants de Taïti) et de l’influence du philosophe Pantomitoul, suivie d’un traité (t.II) sur les mœurs et coutumes des Taïtiens	mœurs	isabout	"mœurs "		
+82.34	r_c	pseudo-histoire des Mirmidons (premiers habitants de Taïti) et de l’influence du philosophe Pantomitoul, suivie d’un traité (t.II) sur les mœurs et coutumes des Taïtiens	mœurs	isabout	mœurs		
 82.36	r_c	intrigue sentimentale, malheurs	sentimentale	isabout	sentiment		
 82.36	r_s	sensibilité	sensibilité	isabout	sentimentalisme		
 82.36	r_c	intrigue sentimentale, malheurs	malheurs	isabout	malheur		
 82.38	r_s	sensibilité	sensibilité	isabout	sentimentalisme		
-82.38	r_c	intrigues mondaines, peinture des mœurs	mœurs	isabout	"mœurs "		
+82.38	r_c	intrigues mondaines, peinture des mœurs	mœurs	isabout	mœurs		
 82.4	r_c	En marge: les rapports des personnages - la courtisane Grelinde, le roi de Bamboul - servent de cadre à un petit traité contre le luxe	cour	isabout	cour		
 82.40	r_s	sensibilité	sensibilité	isabout	sentimentalisme		
 82.40	r_c	intrigues amoureuses	amour	isabout	amour		
@@ -1700,7 +1700,7 @@ id	Spalte	text	Keyword	property	Themenwert
 83.11	r_s	sensibilité	sensibilité	isabout	sentimentalisme		
 83.11	r_c	voyages, aventures romanesques et galantes	voyages	isabout	voyage		
 83.12	r_c	relation de voyage avec des dialogues, des descriptions pittoresques, des personnages bien caractérisés	voyage	isabout	voyage		
-83.13	r_s	peinture des mœurs	mœurs	isabout	"mœurs "		
+83.13	r_s	peinture des mœurs	mœurs	isabout	mœurs		
 83.16	r_c	intrigues politiques et sentimentales, malheurs	sentimentale	isabout	sentiment		
 83.16	r_s	sensibilité effrénée	sensibilité	isabout	sentimentalisme		
 83.16	r_c	intrigues politiques et sentimentales, malheurs	politique	isabout	politique		
@@ -1729,7 +1729,7 @@ id	Spalte	text	Keyword	property	Themenwert
 83.33	r_c	amours malheureuses, peinture des mœurs	amour	isabout	amour		
 83.33	r_s	nature, vertu, sensibilité, mélancolie	mélancolie	isabout	mélancolie		
 83.33	r_s	nature, vertu, sensibilité, mélancolie	vertu	isabout	vertu		
-83.33	r_c	amours malheureuses, peinture des mœurs	mœurs	isabout	"mœurs "		
+83.33	r_c	amours malheureuses, peinture des mœurs	mœurs	isabout	mœurs		
 83.33	r_s	nature, vertu, sensibilité, mélancolie	nature	isabout	nature		
 83.35	r_s	sensibilité	sensibilité	isabout	sentimentalisme		
 83.36	r_c	intrigue sentimentale, voyages, aventures chevaleresques	sentimentale	isabout	sentiment		
@@ -1745,7 +1745,7 @@ id	Spalte	text	Keyword	property	Themenwert
 83.43	r_c	la vie exemplaire d’une mère de famille vertueuse	famille	isabout	famille		
 83.43	r_c	la vie exemplaire d’une mère de famille vertueuse	vertu	isabout	vertu		
 83.44	r_c	un philosophe cabaliste (Oromasis), une Sylphide: le philosophe et sa compagne, invisibles, observent les habitants de la ville de R *** (critique des mœurs) et font ensuite des voyages imaginaires	voyages	isabout	voyage		
-83.44	r_c	un philosophe cabaliste (Oromasis), une Sylphide: le philosophe et sa compagne, invisibles, observent les habitants de la ville de R *** (critique des mœurs) et font ensuite des voyages imaginaires	mœurs	isabout	"mœurs "		
+83.44	r_c	un philosophe cabaliste (Oromasis), une Sylphide: le philosophe et sa compagne, invisibles, observent les habitants de la ville de R *** (critique des mœurs) et font ensuite des voyages imaginaires	mœurs	isabout	mœurs		
 83.46	r_c	intrigue sentimentale, aventures guerrières	sentimentale	isabout	sentiment		
 83.46	r_c	intrigue sentimentale, aventures guerrières	guerrière	isabout	guerre		
 83.46	r_s	sensibilité	sensibilité	isabout	sentimentalisme		
@@ -1753,19 +1753,19 @@ id	Spalte	text	Keyword	property	Themenwert
 83.48	r_c	intrigue sentimentale: récit autobiographique, analyse de la passion, tendances moralisatrices, réalisme du cadre	passion	isabout	passion		
 83.51	r_c	intrigue sentimentale	sentimentale	isabout	sentiment		
 83.51	r_s	éléments historiques, sensibilité	sensibilité	isabout	sentimentalisme		
-83.51	r_s	éléments historiques, sensibilité	éléments historiques	isabout	"histoire "		
+83.51	r_s	éléments historiques, sensibilité	éléments historiques	isabout	histoire		
 83.52	r_c	intrigues sentimentales	sentimentale	isabout	sentiment		
 83.52	r_s	éléments historiques, sensibilité	sensibilité	isabout	sentimentalisme		
-83.52	r_s	éléments historiques, sensibilité	éléments historiques	isabout	"histoire "		
+83.52	r_s	éléments historiques, sensibilité	éléments historiques	isabout	histoire		
 83.53	r_c	intrigue sentimentale	sentimentale	isabout	sentiment		
 83.53	r_s	éléments historiques, sensibilité	sensibilité	isabout	sentimentalisme		
-83.53	r_s	éléments historiques, sensibilité	éléments historiques	isabout	"histoire "		
+83.53	r_s	éléments historiques, sensibilité	éléments historiques	isabout	histoire		
 83.54	r_c	intrigues sentimentales	sentimentale	isabout	sentiment		
 83.54	r_s	éléments historiques, sensibilité	sensibilité	isabout	sentimentalisme		
-83.54	r_s	éléments historiques, sensibilité	éléments historiques	isabout	"histoire "		
+83.54	r_s	éléments historiques, sensibilité	éléments historiques	isabout	histoire		
 83.55	r_c	intrigues sentimentales (série de contes moraux)	sentimentale	isabout	sentiment		
 83.56	r_c	Eraste interroge les volontaires qui voudraient l’accompagner dans la lune (critique des mœurs), puis s’en va faire un voyage allégorique	voyage	isabout	voyage		
-83.56	r_c	Eraste interroge les volontaires qui voudraient l’accompagner dans la lune (critique des mœurs), puis s’en va faire un voyage allégorique	mœurs	isabout	"mœurs "		
+83.56	r_c	Eraste interroge les volontaires qui voudraient l’accompagner dans la lune (critique des mœurs), puis s’en va faire un voyage allégorique	mœurs	isabout	mœurs		
 83.57	r_c	aventures merveilleuses	merveille	isabout	miracle		
 83.59	r_s	sensibilité, prétentions moralisatrices	sensibilité	isabout	sentimentalisme		
 83.59	r_c	intrigue mondaine, mariage malheureux	malheur	isabout	malheur		
@@ -1798,7 +1798,7 @@ id	Spalte	text	Keyword	property	Themenwert
 84.3	r_c	satire personnelle contre Manzon sous la forme d’un voyage burlesque et des conversations sur la situation politique de la Hollande	politique	isabout	politique		
 84.3	r_c	satire personnelle contre Manzon sous la forme d’un voyage burlesque et des conversations sur la situation politique de la Hollande	voyage	isabout	voyage		
 84.31	r_c	récit de voyage où rentrent des observations sur les mœurs et sur les idées	voyage	isabout	voyage		
-84.31	r_c	récit de voyage où rentrent des observations sur les mœurs et sur les idées	mœurs	isabout	"mœurs "		
+84.31	r_c	récit de voyage où rentrent des observations sur les mœurs et sur les idées	mœurs	isabout	mœurs		
 84.34	r_c	intrigue sentimentale	sentimentale	isabout	sentiment		
 84.34	r_s	sensibilité, style poétique	sensibilité	isabout	sentimentalisme		
 84.36	r_c	aventures romanesques et allégoriques, aventures merveilleuses	merveille	isabout	miracle		
@@ -1806,17 +1806,17 @@ id	Spalte	text	Keyword	property	Themenwert
 84.37	r_c	intrigue mondaine et sentimentale	sentimentale	isabout	sentiment		
 84.38	r_c	aventures libertines d’une jeune fille	libertines	isabout	libertinage		
 84.39	r_c	aventures galantes, critique des mœurs	galant	isabout	galanterie		
-84.39	r_c	aventures galantes, critique des mœurs	mœurs	isabout	"mœurs "		
+84.39	r_c	aventures galantes, critique des mœurs	mœurs	isabout	mœurs		
 84.4	r_c	rivalité entre le bon Kamel et le cruel Acrab, voyage, actes de bienfaisance, aventures	voyage	isabout	voyage		
 84.41	r_c	intrigue sentimentale, aventures guerrières	sentimentale	isabout	sentiment		
 84.41	r_c	intrigue sentimentale, aventures guerrières	guerrière	isabout	guerre		
 84.41	r_s	sensibilité effrénée	sensibilité	isabout	sentimentalisme		
 84.47	r_c	critique des mœurs, intrigue sentimentale	sentimentale	isabout	sentiment		
-84.47	r_c	critique des mœurs, intrigue sentimentale	mœurs	isabout	"mœurs "		
+84.47	r_c	critique des mœurs, intrigue sentimentale	mœurs	isabout	mœurs		
 84.52	r_c	voyages, aventures, discours	voyages	isabout	voyage		
 84.52	r_c	voyages, aventures, discours	cour	isabout	cour		
 84.53	r_c	critique des institutions et des mœurs (un roi voyage incognito et observe ses sujets)	voyage	isabout	voyage		
-84.53	r_c	critique des institutions et des mœurs (un roi voyage incognito et observe ses sujets)	mœurs	isabout	"mœurs "		
+84.53	r_c	critique des institutions et des mœurs (un roi voyage incognito et observe ses sujets)	mœurs	isabout	mœurs		
 84.54	r_c	voyage philosophique d’un jeune homme à travers l’Europe, critique des institutions (surtout de l’Eglise)	voyage	isabout	voyage		
 84.54	r_s	thèmes philosophiques, ton satirique	thèmes philosophiques	isabout	philosophie		
 84.6	r_c	aventures lubriques	lubriques	isabout	érotisme		
@@ -1852,13 +1852,13 @@ id	Spalte	text	Keyword	property	Themenwert
 85.26	r_c	voyages, intrigue sentimentale	sentimentale	isabout	sentiment		
 85.26	r_c	voyages, intrigue sentimentale	voyages	isabout	voyage		
 85.3	r_c	aventures galantes d’un fat, critique des mœurs	galant	isabout	galanterie		
-85.3	r_c	aventures galantes d’un fat, critique des mœurs	mœurs	isabout	"mœurs "		
+85.3	r_c	aventures galantes d’un fat, critique des mœurs	mœurs	isabout	mœurs		
 85.30	r_c	aventures guerrières et sentimentales, voyages	sentimentale	isabout	sentiment		
 85.30	r_c	aventures guerrières et sentimentales, voyages	guerrière	isabout	guerre		
 85.30	r_c	aventures guerrières et sentimentales, voyages	voyages	isabout	voyage		
 85.33	r_c	les malheurs d’un jeune homme vertueux, critique des mœurs	malheurs	isabout	malheur		
 85.33	r_c	les malheurs d’un jeune homme vertueux, critique des mœurs	vertu	isabout	vertu		
-85.33	r_c	les malheurs d’un jeune homme vertueux, critique des mœurs	mœurs	isabout	"mœurs "		
+85.33	r_c	les malheurs d’un jeune homme vertueux, critique des mœurs	mœurs	isabout	mœurs		
 85.34	r_c	aventures romanesques et merveilleuses	merveille	isabout	miracle		
 85.35	r_c	intrigue sentimentale et mondaine	sentimentale	isabout	sentiment		
 85.36	r_c	voyages, aventures chevaleresques	chevaleresques	isabout	chevalerie		
@@ -1870,12 +1870,12 @@ id	Spalte	text	Keyword	property	Themenwert
 85.40	r_c	aventures merveilleuses et romanesques, éducation d’un prince, critique des mœurs	merveille	isabout	miracle		
 85.40	r_c	aventures merveilleuses et romanesques, éducation d’un prince, critique des mœurs	éducation	isabout	éducation		
 85.40	r_s	imitations d’Ossian, thèmes philosophiques, intentions didactiques, tendances réalistes	thèmes philosophiques	isabout	philosophie		
-85.40	r_c	aventures merveilleuses et romanesques, éducation d’un prince, critique des mœurs	mœurs	isabout	"mœurs "		
+85.40	r_c	aventures merveilleuses et romanesques, éducation d’un prince, critique des mœurs	mœurs	isabout	mœurs		
 85.42	r_c	voyages, aventures romanesques	voyages	isabout	voyage		
 85.43	r_c	aventures galantes	galant	isabout	galanterie		
 85.5	r_c	voyages en mongolfière, aventures romanesques	voyages	isabout	voyage		
 85.7	r_s	ton sentimental et moralisateur, observations des mœurs mauresques	sentimental	isabout	sentiment		
-85.7	r_s	ton sentimental et moralisateur, observations des mœurs mauresques	mœurs	isabout	"mœurs "		
+85.7	r_s	ton sentimental et moralisateur, observations des mœurs mauresques	mœurs	isabout	mœurs		
 85.7	r_c	naufrage et captivité	naufrage	isabout	naufrage		
 86.1	r_c	intrigues sentimentales, aventures militaires, voyages	sentimentale	isabout	sentiment		
 86.1	r_s	sensibilité	sensibilité	isabout	sentimentalisme		
@@ -1905,14 +1905,14 @@ id	Spalte	text	Keyword	property	Themenwert
 86.34	r_c	aventures guerrières, intrigues politiques et sentimentales, éléments merveilleux	guerrière	isabout	guerre		
 86.34	r_c	aventures guerrières, intrigues politiques et sentimentales, éléments merveilleux	politique	isabout	politique		
 86.36	r_c	récit de voyage (observations sur les monuments et les mœurs) avec éléments romanesques (dialogues, petites scènes)	voyage	isabout	voyage		
-86.36	r_c	récit de voyage (observations sur les monuments et les mœurs) avec éléments romanesques (dialogues, petites scènes)	mœurs	isabout	"mœurs "		
+86.36	r_c	récit de voyage (observations sur les monuments et les mœurs) avec éléments romanesques (dialogues, petites scènes)	mœurs	isabout	mœurs		
 86.37	r_c	intrigue sentimentale	sentimentale	isabout	sentiment		
 86.4	r_c	aventures, voyages, amours	voyages	isabout	voyage		
 86.4	r_c	aventures, voyages, amours	amour	isabout	amour		
 86.42	r_s	sensibilité, prétentions moralisatrices	sensibilité	isabout	sentimentalisme		
 86.42	r_c	malheurs d’une jeune orpheline trahie par son amant	malheurs	isabout	malheur		
 86.44	r_c	intrigues mondaines et galantes, peinture des mœurs	galant	isabout	galanterie		
-86.44	r_c	intrigues mondaines et galantes, peinture des mœurs	mœurs	isabout	"mœurs "		
+86.44	r_c	intrigues mondaines et galantes, peinture des mœurs	mœurs	isabout	mœurs		
 86.45	r_s	sensibilité	sensibilité	isabout	sentimentalisme		
 86.45	r_c	histoires d’amour, intrigues mondaines, aventures romanesques, éléments pseudohistoriques	amour	isabout	amour		
 86.46	r_c	voyages et aventures romanesques	voyages	isabout	voyage		
@@ -1936,14 +1936,14 @@ id	Spalte	text	Keyword	property	Themenwert
 86.9	r_c	intrigue sentimentale	sentimentale	isabout	sentiment		
 86.9	r_s	sensibilité	sensibilité	isabout	sentimentalisme		
 87.1	r_s	thème de l’éducation, critique des mœurs	éducation	isabout	éducation		
-87.1	r_s	thème de l’éducation, critique des mœurs	mœurs	isabout	"mœurs "		
+87.1	r_s	thème de l’éducation, critique des mœurs	mœurs	isabout	mœurs		
 87.11	r_c	amours et intrigues de cour	amour	isabout	amour		
 87.11	r_c	amours et intrigues de cour	cour	isabout	cour		
 87.12	r_c	aventures romanesques d’une jeune fille dont la famille est ruinée (robinsonade)	famille	isabout	famille		
 87.14	r_c	scènes libres, précisions pornographiques	pornographiques	isabout	érotisme		
 87.16	r_c	aventures romanesques, voyages, critique des mœurs	voyages	isabout	voyage		
-87.16	r_c	aventures romanesques, voyages, critique des mœurs	mœurs	isabout	"mœurs "		
-87.19	r_c	Petites scènes de mœurs et dialogues	mœurs	isabout	"mœurs "		
+87.16	r_c	aventures romanesques, voyages, critique des mœurs	mœurs	isabout	mœurs		
+87.19	r_c	Petites scènes de mœurs et dialogues	mœurs	isabout	mœurs		
 87.20	r_c	voyages, aventures romanesques, scènes érotiques	voyages	isabout	voyage		
 87.29	r_s	style élevé, nature, sensibilité	sensibilité	isabout	sentimentalisme		
 87.29	r_c	amours de berger	amour	isabout	amour		
@@ -1973,13 +1973,13 @@ id	Spalte	text	Keyword	property	Themenwert
 87.47	r_c	malheurs d’une jeune fille	malheurs	isabout	malheur		
 87.48	r_c	aventures romanesques, peinture des mœurs (une mystérieuse étrangère arrive dans un petit village anglais ...)	mystérieuse	isabout	mystère		
 87.48	r_s	sensibilité, ironie	sensibilité	isabout	sentimentalisme		
-87.48	r_c	aventures romanesques, peinture des mœurs (une mystérieuse étrangère arrive dans un petit village anglais ...)	mœurs	isabout	"mœurs "		
+87.48	r_c	aventures romanesques, peinture des mœurs (une mystérieuse étrangère arrive dans un petit village anglais ...)	mœurs	isabout	mœurs		
 87.48	r_c	aventures romanesques, peinture des mœurs (une mystérieuse étrangère arrive dans un petit village anglais ...)	village	isabout	village		
 87.49	r_c	amours contrariées	amour	isabout	amour		
 87.50	r_c	discours édifiants dans un cadre romanesque (beaucoup d’incidents de la vie des personnages sont rapportés, ce qui donne au récit plus d’éléments romanesques que dans bien des autres ouvrages du même genre)	cour	isabout	cour		
 87.54	r_c	aventures romanesques et galantes	galant	isabout	galanterie		
 87.54	r_s	prétentions philosophiques	philosophiques	isabout	philosophie		
-87.60	r_c	aventures d’une jeune femme excentrique, critique des mœurs (et du magnétisme)	mœurs	isabout	"mœurs "		
+87.60	r_c	aventures d’une jeune femme excentrique, critique des mœurs (et du magnétisme)	mœurs	isabout	mœurs		
 87.61	r_s	intentions moralisatrices, sensibilité	sensibilité	isabout	sentimentalisme		
 87.61	r_c	malheurs d’un jeune homme qui est trop honnête, trop sensible, etc.	malheurs	isabout	malheur		
 87.62	r_c	les mésaventures d’un jeune homme qui cherche à mettre en pratique tes maximes morales de lord Chesterfield	morale	isabout	morale		
@@ -2034,8 +2034,8 @@ id	Spalte	text	Keyword	property	Themenwert
 88.26	r_c	voyages, aventures, intrigues sentimentales	voyages	isabout	voyage		
 88.27	r_c	Encyclopédie de l’antiquité grecque sous la forme d’un voyage imaginaire (discours, dissertations, notes)	voyage	isabout	voyage		
 88.27	r_c	Encyclopédie de l’antiquité grecque sous la forme d’un voyage imaginaire (discours, dissertations, notes)	cour	isabout	cour		
-88.28	r_c	aventures d’une orpheline, peinture des mœurs	mœurs	isabout	"mœurs "		
-88.29	r_c	intrigue mondaine, peinture des mœurs	mœurs	isabout	"mœurs "		
+88.28	r_c	aventures d’une orpheline, peinture des mœurs	mœurs	isabout	mœurs		
+88.29	r_c	intrigue mondaine, peinture des mœurs	mœurs	isabout	mœurs		
 88.32	r_c	malheurs, intrigues sentimentales, aventures romanesques	sentimentale	isabout	sentiment		
 88.32	r_s	sensibilité passionnée	sensibilité	isabout	sentimentalisme		
 88.32	r_c	malheurs, intrigues sentimentales, aventures romanesques	malheurs	isabout	malheur		
@@ -2093,7 +2093,7 @@ id	Spalte	text	Keyword	property	Themenwert
 88.73	r_c	intrigue mondaine, voyages, aventures, malheurs	malheurs	isabout	malheur		
 88.73	r_c	intrigue mondaine, voyages, aventures, malheurs	voyages	isabout	voyage		
 88.76	r_c	intrigues sentimentales et mondaines, peinture des mœurs (critique de la société française où le mérite ne suffit pas pour réussir)	sentimentale	isabout	sentiment		
-88.76	r_c	intrigues sentimentales et mondaines, peinture des mœurs (critique de la société française où le mérite ne suffit pas pour réussir)	mœurs	isabout	"mœurs "		
+88.76	r_c	intrigues sentimentales et mondaines, peinture des mœurs (critique de la société française où le mérite ne suffit pas pour réussir)	mœurs	isabout	mœurs		
 88.77	r_c	malheurs d’un jeune homme, intrigue mondaine	malheurs	isabout	malheur		
 88.8	r_c	malheurs d’une famille, intrigue sentimentale	sentimentale	isabout	sentiment		
 88.8	r_c	malheurs d’une famille, intrigue sentimentale	famille	isabout	famille		
@@ -2101,7 +2101,7 @@ id	Spalte	text	Keyword	property	Themenwert
 88.83	r_c	aventures galantes	galant	isabout	galanterie		
 88.84	r_c	intrigue sentimentale, voyages, aventures	sentimentale	isabout	sentiment		
 88.84	r_c	intrigue sentimentale, voyages, aventures	voyages	isabout	voyage		
-88.86	r_c	intrigue mondaine, critique des mœurs	mœurs	isabout	"mœurs "		
+88.86	r_c	intrigue mondaine, critique des mœurs	mœurs	isabout	mœurs		
 88.87	r_s	sensibilité, mélancolie	sensibilité	isabout	sentimentalisme		
 88.87	r_s	sensibilité, mélancolie	mélancolie	isabout	mélancolie		
 88.88	r_c	histoires de famille, intrigue mondaine	famille	isabout	famille		
@@ -2153,7 +2153,7 @@ id	Spalte	text	Keyword	property	Themenwert
 89.20	r_c	aventures romanesques d’une orpheline, voyages	voyages	isabout	voyage		
 89.21	r_c	aventures lubriques d’un jeune homme	lubriques	isabout	érotisme		
 89.21	r_s	précisions pornographiques	pornographiques	isabout	érotisme		
-89.23	r_c	Ituriel renvoie Babouc à Persepolis, mais les mœurs sont si décadentes qu’il transforme les habitants de la ville en bêtes sauvages qui se déchirent	mœurs	isabout	"mœurs "		
+89.23	r_c	Ituriel renvoie Babouc à Persepolis, mais les mœurs sont si décadentes qu’il transforme les habitants de la ville en bêtes sauvages qui se déchirent	mœurs	isabout	mœurs		
 89.24	r_c	voyages, utopie	voyages	isabout	voyage		
 89.26	r_c	voyages, naufrages, esclavage, amours	voyages	isabout	voyage		
 89.26	r_c	voyages, naufrages, esclavage, amours	amour	isabout	amour		
@@ -2181,13 +2181,13 @@ id	Spalte	text	Keyword	property	Themenwert
 89.42	r_c	malheurs, intrigue mondaine	malheurs	isabout	malheur		
 89.42	r_s	sensibilité larmoyante, bienfaisance, nature	nature	isabout	nature		
 89.43	r_c	voyages, critique des mœurs et des institutions	voyages	isabout	voyage		
-89.43	r_c	voyages, critique des mœurs et des institutions	mœurs	isabout	"mœurs "		
+89.43	r_c	voyages, critique des mœurs et des institutions	mœurs	isabout	mœurs		
 89.45	r_c	intrigues romanesques, malheurs d’une jeune fille ruinée	malheurs	isabout	malheur		
 89.47	r_c	voyages et aventures d’une Indienne qui épouse un Européen	voyages	isabout	voyage		
-89.49	r_c	intrigue mondaine, peinture des mœurs	mœurs	isabout	"mœurs "		
+89.49	r_c	intrigue mondaine, peinture des mœurs	mœurs	isabout	mœurs		
 89.49bis	r_c	voyages, aventures de route, observation des mœurs, discussions philosophiques, explications d’histoire naturelle	voyages	isabout	voyage		
 89.49bis	r_c	voyages, aventures de route, observation des mœurs, discussions philosophiques, explications d’histoire naturelle	philosophiques	isabout	philosophie		
-89.49bis	r_c	voyages, aventures de route, observation des mœurs, discussions philosophiques, explications d’histoire naturelle	mœurs	isabout	"mœurs "		
+89.49bis	r_c	voyages, aventures de route, observation des mœurs, discussions philosophiques, explications d’histoire naturelle	mœurs	isabout	mœurs		
 89.49bis	r_c	voyages, aventures de route, observation des mœurs, discussions philosophiques, explications d’histoire naturelle	nature	isabout	nature		
 89.5	r_c	aventures galantes d’un jeune homme	galant	isabout	galanterie		
 89.51	r_c	Neuf lettres où une jeune dame se passionne pour la politique avant d’être rappelée à l’ordre par son père	politique	isabout	politique		
@@ -2208,12 +2208,12 @@ id	Spalte	text	Keyword	property	Themenwert
 89.59	r_c	intrigues de cour, voyages, éléments merveilleux (fées, génies)	cour	isabout	cour		
 89.60	r_c	voyages, aventures chevaleresques, éléments historiques	chevaleresques	isabout	chevalerie		
 89.60	r_c	voyages, aventures chevaleresques, éléments historiques	voyages	isabout	voyage		
-89.60	r_c	voyages, aventures chevaleresques, éléments historiques	éléments historiques	isabout	"histoire "		
+89.60	r_c	voyages, aventures chevaleresques, éléments historiques	éléments historiques	isabout	histoire		
 89.61	r_c	aventures guerrières, intrigues politiques, éléments historiques	guerrière	isabout	guerre		
 89.61	r_c	aventures guerrières, intrigues politiques, éléments historiques	politique	isabout	politique		
-89.61	r_c	aventures guerrières, intrigues politiques, éléments historiques	éléments historiques	isabout	"histoire "		
+89.61	r_c	aventures guerrières, intrigues politiques, éléments historiques	éléments historiques	isabout	histoire		
 89.63	r_c	aventures comiques, voyages, critique des mœurs	voyages	isabout	voyage		
-89.63	r_c	aventures comiques, voyages, critique des mœurs	mœurs	isabout	"mœurs "		
+89.63	r_c	aventures comiques, voyages, critique des mœurs	mœurs	isabout	mœurs		
 89.64	r_c	histoire d’un ménage vertueux	vertu	isabout	vertu		
 89.65	r_s	sensibilité	sensibilité	isabout	sentimentalisme		
 89.65	r_c	malheurs et aventures d’une orpheline	malheurs	isabout	malheur		
@@ -2227,13 +2227,13 @@ id	Spalte	text	Keyword	property	Themenwert
 89.69	r_c	amours contrariées	amour	isabout	amour		
 89.70	r_c	voyage du héros qui sert de cadre à des pièces de théâtre, des morceaux en vers, des songes, et surtout des discussions de droit	voyage	isabout	voyage		
 89.71	r_c	histoires de famille, tableaux de mœurs	famille	isabout	famille		
-89.71	r_c	histoires de famille, tableaux de mœurs	mœurs	isabout	"mœurs "		
+89.71	r_c	histoires de famille, tableaux de mœurs	mœurs	isabout	mœurs		
 89.72	r_s	ton sensible, avec éléments satiriques	sensible	isabout	sentimentalisme		
 89.72	r_c	aventures et intrigues amoureuses	amour	isabout	amour		
 89.73	r_c	malheurs, événements merveilleux (le bonheur d’un pays dépend d’un coq d’or...)	merveille	isabout	miracle		
 89.73	r_c	malheurs, événements merveilleux (le bonheur d’un pays dépend d’un coq d’or...)	malheurs	isabout	malheur		
 89.74	r_c	voyages, aventures d’un jeune homme qui fait son chemin	voyages	isabout	voyage		
-89.74	r_s	observations sur les mœurs	mœurs	isabout	"mœurs "		
+89.74	r_s	observations sur les mœurs	mœurs	isabout	mœurs		
 89.77	r_c	voyages, aventures romanesques d’un noir	voyages	isabout	voyage		
 89.78	r_c	le narrateur rêve qu’il est le fils de l’empereur, et discute des réformes politiques et sociales	politique	isabout	politique		
 89.8	r_c	intrigues sentimentales, aventures romanesques, malheurs	sentimentale	isabout	sentiment		
@@ -2261,13 +2261,13 @@ id	Spalte	text	Keyword	property	Themenwert
 89.97	r_c	intrigue sentimentale, peinture des mœurs	sentimentale	isabout	sentiment		
 89.97	r_s	sensibilité, vertu	sensibilité	isabout	sentimentalisme		
 89.97	r_s	sensibilité, vertu	vertu	isabout	vertu		
-89.97	r_c	intrigue sentimentale, peinture des mœurs	mœurs	isabout	"mœurs "		
+89.97	r_c	intrigue sentimentale, peinture des mœurs	mœurs	isabout	mœurs		
 89.98	r_c	intrigue sentimentale	sentimentale	isabout	sentiment		
 89.99	r_c	malheurs d’une famille honnête débarquée à Paris	famille	isabout	famille		
 89.99	r_c	malheurs d’une famille honnête débarquée à Paris	malheurs	isabout	malheur		
 90.1	r_c	aventures romanesques et sentimentales, peinture et critique des mauvaises mœurs	sentimentale	isabout	sentiment		
 90.1	r_s	sensibilité effrénée	sensibilité	isabout	sentimentalisme		
-90.1	r_c	aventures romanesques et sentimentales, peinture et critique des mauvaises mœurs	mœurs	isabout	"mœurs "		
+90.1	r_c	aventures romanesques et sentimentales, peinture et critique des mauvaises mœurs	mœurs	isabout	mœurs		
 90.10	r_c	Lettres et dialogues racontant les aventures galantes de la Reine	galant	isabout	galanterie		
 90.11	r_c	intrigue sentimentale et aventures révolutionnaires (les premiers mois de la Révolution sous une forme allégorique)	sentimentale	isabout	sentiment		
 90.11	r_c	intrigue sentimentale et aventures révolutionnaires (les premiers mois de la Révolution sous une forme allégorique)	révolutionnaires	isabout	révolution		
@@ -2276,7 +2276,7 @@ id	Spalte	text	Keyword	property	Themenwert
 90.15	r_c	Entrevue galante entre la princesse et l’abbé (pamphlet diffamatoire avec précisions lubriques)	galant	isabout	galanterie		
 90.15	r_c	Entrevue galante entre la princesse et l’abbé (pamphlet diffamatoire avec précisions lubriques)	lubriques	isabout	érotisme		
 90.16	r_c	Conte sur la politique d’un bon monarque (le roi Kalahad, Chimas, le Francolin)	politique	isabout	politique		
-90.17	r_c	aventures comiques d’une jeune fille ingénue dans la bonne société (critique des mœurs)	mœurs	isabout	"mœurs "		
+90.17	r_c	aventures comiques d’une jeune fille ingénue dans la bonne société (critique des mœurs)	mœurs	isabout	mœurs		
 90.18	r_c	Pamphlet où l’épagneul de la Reine raconte les rencontres galantes de celle-ci	galant	isabout	galanterie		
 90.2	r_s	thèmes politiques	thèmes politiques	isabout	politique		
 90.20	r_c	En marge: narration satirique de la conception, naissance et éducation de l’abbé Maury, et de ses liaisons galantes	galant	isabout	galanterie		
@@ -2288,10 +2288,10 @@ id	Spalte	text	Keyword	property	Themenwert
 90.23	r_c	voyages, discussions philosophiques et politiques	philosophiques	isabout	philosophie		
 90.25	r_c	aventures guerrières, voyages en mer, observations sur les mœurs de différents peuples (les voyages de Cook mis en roman)	guerrière	isabout	guerre		
 90.25	r_c	aventures guerrières, voyages en mer, observations sur les mœurs de différents peuples (les voyages de Cook mis en roman)	voyages	isabout	voyage		
-90.25	r_c	aventures guerrières, voyages en mer, observations sur les mœurs de différents peuples (les voyages de Cook mis en roman)	mœurs	isabout	"mœurs "		
+90.25	r_c	aventures guerrières, voyages en mer, observations sur les mœurs de différents peuples (les voyages de Cook mis en roman)	mœurs	isabout	mœurs		
 90.26	r_c	intrigues politiques et galantes d’un espion, éléments historiques	galant	isabout	galanterie		
 90.26	r_c	intrigues politiques et galantes d’un espion, éléments historiques	politique	isabout	politique		
-90.26	r_c	intrigues politiques et galantes d’un espion, éléments historiques	éléments historiques	isabout	"histoire "		
+90.26	r_c	intrigues politiques et galantes d’un espion, éléments historiques	éléments historiques	isabout	histoire		
 90.27	r_c	Petits récits, avec des discours moraux	cour	isabout	cour		
 90.28	r_c	intrigue sentimentale	sentimentale	isabout	sentiment		
 90.28	r_s	sensibilité passionnée, style élevé	sensibilité	isabout	sentimentalisme		
@@ -2306,7 +2306,7 @@ id	Spalte	text	Keyword	property	Themenwert
 90.37	r_c	intrigue mondaine, histoires de famille	famille	isabout	famille		
 90.39	r_c	amours contrariées	amour	isabout	amour		
 90.4	r_c	intrigues sentimentales et domestiques, peinture des mœurs	sentimentale	isabout	sentiment		
-90.4	r_c	intrigues sentimentales et domestiques, peinture des mœurs	mœurs	isabout	"mœurs "		
+90.4	r_c	intrigues sentimentales et domestiques, peinture des mœurs	mœurs	isabout	mœurs		
 90.40	r_c	intrigue sentimentale, aventures chevaleresques	sentimentale	isabout	sentiment		
 90.40	r_c	intrigue sentimentale, aventures chevaleresques	chevaleresques	isabout	chevalerie		
 90.41	r_c	malheurs et aventures d’un homme sensible ruiné par un escroc, intrigues sentimentales	sentimentale	isabout	sentiment		
@@ -2338,7 +2338,7 @@ id	Spalte	text	Keyword	property	Themenwert
 90.7	r_c	voyages et aventures d’un jeune homme, observations et réflexions philosophiques	philosophiques	isabout	philosophie		
 90.9	r_c	observations sur les mœurs et sur la Révolution sous la forme d’un voyage	Révolution	isabout	révolution		
 90.9	r_c	observations sur les mœurs et sur la Révolution sous la forme d’un voyage	voyage	isabout	voyage		
-90.9	r_c	observations sur les mœurs et sur la Révolution sous la forme d’un voyage	mœurs	isabout	"mœurs "		
+90.9	r_c	observations sur les mœurs et sur la Révolution sous la forme d’un voyage	mœurs	isabout	mœurs		
 91.1	r_c	voyages, réflexions morales sur la suppression de l’Église en France et les événements révolutionnaires	révolutionnaires	isabout	révolution		
 91.1	r_s	ton sensible	sensible	isabout	sentimentalisme		
 91.1	r_c	voyages, réflexions morales sur la suppression de l’Église en France et les événements révolutionnaires	voyages	isabout	voyage		
@@ -2355,7 +2355,7 @@ id	Spalte	text	Keyword	property	Themenwert
 91.19	r_c	voyages, intrigue sentimentale	voyages	isabout	voyage		
 91.21	r_c	aventures guerrières et sentimentales, éléments historiques	sentimentale	isabout	sentiment		
 91.21	r_c	aventures guerrières et sentimentales, éléments historiques	guerrière	isabout	guerre		
-91.21	r_c	aventures guerrières et sentimentales, éléments historiques	éléments historiques	isabout	"histoire "		
+91.21	r_c	aventures guerrières et sentimentales, éléments historiques	éléments historiques	isabout	histoire		
 91.23	r_c	récit décousu, éléments allégoriques, critique politique	politique	isabout	politique		
 91.24	r_c	voyages, observations, anecdotes décousues	voyages	isabout	voyage		
 91.25	r_c	intrigue sentimentale	sentimentale	isabout	sentiment		
@@ -2383,7 +2383,7 @@ id	Spalte	text	Keyword	property	Themenwert
 92.17	r_c	voyages, aventures romanesques et galantes	galant	isabout	galanterie		
 92.17	r_c	voyages, aventures romanesques et galantes	voyages	isabout	voyage		
 92.18	r_s	sensibilité	sensibilité	isabout	sentimentalisme		
-92.19	r_c	intrigue mondaine, peinture des mœurs	mœurs	isabout	"mœurs "		
+92.19	r_c	intrigue mondaine, peinture des mœurs	mœurs	isabout	mœurs		
 92.2	r_c	aventures lubriques du personnage de Beaumarchais, suivies des confessions d’une prostituée	lubriques	isabout	érotisme		
 92.2	r_s	précisions pornographiques	pornographiques	isabout	érotisme		
 92.21	r_c	intrigue sentimentale	sentimentale	isabout	sentiment		
@@ -2411,7 +2411,7 @@ id	Spalte	text	Keyword	property	Themenwert
 92.40	r_c	aventures galantes, intrigues de cour, affaires d’argent	galant	isabout	galanterie		
 92.40	r_c	aventures galantes, intrigues de cour, affaires d’argent	cour	isabout	cour		
 92.6	r_c	aventures romanesques, intrigue sentimentale	sentimentale	isabout	sentiment		
-92.7	r_s	satire des mœurs	mœurs	isabout	"mœurs "		
+92.7	r_s	satire des mœurs	mœurs	isabout	mœurs		
 92.8	r_c	intrigue sentimentale, détails historiques	sentimentale	isabout	sentiment		
 92.9	r_c	intrigues politiques	politique	isabout	politique		
 93.1	r_c	voyages et aventures romanesques (corsaires, esclavage)	voyages	isabout	voyage		
@@ -2435,7 +2435,7 @@ id	Spalte	text	Keyword	property	Themenwert
 93.5	r_s	satire politique, religieuse, médicale	politique	isabout	politique		
 93.5	r_c	les héros racontent leurs voyages	voyages	isabout	voyage		
 93.6	r_c	aventures galantes, éléments historiques	galant	isabout	galanterie		
-93.6	r_c	aventures galantes, éléments historiques	éléments historiques	isabout	"histoire "		
+93.6	r_c	aventures galantes, éléments historiques	éléments historiques	isabout	histoire		
 93.8	r_c	intrigue sentimentale sur un fond d’actualité	sentimentale	isabout	sentiment		
 94.1	r_s	sensibilité	sensibilité	isabout	sentimentalisme		
 94.1	r_c	jeunesse malheureuse de l’héroïne (intrigues de famille et de couvent)	famille	isabout	famille		
@@ -2446,7 +2446,7 @@ id	Spalte	text	Keyword	property	Themenwert
 94.14	r_s	passions violentes et néfastes	passion	isabout	passion		
 94.15	r_c	voyages, aventures galantes	galant	isabout	galanterie		
 94.15	r_c	voyages, aventures galantes	voyages	isabout	voyage		
-94.15	r_s	observations sur les mœurs	mœurs	isabout	"mœurs "		
+94.15	r_s	observations sur les mœurs	mœurs	isabout	mœurs		
 94.5	r_s	sensibilité, vertu, nature. Imitation de Paul et Virginie	sensibilité	isabout	sentimentalisme		
 94.5	r_c	amours malheureuses	malheur	isabout	malheur		
 94.5	r_c	amours malheureuses	amour	isabout	amour		
@@ -2495,7 +2495,7 @@ id	Spalte	text	Keyword	property	Themenwert
 95.41	r_c	voyages, aventures romanesques et merveilleuses	voyages	isabout	voyage		
 95.44	r_c	voyages et aventures d’un jeune homme	voyages	isabout	voyage		
 95.6	r_c	les chagrins domestiques d’une mère de famille	famille	isabout	famille		
-95.6	r_s	peinture des mœurs	mœurs	isabout	"mœurs "		
+95.6	r_s	peinture des mœurs	mœurs	isabout	mœurs		
 95.7	r_c	Séparé de sa bien-aimée, le narrateur lui reste fidèle: elle apparaît mystérieusement chaque fois que cet amour est mis à l’épreuve	mystérieuse	isabout	mystère		
 95.7	r_c	Séparé de sa bien-aimée, le narrateur lui reste fidèle: elle apparaît mystérieusement chaque fois que cet amour est mis à l’épreuve	amour	isabout	amour		
 96.12	r_s	nature, sensibilité, vertu	sensibilité	isabout	sentimentalisme		
@@ -2525,7 +2525,7 @@ id	Spalte	text	Keyword	property	Themenwert
 96.33	r_s	sensibilité, mélancolie	mélancolie	isabout	mélancolie		
 96.34	r_c	intrigues sentimentales, peinture des mœurs	sentimentale	isabout	sentiment		
 96.34	r_s	sensibilité	sensibilité	isabout	sentimentalisme		
-96.34	r_c	intrigues sentimentales, peinture des mœurs	mœurs	isabout	"mœurs "		
+96.34	r_c	intrigues sentimentales, peinture des mœurs	mœurs	isabout	mœurs		
 96.36	r_c	vie domestique, aventures, malheurs	malheurs	isabout	malheur		
 96.38	r_s	thèmes philosophiques	thèmes philosophiques	isabout	philosophie		
 96.39	r_c	intrigues sentimentales	sentimentale	isabout	sentiment		
@@ -2549,9 +2549,9 @@ id	Spalte	text	Keyword	property	Themenwert
 96.52	r_s	sensibilité, ton moralisateur	sensibilité	isabout	sentimentalisme		
 96.57	r_c	intrigues sentimentales, aventures	sentimentale	isabout	sentiment		
 96.57	r_s	éléments mystérieux (gnomes et esprits), étude des mœurs	mystérieux	isabout	mystère		
-96.57	r_s	éléments mystérieux (gnomes et esprits), étude des mœurs	mœurs	isabout	"mœurs "		
+96.57	r_s	éléments mystérieux (gnomes et esprits), étude des mœurs	mœurs	isabout	mœurs		
 96.58	r_c	voyages et aventures d’un jeune paysan vagabond	voyages	isabout	voyage		
-96.58	r_s	étude des mœurs	mœurs	isabout	"mœurs "		
+96.58	r_s	étude des mœurs	mœurs	isabout	mœurs		
 96.59	r_c	intrigues d’amour, esprits, revenants, magie	amour	isabout	amour		
 96.6	r_c	les amours de Maria et d’un pacha philosophe, vertueux et sensible	sensible	isabout	sentimentalisme		
 96.6	r_c	les amours de Maria et d’un pacha philosophe, vertueux et sensible	amour	isabout	amour		
@@ -2570,7 +2570,7 @@ id	Spalte	text	Keyword	property	Themenwert
 97.1	r_c	amours malheureuses d’un berger	amour	isabout	amour		
 97.10	r_s	sensibilité	sensibilité	isabout	sentimentalisme		
 97.10	r_c	histoires de famille, intrigues mondaines, tableaux de mœurs	famille	isabout	famille		
-97.10	r_c	histoires de famille, intrigues mondaines, tableaux de mœurs	mœurs	isabout	"mœurs "		
+97.10	r_c	histoires de famille, intrigues mondaines, tableaux de mœurs	mœurs	isabout	mœurs		
 97.13	r_c	aventures galantes	galant	isabout	galanterie		
 97.14	r_c	intrigue sentimentale	sentimentale	isabout	sentiment		
 97.14	r_s	sensibilité, nature	sensibilité	isabout	sentimentalisme		
@@ -2578,7 +2578,7 @@ id	Spalte	text	Keyword	property	Themenwert
 97.15	r_c	aventures merveilleuses et chevaleresques	merveille	isabout	miracle		
 97.15	r_c	aventures merveilleuses et chevaleresques	chevaleresques	isabout	chevalerie		
 97.19	r_c	voyages, aventures d’un jeune homme	voyages	isabout	voyage		
-97.19	r_s	peinture des mœurs, ton satirique	mœurs	isabout	"mœurs "		
+97.19	r_s	peinture des mœurs, ton satirique	mœurs	isabout	mœurs		
 97.2	r_s	sensibilité, mélancolie, prétentions moralisatrices	sensibilité	isabout	sentimentalisme		
 97.2	r_c	malheurs d’une jeune fille, vie au couvent, éléments sombres	malheurs	isabout	malheur		
 97.2	r_s	sensibilité, mélancolie, prétentions moralisatrices	mélancolie	isabout	mélancolie		
@@ -2608,7 +2608,7 @@ id	Spalte	text	Keyword	property	Themenwert
 97.44	r_s	thèmes philosophiques, intentions didactiques	thèmes philosophiques	isabout	philosophie		
 97.47	r_c	intrigues mondaines et de famille, voyages à travers l’Angleterre, personnages qui reviennent des colonies, tableaux de mœurs	famille	isabout	famille		
 97.47	r_c	intrigues mondaines et de famille, voyages à travers l’Angleterre, personnages qui reviennent des colonies, tableaux de mœurs	voyages	isabout	voyage		
-97.47	r_c	intrigues mondaines et de famille, voyages à travers l’Angleterre, personnages qui reviennent des colonies, tableaux de mœurs	mœurs	isabout	"mœurs "		
+97.47	r_c	intrigues mondaines et de famille, voyages à travers l’Angleterre, personnages qui reviennent des colonies, tableaux de mœurs	mœurs	isabout	mœurs		
 97.51	r_c	amours tumultueuses, aventures romanesques	amour	isabout	amour		
 97.54	r_c	aventures romanesques, malheurs et mystères	malheurs	isabout	malheur		
 97.56	r_c	amours passionnées, aventures singulières, éléments sombres	amour	isabout	amour		
@@ -2646,7 +2646,7 @@ id	Spalte	text	Keyword	property	Themenwert
 98.1	r_s	peinture des mœurs, observations morales, sensibilité	sensibilité	isabout	sentimentalisme		
 98.1	r_c	jeunes amours et débuts dans le monde	amour	isabout	amour		
 98.1	r_s	peinture des mœurs, observations morales, sensibilité	morale	isabout	morale		
-98.1	r_s	peinture des mœurs, observations morales, sensibilité	mœurs	isabout	"mœurs "		
+98.1	r_s	peinture des mœurs, observations morales, sensibilité	mœurs	isabout	mœurs		
 98.10	r_s	sensibilité, éléments du roman noir	sensibilité	isabout	sentimentalisme		
 98.10	r_c	intrigues amoureuses, persécutions, vengeances	amour	isabout	amour		
 98.11	r_s	ton sentimental	sentimental	isabout	sentiment		
@@ -2654,15 +2654,15 @@ id	Spalte	text	Keyword	property	Themenwert
 98.12	r_s	sensibilité	sensibilité	isabout	sentimentalisme		
 98.12	r_c	intrigue mondaine, malheurs d’une jeune fille, éléments sombres	malheurs	isabout	malheur		
 98.13	r_c	aventures, voyages, intrigues mondaines	voyages	isabout	voyage		
-98.13	r_s	peinture des mœurs	mœurs	isabout	"mœurs "		
+98.13	r_s	peinture des mœurs	mœurs	isabout	mœurs		
 98.14	r_c	aventures lubriques d’un jeune homme, dans des couvents	lubriques	isabout	érotisme		
 98.18	r_c	intrigues domestiques et sentimentales	sentimentale	isabout	sentiment		
 98.18	r_s	ton sensible et moralisateur, peinture des mœurs	sensible	isabout	sentimentalisme		
-98.18	r_s	ton sensible et moralisateur, peinture des mœurs	mœurs	isabout	"mœurs "		
+98.18	r_s	ton sensible et moralisateur, peinture des mœurs	mœurs	isabout	mœurs		
 98.19	r_c	émigation, intrigues romanesques et sentimentales	sentimentale	isabout	sentiment		
 98.19	r_s	sensibilité, ton moralisateur	sensibilité	isabout	sentimentalisme		
 98.2	r_c	voyages d’Amour, avec observations sur les mœurs des Grecs tirées d’auteurs anciens	voyages	isabout	voyage		
-98.2	r_c	voyages d’Amour, avec observations sur les mœurs des Grecs tirées d’auteurs anciens	mœurs	isabout	"mœurs "		
+98.2	r_c	voyages d’Amour, avec observations sur les mœurs des Grecs tirées d’auteurs anciens	mœurs	isabout	mœurs		
 98.20	r_c	intrigues sentimentales	sentimentale	isabout	sentiment		
 98.20	r_s	sensibilité, ton moralisateur	sensibilité	isabout	sentimentalisme		
 98.22	r_c	intrigue sentimentale, aventures, malheurs	sentimentale	isabout	sentiment		
@@ -2705,9 +2705,9 @@ id	Spalte	text	Keyword	property	Themenwert
 98.46	r_s	mélancolie, ton sombre	mélancolie	isabout	mélancolie		
 98.48	r_c	aventures sentimentales et mondaines de deux jeunes que leurs parents comptent marier	sentimentale	isabout	sentiment		
 98.48	r_s	sensibilité, critique des mœurs	sensibilité	isabout	sentimentalisme		
-98.48	r_s	sensibilité, critique des mœurs	mœurs	isabout	"mœurs "		
+98.48	r_s	sensibilité, critique des mœurs	mœurs	isabout	mœurs		
 98.49	r_c	aventures et voyages d’un jeune homme, observation des mœurs	voyages	isabout	voyage		
-98.49	r_c	aventures et voyages d’un jeune homme, observation des mœurs	mœurs	isabout	"mœurs "		
+98.49	r_c	aventures et voyages d’un jeune homme, observation des mœurs	mœurs	isabout	mœurs		
 98.5	r_c	malheurs d’un jeune homme qui souffre des abus de la société	malheurs	isabout	malheur		
 98.5	r_s	thèmes philosophiques	thèmes philosophiques	isabout	philosophie		
 98.51	r_c	aventures romanesques et mystérieuses	mystérieuse	isabout	mystère		
@@ -2721,7 +2721,7 @@ id	Spalte	text	Keyword	property	Themenwert
 98.56	r_c	intrigue mondaine, histoires de famille, mystères	famille	isabout	famille		
 98.58	r_c	aventures merveilleuses	merveille	isabout	miracle		
 98.6	r_c	complots politiques, exploits guerriers, réforme des mœurs	politique	isabout	politique		
-98.6	r_c	complots politiques, exploits guerriers, réforme des mœurs	mœurs	isabout	"mœurs "		
+98.6	r_c	complots politiques, exploits guerriers, réforme des mœurs	mœurs	isabout	mœurs		
 98.60	r_c	aventures mondaines, malheurs d’une jeune orpheline	malheurs	isabout	malheur		
 98.61	r_c	vie d’une famille réfugiée en province à la suite de la Révolution, intrigues amoureuses	Révolution	isabout	révolution		
 98.61	r_s	sensibilité, ton moralisateur	sensibilité	isabout	sentimentalisme		
@@ -2737,12 +2737,12 @@ id	Spalte	text	Keyword	property	Themenwert
 98.67	r_c	voyages, aventures romanesques, malheurs	voyages	isabout	voyage		
 98.7	r_c	aventures sanglantes et sentimentales	sentimentale	isabout	sentiment		
 98.71	r_s	détails des mœurs, ton moralisateur et sensible	sensible	isabout	sentimentalisme		
-98.71	r_s	détails des mœurs, ton moralisateur et sensible	mœurs	isabout	"mœurs "		
+98.71	r_s	détails des mœurs, ton moralisateur et sensible	mœurs	isabout	mœurs		
 98.73	r_c	amours et intrigues couronnées par trois mariages	amour	isabout	amour		
 98.73	r_c	amours et intrigues couronnées par trois mariages	cour	isabout	cour		
 98.73bis	r_c	malheurs, sensibilité, mœurs simples	sensibilité	isabout	sentimentalisme		
 98.73bis	r_c	malheurs, sensibilité, mœurs simples	malheurs	isabout	malheur		
-98.73bis	r_c	malheurs, sensibilité, mœurs simples	mœurs	isabout	"mœurs "		
+98.73bis	r_c	malheurs, sensibilité, mœurs simples	mœurs	isabout	mœurs		
 98.74	r_c	En marge: récit de voyage, probablement authentique, mais qui par ses techniques de narration s’apparente au genre romanesque	voyage	isabout	voyage		
 98.75	r_c	intrigues d’amour (Roxante, censé être mort, revient en spectre faire sa cour à Delphina)	amour	isabout	amour		
 98.75	r_c	intrigues d’amour (Roxante, censé être mort, revient en spectre faire sa cour à Delphina)	cour	isabout	cour		
@@ -2789,7 +2789,7 @@ id	Spalte	text	Keyword	property	Themenwert
 99.119	r_c	intrigues mondaines et galantes, aventures mystérieuses, sensibilité	sensibilité	isabout	sentimentalisme		
 99.12	r_c	aventures comiques et galantes	galant	isabout	galanterie		
 99.120	r_c	voyages qui servent de cadre à l’élude des mœurs et de l’histoire des peuples anciens	voyages	isabout	voyage		
-99.120	r_c	voyages qui servent de cadre à l’élude des mœurs et de l’histoire des peuples anciens	mœurs	isabout	"mœurs "		
+99.120	r_c	voyages qui servent de cadre à l’élude des mœurs et de l’histoire des peuples anciens	mœurs	isabout	mœurs		
 99.121	r_s	sensibilité, mélancolie	sensibilité	isabout	sentimentalisme		
 99.121	r_c	aventures romanesques, malheurs d’une jeune fille	malheurs	isabout	malheur		
 99.121	r_s	sensibilité, mélancolie	mélancolie	isabout	mélancolie		
@@ -2800,7 +2800,7 @@ id	Spalte	text	Keyword	property	Themenwert
 99.125	r_c	intrigue sentimentale sur le fond des guerres contre les Albigeois	sentimentale	isabout	sentiment		
 99.125	r_s	sensibilité, mélancolie	sensibilité	isabout	sentimentalisme		
 99.125	r_s	sensibilité, mélancolie	mélancolie	isabout	mélancolie		
-99.127	r_s	éléments historiques, roman noir	éléments historiques	isabout	"histoire "		
+99.127	r_s	éléments historiques, roman noir	éléments historiques	isabout	histoire		
 99.128	r_c	voyages, utopie	voyages	isabout	voyage		
 99.128	r_s	ton satirique, thèmes philosophiques	thèmes philosophiques	isabout	philosophie		
 99.129	r_c	aventures mystérieuses, éléments merveilleux, détails historiques	merveille	isabout	miracle		
@@ -2811,7 +2811,7 @@ id	Spalte	text	Keyword	property	Themenwert
 99.130	r_c	galanteries et vie de cour	galant	isabout	galanterie		
 99.130	r_s	ton sentimental et moralisateur	sentimental	isabout	sentiment		
 99.130	r_c	galanteries et vie de cour	cour	isabout	cour		
-99.133	r_c	aventures d’un provincial à Paris, critique des mœurs	mœurs	isabout	"mœurs "		
+99.133	r_c	aventures d’un provincial à Paris, critique des mœurs	mœurs	isabout	mœurs		
 99.134	r_c	intrigues d’amour, querelles entre deux familles	famille	isabout	famille		
 99.134	r_c	intrigues d’amour, querelles entre deux familles	amour	isabout	amour		
 99.135	r_s	sensibilité mélancolique	sensibilité	isabout	sentimentalisme		
@@ -2826,7 +2826,7 @@ id	Spalte	text	Keyword	property	Themenwert
 99.138	r_s	sensibilité exaltée	sensibilité	isabout	sentimentalisme		
 99.139	r_c	aventures romanesques, intrigues de famille, éléments du roman noir	famille	isabout	famille		
 99.141	r_c	intrigue sentimentale, aventures romanesques, peintures des mœurs	sentimentale	isabout	sentiment		
-99.141	r_c	intrigue sentimentale, aventures romanesques, peintures des mœurs	mœurs	isabout	"mœurs "		
+99.141	r_c	intrigue sentimentale, aventures romanesques, peintures des mœurs	mœurs	isabout	mœurs		
 99.144	r_c	aventures, intrigues amoureuses	amour	isabout	amour		
 99.146	r_s	sensibilité, malheurs	sensibilité	isabout	sentimentalisme		
 99.146	r_s	sensibilité, malheurs	malheurs	isabout	malheur		
@@ -2841,7 +2841,7 @@ id	Spalte	text	Keyword	property	Themenwert
 99.151	r_c	intrigues mondaines, malheurs d’une jeune fille adoptée	malheurs	isabout	malheur		
 99.153	r_c	intrigues sentimentales, aventures terrifiantes	sentimentale	isabout	sentiment		
 99.153	r_s	sensibilité	sensibilité	isabout	sentimentalisme		
-99.157	r_s	critique des mœurs	mœurs	isabout	"mœurs "		
+99.157	r_s	critique des mœurs	mœurs	isabout	mœurs		
 99.157	r_c	deux amis observent les gens qui passent et font des portraits de personnages typiques (l’agioteur,le rentier, la courtisane, l’émigré,...)	cour	isabout	cour		
 99.158	r_s	critique sociale, ton moralisateur et sensible	sensible	isabout	sentimentalisme		
 99.160	r_s	éléments merveilleux, thèmes philosophiques, ton facétieux	merveille	isabout	miracle		
@@ -2865,12 +2865,12 @@ id	Spalte	text	Keyword	property	Themenwert
 99.174	r_c	malheurs d’une jeune fille mystérieuse	malheurs	isabout	malheur		
 99.174	r_s	mélancolie, sensibilité, épisodes sombres	mélancolie	isabout	mélancolie		
 99.176	r_c	histoires de famille, aventures sombres	famille	isabout	famille		
-99.177	r_c	intrigue mondaine, observation des mœurs	mœurs	isabout	"mœurs "		
+99.177	r_c	intrigue mondaine, observation des mœurs	mœurs	isabout	mœurs		
 99.18	r_c	aventures sentimentales	sentimentale	isabout	sentiment		
 99.18	r_s	sensibilité effrénée	sensibilité	isabout	sentimentalisme		
 99.19	r_c	intrigues sentimentales et domestiques	sentimentale	isabout	sentiment		
 99.19	r_s	peinture des mœurs, sensibilité, intentions moralisatrices	sensibilité	isabout	sentimentalisme		
-99.19	r_s	peinture des mœurs, sensibilité, intentions moralisatrices	mœurs	isabout	"mœurs "		
+99.19	r_s	peinture des mœurs, sensibilité, intentions moralisatrices	mœurs	isabout	mœurs		
 99.20	r_c	intrigues de famille, voyages, enlèvements	famille	isabout	famille		
 99.20	r_c	intrigues de famille, voyages, enlèvements	voyages	isabout	voyage		
 99.22	r_c	aventures romanesques et galantes	galant	isabout	galanterie		
@@ -2901,15 +2901,15 @@ id	Spalte	text	Keyword	property	Themenwert
 99.50	r_c	aventures galantes et comiques d’un jeune homme	galant	isabout	galanterie		
 99.51	r_c	intrigues sentimentales, voyages	sentimentale	isabout	sentiment		
 99.51	r_c	intrigues sentimentales, voyages	voyages	isabout	voyage		
-99.51	r_s	roman de mœurs	mœurs	isabout	"mœurs "		
+99.51	r_s	roman de mœurs	mœurs	isabout	mœurs		
 99.52	r_c	voyage, avec observations sur les mœurs et les monuments, mais se rapprochant par sa forme du genre romanesque (anecdotes, personnages rencontrés en route)	voyage	isabout	voyage		
-99.52	r_c	voyage, avec observations sur les mœurs et les monuments, mais se rapprochant par sa forme du genre romanesque (anecdotes, personnages rencontrés en route)	mœurs	isabout	"mœurs "		
+99.52	r_c	voyage, avec observations sur les mœurs et les monuments, mais se rapprochant par sa forme du genre romanesque (anecdotes, personnages rencontrés en route)	mœurs	isabout	mœurs		
 99.53	r_c	diverses histoires sentimentales et intrigues domestiques	sentimentale	isabout	sentiment		
 99.53	r_s	sensibilité	sensibilité	isabout	sentimentalisme		
-99.55	r_c	aventures romanesques, éléments historiques	éléments historiques	isabout	"histoire "		
+99.55	r_c	aventures romanesques, éléments historiques	éléments historiques	isabout	histoire		
 99.56	r_s	sensibilité, couleur locale, roman noir	sensibilité	isabout	sentimentalisme		
 99.56	r_c	les malheurs d’une orpheline victime de la guerre	malheurs	isabout	malheur		
-99.57	r_c	série de petites scènes de mœurs	mœurs	isabout	"mœurs "		
+99.57	r_c	série de petites scènes de mœurs	mœurs	isabout	mœurs		
 99.59	r_s	sensibilité, intentions, moralisatrices	sensibilité	isabout	sentimentalisme		
 99.6	r_c	éducation sentimentale de Chartes	sentimentale	isabout	sentiment		
 99.6	r_c	éducation sentimentale de Chartes	éducation	isabout	éducation		
@@ -2942,10 +2942,10 @@ id	Spalte	text	Keyword	property	Themenwert
 99.81	r_c	aventures merveilleuses	merveille	isabout	miracle		
 99.82	r_c	aventures guerrières et intrigue sentimentale, éléments historiques	sentimentale	isabout	sentiment		
 99.82	r_c	aventures guerrières et intrigue sentimentale, éléments historiques	guerrière	isabout	guerre		
-99.82	r_c	aventures guerrières et intrigue sentimentale, éléments historiques	éléments historiques	isabout	"histoire "		
+99.82	r_c	aventures guerrières et intrigue sentimentale, éléments historiques	éléments historiques	isabout	histoire		
 99.83	r_c	aventures parisiennes d’un jeune homme, intrigue sentimentale, peinture des mœurs	sentimentale	isabout	sentiment		
 99.83	r_s	sensibilité	sensibilité	isabout	sentimentalisme		
-99.83	r_c	aventures parisiennes d’un jeune homme, intrigue sentimentale, peinture des mœurs	mœurs	isabout	"mœurs "		
+99.83	r_c	aventures parisiennes d’un jeune homme, intrigue sentimentale, peinture des mœurs	mœurs	isabout	mœurs		
 99.84	r_c	intrigues sentimentales, aventures chevaleresques	sentimentale	isabout	sentiment		
 99.84	r_c	intrigues sentimentales, aventures chevaleresques	chevaleresques	isabout	chevalerie		
 99.87	r_s	ton sentimental	sentimental	isabout	sentiment		
@@ -2965,6 +2965,6 @@ id	Spalte	text	Keyword	property	Themenwert
 99.94	r_s	sensibilité, mélancolie	mélancolie	isabout	mélancolie		
 99.96	r_c	aventures merveilleuses, critique des mœurs et des institutions	merveille	isabout	miracle		
 99.96	r_s	thèmes politiques	thèmes politiques	isabout	politique		
-99.96	r_c	aventures merveilleuses, critique des mœurs et des institutions	mœurs	isabout	"mœurs "		
+99.96	r_c	aventures merveilleuses, critique des mœurs et des institutions	mœurs	isabout	mœurs		
 99.97	r_c	aventures et malheurs d’une orpheline polonaise	malheurs	isabout	malheur		
 99.99	r_c	D’après le compte rendu des Veillées, il s’agit d’une intrigue sentimentale (Wilhelmine, Agnès, Ebert, M. de Starck)	sentimentale	isabout	sentiment		
