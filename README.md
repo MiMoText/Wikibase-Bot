@@ -94,39 +94,39 @@ Add a Bot to WikiBase
 $ python3 ../../../pwb.py login
 
 #Properties
-$ python3 ../../../pwb.py importTSV.py <wikibase-shortname> data/ImportProperties.tsv <sparql-endpoint>
+$ python3 ../../../pwb.py importTSV.py <family> data/ImportProperties.tsv <sparql-endpoint>
 
 #Items
-$ python3 ../../../pwb.py importTSV.py <wikibase-shortname> data/ImportItems.tsv <sparql-endpoint>
+$ python3 ../../../pwb.py importTSV.py <family> data/ImportItems.tsv <sparql-endpoint>
 
 #Authors
-$ python3 ../../../pwb.py importTSV.py <wikibase-shortname> data/Authors.tsv <sparql-endpoint>
+$ python3 ../../../pwb.py importTSV.py <family> data/Authors.tsv <sparql-endpoint>
 
 #BGRF
-$ python3 ../../../pwb.py importTSV.py <wikibase-shortname> data/BGRF_100.tsv <sparql-endpoint>
-$ python3 ../../../pwb.py importTSV.py <wikibase-shortname> data/BGRF_2000-100.tsv <sparql-endpoint>
+$ python3 ../../../pwb.py importTSV.py <family> data/BGRF_100.tsv <sparql-endpoint>
+$ python3 ../../../pwb.py importTSV.py <family> data/BGRF_2000-100.tsv <sparql-endpoint>
 
 #theme concepts and spatial concepts
-$ python3 ../../../pwb.py importTSV.py <wikibase-shortname> data/Themenvokabular.tsv <sparql-endpoint>
-$ python3 ../../../pwb.py importTSV.py <wikibase-shortname> data/Raumvokabular.tsv <sparql-endpoint>
+$ python3 ../../../pwb.py importTSV.py <family> data/Themenvokabular.tsv <sparql-endpoint>
+$ python3 ../../../pwb.py importTSV.py <family> data/Raumvokabular.tsv <sparql-endpoint>
 
 #topic label 
-$ python3 ../../../pwb.py importTSV.py <wikibase-shortname> data/topic_label.tsv <sparql-endpoint>
+$ python3 ../../../pwb.py importTSV.py <family> data/topic_label.tsv <sparql-endpoint>
 
 # statements
-$ python3 ../../../pwb.py importTSV.py <wikibase-shortname> data/bgrf100_about_statements.tsv <sparql-endpoint>
-$ python3 ../../../pwb.py importTSV.py <wikibase-shortname> data/bgrf2000-100_about_statements.tsv <sparql-endpoint>
-$ python3 ../../../pwb.py importTSV.py <wikibase-shortname> data/mmt_2020-11-19_11-38_statements.tsv <sparql-endpoint>
+$ python3 ../../../pwb.py importTSV.py <family> data/bgrf100_about_statements.tsv <sparql-endpoint>
+$ python3 ../../../pwb.py importTSV.py <family> data/bgrf2000-100_about_statements.tsv <sparql-endpoint>
+$ python3 ../../../pwb.py importTSV.py <family> data/mmt_2020-11-19_11-38_statements.tsv <sparql-endpoint>
 
 #narrative form
-$ python3 ../../../pwb.py importTSV.py <wikibase-shortname> data/new-items_narrative_form.tsv <sparql-endpoint>
-$ python3 ../../../pwb.py importTSV.py <wikibase-shortname> data/BGRF100_narrative_form_edit.tsv <sparql-endpoint>
-$ python3 ../../../pwb.py importTSV.py <wikibase-shortname> data/BGRF2000-100_narrative_form_edit.tsv <sparql-endpoint>
+$ python3 ../../../pwb.py importTSV.py <family> data/new-items_narrative_form.tsv <sparql-endpoint>
+$ python3 ../../../pwb.py importTSV.py <family> data/BGRF100_narrative_form_edit.tsv <sparql-endpoint>
+$ python3 ../../../pwb.py importTSV.py <family> data/BGRF2000-100_narrative_form_edit.tsv <sparql-endpoint>
 
 #narrative location
-$ python3 ../../../pwb.py importTSV.py <wikibase-shortname> data/BGRF_100_narrative-location_reconciled.tsv <sparql-endpoint>
-$ python3 ../../../pwb.py importTSV.py <wikibase-shortname> data/BGRF_2000-100_narrative-location.tsv <sparql-endpoint>
-$ python3 ../../../pwb.py importTSV.py <wikibase-shortname> data/NER_narrative-loc.tsv <sparql-endpoint>
+$ python3 ../../../pwb.py importTSV.py <family> data/BGRF_100_narrative-location_reconciled.tsv <sparql-endpoint>
+$ python3 ../../../pwb.py importTSV.py <family> data/BGRF_2000-100_narrative-location.tsv <sparql-endpoint>
+$ python3 ../../../pwb.py importTSV.py <family> data/NER_narrative-loc.tsv <sparql-endpoint>
 ```
 
 
