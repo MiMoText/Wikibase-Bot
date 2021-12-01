@@ -133,7 +133,20 @@ with open(filename, 'r', newline='') as tsv_data:
 
       id = None
       # Get qid for entry
-      if 'FR MiMoText' in row and row["FR MiMoText"] != '':
+
+      #TODO check P30/P58
+
+      if 'P58' in row and row["P58"] != '':
+        id = GetEntryOverSPARQL(ENDPOINT, row["P58"], SparQL_Mode.ID_from_P30)
+      elif 'P30' in row and row["P30"] != '':
+        id = GetEntryOverSPARQL(ENDPOINT, row["P30"], SparQL_Mode.ID_from_P30)
+      elif ('EN MiMoText' in row and row["EN MiMoText"] != '' and row["P58"] == '' and row["P30"] == ''):
+        id = GetEntryOverSPARQL(ENDPOINT, row["EN MiMoText"], SparQL_Mode.ID_without_Property_and_instance_of_Item, "wdt:P30|wdt:P58", instanceOf="Q26")  
+        if ('FR MiMoText' in row and row["FR MiMoText"] != '' and row["P58"] == '' and row["P30"] == '') and not id:
+          id = GetEntryOverSPARQL(ENDPOINT, row["FR MiMoText"], SparQL_Mode.ID_without_Property_and_instance_of_Item, "wdt:P30|wdt:P58",'fr', instanceOf="Q26") 
+        if ('DE MiMoText' in row and row["DE MiMoText"] != '' and row["P58"] == '' and row["P30"] == '') and not id:
+          id = GetEntryOverSPARQL(ENDPOINT, row["DE MiMoText"], SparQL_Mode.ID_without_Property_and_instance_of_Item, "wdt:P30|wdt:P58",'de', instanceOf="Q26") 
+      elif 'FR MiMoText' in row and row["FR MiMoText"] != '':
         id = GetEntryOverSPARQL(ENDPOINT, row['FR MiMoText'], lang='fr')
       elif not id and 'EN MiMoText' in row and row["EN MiMoText"] != '':
         id = GetEntryOverSPARQL(ENDPOINT, row['EN MiMoText'])
@@ -304,7 +317,7 @@ with open(filename, 'r', newline='') as tsv_data:
                 else:
                   if row[pid] != '': 
                     CreateClaim(REPO, ENDPOINT, item, pid, row[pid])
-            elif pid == "P52":
+            elif pid == "P52" or pid == "P8":
               QID_Loc = nar_locTarget(pid, "check", row)
               if not QID_Loc:
                 continue
@@ -315,7 +328,12 @@ with open(filename, 'r', newline='') as tsv_data:
               else:
                 CreateClaim(REPO, ENDPOINT, item, pid, QID_Loc)
             else:
-              claim = getClaim(item, pid, ENDPOINT, REPO, row[pid])               
+              propertyPage = pywikibot.PropertyPage(REPO, pid)
+              propertyPage.get()
+              if propertyPage._type == "wikibase-item":
+                claim = getClaim(item, pid, ENDPOINT, REPO, row[pid])               
+              else:
+                claim = getClaim(item, pid)
               if not claim:
                 CreateClaim(REPO,ENDPOINT, item, pid, row[pid])
           elif pid != 'P13' and pid != 'P26' and row0[pid] and item:
@@ -343,7 +361,7 @@ with open(filename, 'r', newline='') as tsv_data:
               print("CreateClaim", pid, row[pid])
             else:
               print("createClaim", pid, row0[pid])'''
-        if re.match(r"P\d+$", pid) and row0[pid] != None and row0[pid] != '': # Px and entry in head (row0)
+        if re.match(r"P\d+$", pid) and row0[pid] != None and row0[pid] != '' and pid != "P13": # Px and entry in head (row0)
           if row0[pid] == "delete":
             item.get(True)
             claim = getClaim(item, pid)
@@ -388,7 +406,7 @@ with open(filename, 'r', newline='') as tsv_data:
             if statement and propertyPage._type == "wikibase-item":
               QID_Target = GetEntryOverSPARQL(ENDPOINT, row[pid], SparQL_Mode.ID_WithTarget, target=statement)
               claim = getClaim(item, prop, ENDPOINT, REPO, QID_Target)
-            elif prop == "P52":
+            elif prop == "P52" or prop == "P8":
               QID_Loc = nar_locTarget(prop, "check", row)
               if not QID_Loc:
                 continue
@@ -402,7 +420,7 @@ with open(filename, 'r', newline='') as tsv_data:
             else: 
               print("Create Claim 2")
               references = [(propRef, propRefTarget)]
-              if prop == "P52":
+              if prop == "P52" or prop == "P8":
                 CreateClaim(REPO, ENDPOINT, item, prop, QID_Loc, references)
               else:
                 CreateClaim(REPO,ENDPOINT, item, prop, row[prop], references)    
@@ -433,7 +451,7 @@ with open(filename, 'r', newline='') as tsv_data:
           num = pid[:pos]
           prop = pid[pos:]
 
-          if prop == "P52":
+          if prop == "P52" or prop == "P8":
             QID_Loc = nar_locTarget(pid, num + "check", row)
             if not QID_Loc:
               continue
@@ -461,7 +479,7 @@ with open(filename, 'r', newline='') as tsv_data:
               qid = GetEntryOverSPARQL(ENDPOINT, propRefTarget, lang="de")
             propRefTarget = qid
 
-          if prop == "P52" and row[numProp] != '':
+          if (prop == "P52" or prop == "P8") and row[numProp] != '':
             QID_Loc = nar_locTarget(numProp, num+"check", row)
             if not QID_Loc:
               continue
