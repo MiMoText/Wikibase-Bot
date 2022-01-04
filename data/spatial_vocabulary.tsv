@@ -1,4 +1,4 @@
-FR MiMoText	EN MiMoText	DE MiMoText		P30	P58		FR	EN	DE						P25	P2	P2RP14
+FR MiMoText	EN MiMoText	DE MiMoText		P30	P58		FR	EN	DE						P20	P2	P2RP14
 create	items														Q25	Q26	Q25
 MiMoText Label (fr)	MiMoText Label (en)	MiMoText Label (de)	Wikidata IDs	Wikidata URLs		coordinate location	Wikidata Label (fr) | copy MMT-Label	Wikidata Label (en)	Wikidata Label (de)	Quelle (intern)	matching quality	skos:altLabel (fr)	skos:altLabel (en)	skos:altLabel (de)			
 			Q1	https://www.wikidata.org/wiki/Q1			univers	universe	Universum								
